@@ -5,7 +5,7 @@ description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **15/09/2026**. Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **15/09/2026** (v2.0.1). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
@@ -25,12 +25,12 @@ Data cập nhật: **15/09/2026**. Mọi con số trong `references/` đã đố
 | Biểu thuế, giảm trừ, NPT, bảo hiểm, miễn thuế OT, ăn ca, khấu trừ 10% | `references/tong-quan-thue.md` |
 | Ví dụ tính (lương, OT, y tế/giáo dục, vãng lai, seller, KOL, crypto, nhà duy nhất) | `references/vi-du-tinh-thue.md` |
 | Ai phải quyết toán, ủy quyền, hạn, hồ sơ, eTax | `references/quyet-toan-thue.md` |
-| HKD, freelancer, KOL, seller, sàn TMĐT, giảm 30% NQ 43, HĐĐT, gia hạn NĐ 245, đa cấp | `references/ho-kinh-doanh-freelancer-kol-seller.md` |
+| HKD, freelancer, KOL, seller, affiliate (Shopee 01/10/2026), sàn TMĐT, giảm 30% NQ 43, HĐĐT, gia hạn NĐ 245, đa cấp | `references/ho-kinh-doanh-freelancer-kol-seller.md` |
 | BĐS, vốn, chứng khoán, phái sinh, tài sản số, vàng miếng, thừa kế, bản quyền, trúng thưởng | `references/bat-dong-san-chung-khoan-tai-san-so.md` |
 | Người nước ngoài, cư trú/không cư trú, thu nhập từ nước ngoài, DTA | `references/nguoi-nuoc-ngoai.md` |
 | Văn bản, mốc hiệu lực 1/7, 1/9, 1/10/2026, sắp tới, dự thảo, đã hết hiệu lực | `references/van-ban-va-hieu-luc-2026.md` |
 | Lịch hạn nộp 9/2026 → 4/2027 | `references/lich-han-nop-2026-2027.md` |
-| 20 câu hỏi thường gặp có điều khoản | `references/faq.md` |
+| 21 câu hỏi thường gặp có điều khoản | `references/faq.md` |
 | Lịch sử sửa đổi | `references/changelog.md` |
 
 ## Số liệu nhanh (đã kiểm chứng toàn văn)
@@ -68,6 +68,7 @@ Data cập nhật: **15/09/2026**. Mọi con số trong `references/` đã đố
 - Không trích TT 111/2013, TT 80/2021, NĐ 65/2013, NĐ 117/2025, Luật 04/2007 cho kỳ 2026.
 - Không nói "áp dụng từ 01/07/2026" cho quy định lương/kinh doanh — đúng là cả kỳ 2026 (Luật 109 Đ.29.2).
 - Không cộng thu nhập tiền công vãng lai vào doanh thu kinh doanh.
+- Hỏi "đã đăng ký thuế cho hoạt động kinh doanh chưa?" trước khi áp ngưỡng 1 tỷ cho freelancer/KOL/affiliate: chưa đăng ký → thù lao dịch vụ là tiền công (NĐ 253 Đ.8.1.c), không phải kinh doanh.
 - HKD: tỷ lệ % tính trên phần vượt 1 tỷ; GTGT tính theo phương pháp trực tiếp, không phải khấu trừ.
 - Người đã ủy quyền quyết toán nhưng muốn trừ y tế/giáo dục → phải tự quyết toán.
 - Dự thảo (mục D) không phải luật; NQ 43 đã hiệu lực nhưng thủ tục chờ Nghị định.

@@ -17,6 +17,13 @@ Sửa so với bản gốc:
 - Thêm NQ 43/2026/QH16 (giảm 30% TNCN kinh doanh 2026–2027), NĐ 245/2026 (gia hạn), NĐ 284/2026 (crypto, 01/09), NĐ 283/2026 (BHXH, 10/09), TT 110/2026 (12/09), timeline đến 30/04/2027 và các dự thảo.
 - Bỏ phần BHXH rút 1 lần và trợ cấp thất nghiệp của bản gốc (ngoài phạm vi TNCN, chưa đối chiếu toàn văn Luật BHXH 2024/Luật Việc làm 2025).
 
+## 15/09/2026 — v2.0.1
+
+- Thêm ranh giới NĐ 253 Đ.8.1.c: thù lao dịch vụ của cá nhân chưa đăng ký thuế kinh doanh là tiền lương, tiền công; sửa câu "freelancer/KOL đều là thu nhập kinh doanh".
+- Thêm NĐ 253 Đ.67.4.a: tổ chức không khấu trừ thu nhập kinh doanh của cá nhân cư trú, trừ sàn/hợp tác KD/đại lý/môi giới.
+- Thêm mục 5a: Shopee affiliate khấu trừ 5% TNCN + 5% GTGT từ 01/10/2026 (nguồn email Shopee, TC), phân tích thuế suất 2% vs 5% theo Phụ lục NĐ 253, hoàn thuế cuối năm; bác tin "nâng ngưỡng lên 10 tỷ".
+- FAQ thêm câu 20 về affiliate.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

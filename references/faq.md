@@ -59,5 +59,8 @@ Hoàn thuế trước–kiểm tra sau: chậm nhất 6 ngày làm việc kể t
 **19. Lương cơ sở tăng ảnh hưởng gì đến thuế của tôi?**
 Từ 01/07/2026 lương cơ sở 2.530.000đ (NĐ 161/2026) → trần đóng BHXH/BHYT 50,6tr; người lương >46,8tr đóng bảo hiểm nhiều hơn nên thu nhập tính thuế giảm một chút.
 
-**20. Có thay đổi gì về giảm trừ gia cảnh hay biểu thuế sắp tới không?**
+**20. Làm affiliate Shopee, từ 01/10/2026 bị trừ 5% TNCN + 5% GTGT thay vì 10%, có lợi không?**
+Có lợi nếu bạn đã đăng ký thuế cho hoạt động kinh doanh: hoa hồng thành thu nhập kinh doanh, ngưỡng 1 tỷ, ≤1 tỷ được hoàn toàn bộ số sàn khấu trừ (NĐ 68 Đ.12), còn được giảm 30% theo NQ 43/2026. Chưa đăng ký thì theo NĐ 253 Đ.8.1.c thù lao dịch vụ vẫn là tiền công (lũy tiến, ngưỡng 186tr) khi quyết toán. Mức 5% có thể là mức cao nhất do sàn không phân loại (NĐ 252 Đ.44.2.b); hoa hồng đại lý/môi giới thuộc nhóm 2% theo Phụ lục NĐ 253 — khấu trừ thừa được hoàn. Không có văn bản nào nâng ngưỡng lên 10 tỷ.
+
+**21. Có thay đổi gì về giảm trừ gia cảnh hay biểu thuế sắp tới không?**
 Đến 15/09/2026 chưa có dự thảo nào; Quốc hội mới yêu cầu rà soát. Theo dõi `van-ban-va-hieu-luc-2026.md`.

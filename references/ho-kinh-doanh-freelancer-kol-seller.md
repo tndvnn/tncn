@@ -4,9 +4,19 @@
 
 ## 1. Thu nhập nào là "thu nhập từ kinh doanh"
 
-Luật 109 Đ.3.1: sản xuất, kinh doanh hàng hóa, dịch vụ; hành nghề độc lập có giấy phép; **kinh doanh TMĐT, kinh doanh trên nền tảng số** (Đ.3.1.d). Freelancer nhận tiền qua Upwork/PayPal, YouTuber, TikToker, KOL nhận booking, seller Shopee/TikTok Shop/Facebook đều là thu nhập từ kinh doanh, KHÔNG phải tiền lương.
+Luật 109 Đ.3.1 và NĐ 253 Đ.7: sản xuất, kinh doanh hàng hóa, dịch vụ; hành nghề độc lập có giấy phép **và có đăng ký kinh doanh**; đại lý (bảo hiểm, xổ số, đa cấp); môi giới; hợp tác kinh doanh với tổ chức; **kinh doanh TMĐT, kinh doanh dựa trên nền tảng số** (Đ.7.6).
 
-Phân biệt: nhận thù lao theo hợp đồng dịch vụ/không HĐLĐ với tổ chức trong nước có thể bị khấu trừ 10% như thu nhập tiền công (NĐ 253 Đ.50.2). Cùng một người có thể có cả hai loại; quyết toán tách riêng.
+**Ranh giới quyết định — NĐ 253 Đ.8.1.c (nguyên văn):** "Tiền thù lao nhận được từ cung cấp dịch vụ của cá nhân **không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh**, kể cả có hay không có giấy phép hoặc chứng chỉ hành nghề" là **thu nhập từ tiền lương, tiền công**. Hệ quả:
+
+| Tình trạng | Cơ chế thuế | Ngưỡng |
+|---|---|---|
+| Cá nhân cung cấp dịch vụ, **chưa đăng ký thuế cho hoạt động kinh doanh** | tiền công: tổ chức chi trả khấu trừ 10% khi ≥5tr/lần (Đ.50.2); cuối năm quyết toán biểu lũy tiến tới 35% | giảm trừ 186tr/năm + NPT |
+| Cá nhân **đã đăng ký thuế cho hoạt động kinh doanh** (hộ KD hoặc cá nhân KD, theo TT 90/2026) | kinh doanh: ngưỡng 1 tỷ, %/lợi nhuận, giảm 30% NQ 43 | 1 tỷ doanh thu |
+| Bán hàng hóa (seller) qua sàn/nền tảng | kinh doanh (Đ.7.6), sàn khấu trừ theo NĐ 252 Đ.43 | 1 tỷ |
+
+Freelancer, KOL, affiliate, người làm nội dung nhận thù lao dịch vụ mà chưa đăng ký kinh doanh → về bản chất pháp lý đang ở dòng 1. Muốn hưởng ngưỡng 1 tỷ phải đăng ký thuế cho hoạt động kinh doanh (mã số thuế vẫn là số định danh cá nhân, Luật 108 Đ.11.1). Cùng một người có thể có cả hai loại thu nhập; quyết toán tách riêng.
+
+**Ai khấu trừ thu nhập kinh doanh (NĐ 253 Đ.67.4.a):** tổ chức trả thu nhập **không** khấu trừ thu nhập kinh doanh của cá nhân cư trú, **trừ**: chủ quản sàn/nền tảng có chức năng đặt hàng + thanh toán; tổ chức hợp tác kinh doanh; tổ chức ký đại lý bán đúng giá (bảo hiểm, xổ số, đa cấp); tổ chức ký hợp đồng môi giới. Số khấu trừ theo thuế suất Đ.7.3 Luật 109 trên doanh thu phát sinh tại tổ chức (Đ.67.2). Cá nhân kinh doanh đã đăng ký nhận tiền từ doanh nghiệp/MCN thường (không thuộc 4 nhóm trên) → tự khai, doanh nghiệp không khấu trừ.
 
 ## 2. Ngưỡng và cách tính TNCN (Luật 109 Đ.7; NĐ 68 Đ.4; NĐ 141 Đ.1.1)
 
@@ -58,6 +68,17 @@ Ghi chú:
 - Khấu trừ ngay từ giao dịch đầu tiên, không chờ vượt 1 tỷ → seller nhỏ được hoàn cuối năm (mục 4).
 - Kênh không có chức năng thanh toán (Facebook, Zalo, website tự thu tiền): tự kê khai.
 - Số đã bị sàn khấu trừ được trừ vào số phải nộp khi quyết toán (NĐ 68 Đ.10.3).
+
+### 5a. Tiếp thị liên kết (affiliate) — thay đổi của Shopee từ 01/10/2026 (nguồn: email Shopee gửi đối tác, TC)
+
+Email Shopee: từ **01/10/2026**, đối tác affiliate là cá nhân, cá nhân kinh doanh, hộ kinh doanh bị khấu trừ **5% TNCN + 5% GTGT** trên thu nhập kinh doanh từ tiếp thị liên kết (trước đó: khấu trừ 10% như tiền công); việc xác định nghĩa vụ "căn cứ trên thông tin định danh, hồ sơ thuế và tình trạng đăng ký của từng đối tác"; đối tác tự quyết toán. Đọc theo luật:
+
+- Căn cứ để sàn khấu trừ dạng kinh doanh: NĐ 253 Đ.67.1, Đ.67.4.a; NĐ 252 Đ.43–44. Chưa có công văn nào khẳng định hoa hồng affiliate thuộc phạm vi Đ.43 (Đ.43 nói về "hoạt động kinh doanh trên nền tảng"), nên đây là cách áp dụng của Shopee, không phải kết luận của cơ quan thuế.
+- Thuế suất: Phụ lục NĐ 253 xếp "dịch vụ môi giới, đấu giá và hoa hồng đại lý" và "quảng cáo" vào nhóm dịch vụ **2%** TNCN; "quảng cáo số, nội dung thông tin số" **5%**. Hoa hồng affiliate có thể rơi vào 2% hoặc 5%; sàn không xác định được loại thì áp mức cao nhất (NĐ 252 Đ.44.2.b). Khấu trừ thừa được hoàn khi quyết toán. GTGT dịch vụ 5% (Luật 48 Đ.12.2).
+- Người chưa đăng ký thuế kinh doanh: theo Đ.8.1.c vẫn là tiền công khi quyết toán → có thể phải gộp vào biểu lũy tiến dù sàn đã khấu trừ 5%. Khuyến nghị: đăng ký thuế cho hoạt động kinh doanh trước khi nhận hoa hồng theo cơ chế mới, giữ thông báo/chứng từ khấu trừ của sàn.
+- Cuối năm: doanh thu ≤1 tỷ → thông báo doanh thu + đề nghị hoàn toàn bộ số sàn đã khấu trừ (NĐ 68 Đ.12); 1–3 tỷ → khai quý, số sàn khấu trừ trừ vào số phải nộp tính trên phần vượt (Đ.10.3); cộng giảm 30% NQ 43 khi có Nghị định.
+- Không có văn bản nào nâng ngưỡng miễn hay mốc 3 tỷ lên 10 tỷ; 10 tỷ chỉ là điều kiện hưởng giảm 30% (NQ 43 Đ.1.1).
+- MCN/agency trả hoa hồng cho KOL không phải sàn: khấu trừ 10% nếu KOL chưa đăng ký kinh doanh (Đ.50.2); không khấu trừ nếu KOL là cá nhân kinh doanh đã đăng ký (Đ.67.4.a) trừ khi ký hợp đồng môi giới/hợp tác kinh doanh.
 
 ## 6. Hóa đơn điện tử (NĐ 68 Đ.14.5 sửa bởi NĐ 141 Đ.1.2)
 
