@@ -30,6 +30,7 @@ references/
   vi-du-tinh-thue.md
   quyet-toan-thue.md
   ho-kinh-doanh-freelancer-kol-seller.md
+  thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md
   bat-dong-san-chung-khoan-tai-san-so.md
   nguoi-nuoc-ngoai.md
   van-ban-va-hieu-luc-2026.md

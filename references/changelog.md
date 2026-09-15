@@ -24,6 +24,12 @@ Sửa so với bản gốc:
 - Thêm mục 5a: Shopee affiliate khấu trừ 5% TNCN + 5% GTGT từ 01/10/2026 (nguồn email Shopee, TC), phân tích thuế suất 2% vs 5% theo Phụ lục NĐ 253, hoàn thuế cuối năm; bác tin "nâng ngưỡng lên 10 tỷ".
 - FAQ thêm câu 20 về affiliate.
 
+## 15/09/2026 — v2.1.0
+
+- Thêm `thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md`: phân loại thu nhập từ nước ngoài (Đ.8.1.c), thuế suất theo ngành (YouTube/nội dung số 5%+5%, lập trình 2%+GTGT 0, dịch vụ xuất khẩu 0%, ads rủi ro 5%, affiliate 2%/5%, POD 0,5%), ai khấu trừ/ai tự khai (NĐ 252 Đ.3.5, Đ.43), quy đổi tỷ giá, không phải kiều hối, thuế Mỹ không trừ, rủi ro TT 94, 4 ví dụ, 6 điểm chưa có căn cứ.
+- Nguồn thực tiễn: Hỏi đáp CSTC 157922 (10/03/2026) — YouTube/AdSense không phải dịch vụ xuất khẩu 0%; CV 5151/CT-CS (23/07/2026, TC).
+- FAQ thêm câu 21; SKILL.md thêm quy tắc về thu nhập từ nước ngoài.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.
