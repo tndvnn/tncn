@@ -1,11 +1,11 @@
 ---
 name: tncn-ca-nhan-vn
-description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026. Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, thuế crypto, thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
+description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026. Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, mở LLC Mỹ/đầu tư ra nước ngoài rút lợi nhuận về, thuế crypto, thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
 ---
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **15/09/2026** (v2.1.0). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **17/09/2026** (v2.2.0). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
@@ -27,11 +27,12 @@ Data cập nhật: **15/09/2026** (v2.1.0). Mọi con số trong `references/` �
 | Ai phải quyết toán, ủy quyền, hạn, hồ sơ, eTax | `references/quyet-toan-thue.md` |
 | HKD, freelancer, KOL, seller, affiliate (Shopee 01/10/2026), sàn TMĐT, giảm 30% NQ 43, HĐĐT, gia hạn NĐ 245, đa cấp | `references/ho-kinh-doanh-freelancer-kol-seller.md` |
 | Kiếm tiền từ nước ngoài: YouTube/AdSense, MMO, affiliate quốc tế, freelancer lập trình/design/content, chạy ads cho khách nước ngoài, POD/dropship, nhận USD qua Payoneer/PayPal/Wise, GTGT 0% xuất khẩu, thuế Mỹ | `references/thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md` |
+| Mở LLC Mỹ / công ty ở nước ngoài: đăng ký đầu tư ra nước ngoài (Bộ Tài chính, NHNN, tài khoản vốn, ngưỡng 7 tỷ), rút lợi nhuận về VN đóng thuế gì (đầu tư vốn 5% vs kinh doanh), thuế Mỹ không trừ | `references/dau-tu-ra-nuoc-ngoai-llc-my.md` |
 | BĐS, vốn, chứng khoán, phái sinh, tài sản số, vàng miếng, thừa kế, bản quyền, trúng thưởng | `references/bat-dong-san-chung-khoan-tai-san-so.md` |
 | Người nước ngoài, cư trú/không cư trú, thu nhập từ nước ngoài, DTA | `references/nguoi-nuoc-ngoai.md` |
 | Văn bản, mốc hiệu lực 1/7, 1/9, 1/10/2026, sắp tới, dự thảo, đã hết hiệu lực | `references/van-ban-va-hieu-luc-2026.md` |
 | Lịch hạn nộp 9/2026 → 4/2027 | `references/lich-han-nop-2026-2027.md` |
-| 22 câu hỏi thường gặp có điều khoản | `references/faq.md` |
+| 23 câu hỏi thường gặp có điều khoản | `references/faq.md` |
 | Lịch sử sửa đổi | `references/changelog.md` |
 
 ## Số liệu nhanh (đã kiểm chứng toàn văn)
@@ -72,6 +73,7 @@ Data cập nhật: **15/09/2026** (v2.1.0). Mọi con số trong `references/` �
 - Hỏi "đã đăng ký thuế cho hoạt động kinh doanh chưa?" trước khi áp ngưỡng 1 tỷ cho freelancer/KOL/affiliate: chưa đăng ký → thù lao dịch vụ là tiền công (NĐ 253 Đ.8.1.c), không phải kinh doanh.
 - HKD: tỷ lệ % tính trên phần vượt 1 tỷ; GTGT tính theo phương pháp trực tiếp, không phải khấu trừ.
 - Thu nhập từ nước ngoài: không phải kiều hối; thuế nộp ở Mỹ không trừ được (chưa có Hiệp định); YouTube/AdSense không phải dịch vụ xuất khẩu 0% theo thực tiễn cơ quan thuế 2026 — chỉ lập trình/phần mềm và dịch vụ tiêu dùng ngoài VN đủ hồ sơ mới GTGT 0.
+- Lợi nhuận từ công ty nước ngoài do cá nhân sở hữu: theo chữ là đầu tư vốn 5% (NĐ 253 Đ.9.2) nhưng không miễn như công ty VN (Đ.39) và có thể bị xếp lại theo bản chất (Luật 108 Đ.6.a) — luôn nêu cả hai, không khẳng định "chắc chắn 5%". Mở công ty ở nước ngoài phải đăng ký đầu tư ra nước ngoài/ngoại hối (NĐ 103/2026) — đó là nghĩa vụ, không phải ưu đãi thuế.
 - Người đã ủy quyền quyết toán nhưng muốn trừ y tế/giáo dục → phải tự quyết toán.
 - Dự thảo (mục D) không phải luật; NQ 43 đã hiệu lực nhưng thủ tục chờ Nghị định.
 - Ngoài phạm vi (TNDN, thuế XNK, BHXH rút 1 lần, trợ cấp thất nghiệp): nói rõ không cover.

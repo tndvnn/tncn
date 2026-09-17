@@ -1,6 +1,6 @@
 # tncn-ca-nhan-vn — Skill tư vấn thuế thu nhập cá nhân Việt Nam 2026
 
-Skill cho Claude / Claude Code / Antigravity và mọi nền tảng đọc được `SKILL.md`. Cập nhật **15/09/2026**, phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc sắp tới đến 30/04/2027.
+Skill cho Claude / Claude Code / Antigravity và mọi nền tảng đọc được `SKILL.md`. Cập nhật **17/09/2026**, phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc sắp tới đến 30/04/2027.
 
 ## Phạm vi
 
@@ -31,6 +31,7 @@ references/
   quyet-toan-thue.md
   ho-kinh-doanh-freelancer-kol-seller.md
   thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md
+  dau-tu-ra-nuoc-ngoai-llc-my.md
   bat-dong-san-chung-khoan-tai-san-so.md
   nguoi-nuoc-ngoai.md
   van-ban-va-hieu-luc-2026.md

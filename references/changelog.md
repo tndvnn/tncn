@@ -30,6 +30,11 @@ Sửa so với bản gốc:
 - Nguồn thực tiễn: Hỏi đáp CSTC 157922 (10/03/2026) — YouTube/AdSense không phải dịch vụ xuất khẩu 0%; CV 5151/CT-CS (23/07/2026, TC).
 - FAQ thêm câu 21; SKILL.md thêm quy tắc về thu nhập từ nước ngoài.
 
+## 17/09/2026 — v2.2.0
+
+- Thêm `dau-tu-ra-nuoc-ngoai-llc-my.md`: thủ tục đầu tư ra nước ngoài cho cá nhân (Luật 143/2025 Ch.V; NĐ 103/2026: ngưỡng 7 tỷ, Bộ Tài chính, tài khoản vốn, đăng ký ngoại hối TT 12/2016, chuyển lợi nhuận về trong 12 tháng, báo cáo); thuế khi rút lợi nhuận (đầu tư vốn 5% theo NĐ 253 Đ.9.2, thời điểm nhận Đ.52.6, không miễn Đ.39, không trừ thuế Mỹ Đ.6.3, khai 10 ngày); rủi ro xếp lại theo Luật 108 Đ.6.a; so sánh 3 kịch bản; phía Mỹ (TC); câu hỏi bắt buộc.
+- FAQ thêm câu 22; SKILL.md thêm quy tắc.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

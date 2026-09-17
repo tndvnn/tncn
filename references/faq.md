@@ -65,5 +65,8 @@ Có lợi nếu bạn đã đăng ký thuế cho hoạt động kinh doanh: hoa 
 **21. Tôi làm YouTube/Upwork nhận USD về Payoneer, tính thuế thế nào?**
 Chịu thuế Việt Nam vì là cá nhân cư trú (Luật 109 Đ.2.1), không phải kiều hối (NĐ 253 Đ.25). Chưa đăng ký thuế kinh doanh → là tiền công, quyết toán lũy tiến (NĐ 253 Đ.8.1.c). Đăng ký cá nhân kinh doanh (tờ khai 03-ĐKT, TT 90/2026) → ngưỡng 1 tỷ; vượt thì YouTube/nội dung số 5% TNCN + 5% GTGT trên phần vượt, lập trình 2% TNCN + GTGT 0. Quy đổi theo tỷ giá mua vào ngân hàng (Đ.17). Thuế Google khấu trừ tại Mỹ không được trừ (Đ.6.3, chưa có Hiệp định). Chi tiết: `thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md`.
 
-**22. Có thay đổi gì về giảm trừ gia cảnh hay biểu thuế sắp tới không?**
+**22. Tôi mở LLC ở Mỹ, kiếm tiền ở Mỹ, rút lợi nhuận về Việt Nam thì đóng thuế bao nhiêu?**
+Theo chữ NĐ 253 Đ.9.2, lợi tức góp vốn vào công ty TNHH (kể cả nước ngoài) là thu nhập đầu tư vốn → **5%** trên số nhận, khai từng lần trong 10 ngày kể từ khi nhận (Luật 109 Đ.12; NĐ 253 Đ.52.6; NĐ 252 Đ.10.1). Không được miễn như chủ công ty TNHH 1TV Việt Nam (Đ.39); thuế đã nộp ở Mỹ không trừ được (Đ.6.3, chưa có hiệp định). Nếu LLC chỉ là vỏ cho việc bạn làm tại Việt Nam, cơ quan thuế có thể xếp lại thành kinh doanh (15–20% lợi nhuận) hoặc tiền công (tới 35%) theo Luật 108 Đ.6.a. Trước đó phải đăng ký đầu tư ra nước ngoài: dưới 7 tỷ chỉ kê khai dự án + tài khoản vốn + đăng ký ngoại hối NHNN; từ 7 tỷ xin Giấy chứng nhận của Bộ Tài chính; lợi nhuận phải chuyển về trong 12 tháng (NĐ 103/2026 Đ.17–18, Đ.31, Đ.34). Chi tiết: `dau-tu-ra-nuoc-ngoai-llc-my.md`.
+
+**23. Có thay đổi gì về giảm trừ gia cảnh hay biểu thuế sắp tới không?**
 Đến 15/09/2026 chưa có dự thảo nào; Quốc hội mới yêu cầu rà soát. Theo dõi `van-ban-va-hieu-luc-2026.md`.
