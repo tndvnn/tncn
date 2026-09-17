@@ -32,7 +32,7 @@ Sửa so với bản gốc:
 
 ## 17/09/2026 — v2.2.0
 
-- Thêm `dau-tu-ra-nuoc-ngoai-llc-my.md`: thủ tục đầu tư ra nước ngoài cho cá nhân (Luật 143/2025 Ch.V; NĐ 103/2026: ngưỡng 7 tỷ, Bộ Tài chính, tài khoản vốn, đăng ký ngoại hối TT 12/2016, chuyển lợi nhuận về trong 12 tháng, báo cáo); thuế khi rút lợi nhuận (đầu tư vốn 5% theo NĐ 253 Đ.9.2, thời điểm nhận Đ.52.6, không miễn Đ.39, không trừ thuế Mỹ Đ.6.3, khai 10 ngày); rủi ro xếp lại theo Luật 108 Đ.6.a; so sánh 3 kịch bản; phía Mỹ (TC); câu hỏi bắt buộc.
+- Thêm `dau-tu-ra-nuoc-ngoai-llc-my.md`: thuế TNCN khi rút lợi nhuận từ công ty ở nước ngoài (đầu tư vốn 5% theo NĐ 253 Đ.9.2, thời điểm nhận Đ.52.6, không miễn Đ.39, không trừ thuế Mỹ Đ.6.3, khai 10 ngày); rủi ro xếp lại theo Luật 108 Đ.6.a; so sánh 3 kịch bản; phía Mỹ (TC); câu hỏi bắt buộc.
 - FAQ thêm câu 22; SKILL.md thêm quy tắc.
 
 ## Kiểm tra định kỳ
