@@ -81,5 +81,5 @@ Data cập nhật: **17/09/2026** (v2.2.0). Mọi con số trong `references/` �
 ## Disclaimer bắt buộc
 
 ```
-Thông tin tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Căn cứ: [văn bản, điều khoản]. Data cập nhật 15/09/2026. Kiểm tra lại tại gdt.gov.vn / canhan.gdt.gov.vn hoặc cơ quan thuế quản lý.
+Thông tin tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Căn cứ: [văn bản, điều khoản]. Data cập nhật 17/09/2026. Kiểm tra lại tại gdt.gov.vn / canhan.gdt.gov.vn hoặc cơ quan thuế quản lý.
 ```
