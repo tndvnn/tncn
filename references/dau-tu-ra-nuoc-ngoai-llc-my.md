@@ -1,6 +1,6 @@
 # Thuế TNCN khi cá nhân rút lợi nhuận từ công ty ở nước ngoài (LLC Mỹ) về Việt Nam
 
-> Căn cứ đọc nguyên văn: Luật Đầu tư 143/2025/QH15 Đ.38–43 (hiệu lực 01/03/2026); NĐ 103/2026/NĐ-CP về đầu tư ra nước ngoài (hiệu lực 03/04/2026) Đ.14, Đ.17–18, Đ.31–35; TT 12/2016/TT-NHNN (ngoại hối đầu tư ra nước ngoài — còn hiệu lực một phần) Đ.5, Đ.8–9, Đ.18, Đ.25; Luật 109/2025 Đ.2.1, Đ.4.21, Đ.12, Đ.13; NĐ 253/2026 Đ.6.3, Đ.9, Đ.10, Đ.17, Đ.39, Đ.52–53; Luật QLT 108/2025 Đ.6.a; NĐ 252/2026 Đ.10.1; TT 89/2026 (khai đầu tư vốn từ tổ chức nước ngoài). Phần thuế Mỹ là **TC** (tổng hợp, không phải tư vấn thuế Mỹ).
+> Căn cứ đọc nguyên văn: Luật 109/2025 Đ.2.1, Đ.4.21, Đ.12, Đ.13; NĐ 253/2026 Đ.6.3, Đ.9, Đ.10, Đ.17, Đ.39, Đ.52–53; Luật QLT 108/2025 Đ.6.a; NĐ 252/2026 Đ.10.1; TT 89/2026 (khai đầu tư vốn từ tổ chức nước ngoài). Phần thuế Mỹ là **TC** (tổng hợp, không phải tư vấn thuế Mỹ).
 
 ## 1. Ngoài phạm vi TNCN — chỉ ghi nhận
 Mở công ty ở nước ngoài là đầu tư ra nước ngoài theo Luật 143/2025 Đ.39.1.a; thủ tục đăng ký (Bộ Tài chính/NHNN, tài khoản vốn, chuyển lợi nhuận về trong 12 tháng) theo NĐ 103/2026/NĐ-CP và pháp luật ngoại hối. Skill này không tư vấn thủ tục đầu tư; chỉ lưu ý: đăng ký hay không **không thay đổi nghĩa vụ thuế TNCN** dưới đây.
@@ -12,7 +12,7 @@ Cá nhân cư trú chịu thuế trên thu nhập phát sinh trong và ngoài Vi
 ### 2.1 Cách đọc theo chữ luật: thu nhập từ đầu tư vốn — **5%**
 - NĐ 253 Đ.9.2: "lợi tức nhận được do tham gia góp vốn vào công ty trách nhiệm hữu hạn, công ty hợp danh... và các hình thức kinh doanh khác theo quy định của pháp luật" — **không giới hạn công ty trong nước** (đối chiếu Đ.9.3.b trái phiếu ghi rõ "tổ chức trong nước", Đ.39 ghi rõ "thành lập theo pháp luật Việt Nam" → khi muốn giới hạn, nghị định nói rõ).
 - Thuế = số lợi tức nhận × **5%**, theo từng lần (Luật 109 Đ.12; NĐ 253 Đ.52.1). Không được trừ chi phí, không giảm trừ gia cảnh.
-- Thời điểm tính thuế với "đầu tư vốn ra nước ngoài dưới mọi hình thức" = thời điểm cá nhân **nhận** thu nhập (NĐ 253 Đ.52.6). Lợi nhuận để lại trong LLC chưa rút thì chưa phát sinh thuế Việt Nam (nhưng vẫn vướng nghĩa vụ chuyển về trong 12 tháng ở mục 1).
+- Thời điểm tính thuế với "đầu tư vốn ra nước ngoài dưới mọi hình thức" = thời điểm cá nhân **nhận** thu nhập (NĐ 253 Đ.52.6). Lợi nhuận để lại trong LLC chưa rút thì chưa phát sinh thuế Việt Nam.
 - **Không được miễn** theo Luật 109 Đ.4.21: miễn chỉ dành cho chủ DNTN, chủ công ty TNHH một thành viên **thành lập theo pháp luật Việt Nam** đã nộp TNDN (NĐ 253 Đ.39). LLC Mỹ một thành viên còn không nộp thuế TNDN Mỹ (disregarded entity) nên không đáp ứng cả hai vế.
 - **Thuế đã nộp ở Mỹ không được trừ**: chỉ trừ với nước có Hiệp định tránh đánh thuế hai lần và theo Hiệp định (NĐ 253 Đ.6.3); Hiệp định Việt Nam–Hoa Kỳ ký 2015 chưa có hiệu lực → nộp thuế hai lần thực sự.
 - Quy đổi USD theo tỷ giá mua vào của ngân hàng nơi nhận tại thời điểm nhận (NĐ 253 Đ.17.1).
@@ -41,10 +41,10 @@ Chưa có công văn hay hướng dẫn nào của TT 87/2026 về công ty mộ
 Thuế Mỹ do LLC/chủ sở hữu nộp (1040-NR trên ECI, hoặc 21% + 30% khấu trừ cổ tức nếu chọn C-corp) **không được trừ** vào thuế Việt Nam (mục 2.1). Hỏi CPA Mỹ.
 
 ## 3. Câu hỏi bắt buộc hỏi người dùng trước khi tư vấn
-2. LLC có hoạt động thật ở Mỹ (nhân sự, văn phòng, khách Mỹ) hay chỉ nhận tiền cho việc bạn làm ở Việt Nam?
-3. Đã rút lợi nhuận về chưa, bằng đường nào, tỷ giá ngày nào? Lợi nhuận được chia từ khi nào (đếm 12 tháng)?
-4. Đã đăng ký thuế cho hoạt động kinh doanh ở Việt Nam chưa (quyết định kịch bản xếp lại)?
-5. LLC nộp thuế Mỹ theo dạng nào (disregarded / C-corp)?
+1. LLC có hoạt động thật ở Mỹ (nhân sự, văn phòng, khách Mỹ) hay chỉ nhận tiền cho việc bạn làm ở Việt Nam?
+2. Đã rút lợi nhuận về chưa, bằng đường nào, tỷ giá ngày nào?
+3. Đã đăng ký thuế cho hoạt động kinh doanh ở Việt Nam chưa (quyết định kịch bản xếp lại)?
+4. LLC nộp thuế Mỹ theo dạng nào (disregarded / C-corp)?
 
 ## 4. Chưa có căn cứ rõ
 - Số hiệu mẫu tờ khai đầu tư vốn cá nhân theo TT 89/2026 (TT 80/2021 cũ là 04/ĐTV-TNCN) — đối chiếu trên eTax.
