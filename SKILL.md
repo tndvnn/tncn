@@ -1,5 +1,5 @@
 ---
-name: tncn-ca-nhan-vn
+name: tncn
 description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026, TT 95/2026 (Hiệp định thuế). Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, rút lợi nhuận LLC Mỹ về, người nước ngoài cư trú chịu thuế thu nhập toàn cầu, lương VN + lương remote nước ngoài, thuế crypto, Vietnam personal income tax for expats/foreigners/digital nomads (tax residency 183 days, worldwide income, US rental income, double taxation treaty, PIT finalization), thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
 ---
 

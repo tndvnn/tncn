@@ -2,7 +2,7 @@
 
 *English version below.*
 
-**tncn-ca-nhan-vn** là skill cho Claude, Claude Code, Antigravity và mọi nền tảng AI đọc được `SKILL.md`. Nạp vào là AI trả lời được các câu hỏi về **thuế thu nhập cá nhân 2026**: cách tính thuế thu nhập cá nhân từ tiền lương, quyết toán thuế TNCN kỳ 2026, hoàn thuế, giảm trừ gia cảnh 15,5 triệu, thuế cá nhân kinh doanh và bán hàng online, thuế chứng khoán, bất động sản, crypto, thuế người nước ngoài và thu nhập từ nước ngoài. Mọi câu trả lời kèm số điều khoản của Luật 109/2025/QH15, Nghị định 253/2026, Thông tư 87/2026 để người dùng tự đối chiếu.
+**tncn** là skill cho Claude, Claude Code, Antigravity và mọi nền tảng AI đọc được `SKILL.md`. Nạp vào là AI trả lời được các câu hỏi về **thuế thu nhập cá nhân 2026**: cách tính thuế thu nhập cá nhân từ tiền lương, quyết toán thuế TNCN kỳ 2026, hoàn thuế, giảm trừ gia cảnh 15,5 triệu, thuế cá nhân kinh doanh và bán hàng online, thuế chứng khoán, bất động sản, crypto, thuế người nước ngoài và thu nhập từ nước ngoài. Mọi câu trả lời kèm số điều khoản của Luật 109/2025/QH15, Nghị định 253/2026, Thông tư 87/2026 để người dùng tự đối chiếu.
 
 Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.3.0), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
 
@@ -31,8 +31,8 @@ Không cover: thuế TNDN, thuế xuất nhập khẩu, BHXH rút một lần, t
 ## Cài đặt
 
 ```
-.claude/skills/tncn-ca-nhan-vn/   (Claude Code)
-.agents/skill/tncn-ca-nhan-vn/    (Antigravity / Claude Desktop)
+.claude/skills/tncn/   (Claude Code) — git clone https://github.com/tndvnn/tncn.git
+.agents/skill/tncn/    (Antigravity / Claude Desktop)
 ```
 
 claude.ai gói Pro hoặc Max: nén thư mục thành zip, tải lên tại Settings → Capabilities → Skills. Nền tảng khác: dán `SKILL.md` vào system prompt, đưa thư mục `references/` vào knowledge base.
@@ -78,7 +78,7 @@ MIT License — tndvnn.
 
 # Vietnam personal income tax 2026 — AI skill for tax rates, PIT finalization and expat tax
 
-**tncn-ca-nhan-vn** is a skill for Claude, Claude Code, Antigravity and any AI platform that reads `SKILL.md`. It answers questions on **Vietnam personal income tax (PIT) for tax year 2026**: Vietnam tax rates and brackets, how to calculate salary tax, PIT finalization and refunds, deductions, tax on business and online selling income, securities, real estate and crypto, and **expat tax in Vietnam**: tax residency, worldwide income, foreign salary, double taxation treaties. Every answer cites the article of Law 109/2025/QH15, Decree 253/2026 or Circular 87/2026 so you can verify it.
+**tncn** is a skill for Claude, Claude Code, Antigravity and any AI platform that reads `SKILL.md`. It answers questions on **Vietnam personal income tax (PIT) for tax year 2026**: Vietnam tax rates and brackets, how to calculate salary tax, PIT finalization and refunds, deductions, tax on business and online selling income, securities, real estate and crypto, and **expat tax in Vietnam**: tax residency, worldwide income, foreign salary, double taxation treaties. Every answer cites the article of Law 109/2025/QH15, Decree 253/2026 or Circular 87/2026 so you can verify it.
 
 Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.3.0). Reference files are written in Vietnamese; the model answers in the language you ask in.
 
@@ -100,8 +100,8 @@ The skill tells foreign users to **sort things out with their home-country tax a
 ## Installation
 
 ```
-.claude/skills/tncn-ca-nhan-vn/   (Claude Code)
-.agents/skill/tncn-ca-nhan-vn/    (Antigravity / Claude Desktop)
+.claude/skills/tncn/   (Claude Code) — git clone https://github.com/tndvnn/tncn.git
+.agents/skill/tncn/    (Antigravity / Claude Desktop)
 ```
 
 claude.ai Pro or Max: zip the folder and upload it under Settings → Capabilities → Skills. Other platforms: paste `SKILL.md` into the system prompt and add the `references/` folder to the knowledge base.
