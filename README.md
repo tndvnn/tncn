@@ -4,7 +4,7 @@
 
 **tncn** là skill cho Claude, Claude Code, Antigravity và mọi nền tảng AI đọc được `SKILL.md`. Nạp vào là AI trả lời được các câu hỏi về **thuế thu nhập cá nhân 2026**: cách tính thuế thu nhập cá nhân từ tiền lương, quyết toán thuế TNCN kỳ 2026, hoàn thuế, giảm trừ gia cảnh 15,5 triệu, thuế cá nhân kinh doanh và bán hàng online, thuế chứng khoán, bất động sản, crypto, thuế người nước ngoài và thu nhập từ nước ngoài. Mọi câu trả lời kèm số điều khoản của Luật 109/2025/QH15, Nghị định 253/2026, Thông tư 87/2026 để người dùng tự đối chiếu.
 
-Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.3.0), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
+Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.4.0), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
 
 ## Skill trả lời được gì
 
@@ -25,6 +25,9 @@ Khi nào thành cá nhân cư trú và chịu thuế thu nhập toàn cầu (183
 
 ### Văn bản pháp luật và mốc hiệu lực
 Luật thuế thu nhập cá nhân 2025 (Luật 109/2025/QH15), Nghị định 253/2026, Thông tư 87/2026, lịch hạn nộp đến 30/04/2027, dự thảo đang lấy ý kiến, văn bản đã hết hiệu lực không được trích.
+
+### Tự kiểm tra luật mới, nhắc hạn, chạy trên nhiều AI
+AI có web search phải tra vbpl.vn, chinhphu.vn, gdt.gov.vn xem văn bản định trích đã bị sửa hay thay thế chưa trước khi trả lời; không có web search thì phải nói rõ data đến ngày nào. Mỗi câu trả lời nêu hạn đã quá và hạn sắp tới trong 60 ngày của đúng nhóm người hỏi, kèm mức phạt chậm nộp. Có `AGENTS.md`, `GEMINI.md` và 5 câu trả lời mẫu để Claude, Codex, Gemini CLI, Cursor giữ đúng định dạng.
 
 Không cover: thuế TNDN, thuế xuất nhập khẩu, BHXH rút một lần, trợ cấp thất nghiệp.
 
@@ -53,9 +56,12 @@ references/
   bat-dong-san-chung-khoan-tai-san-so.md
   nguoi-nuoc-ngoai.md                      cư trú, thuế toàn cầu, hiệp định, MAP
   van-ban-va-hieu-luc-2026.md              văn bản, hiệu lực, dự thảo, hết hiệu lực
-  lich-han-nop-2026-2027.md
+  lich-han-nop-2026-2027.md                hạn nộp, quy tắc nhắc chủ động, phạt chậm nộp
+  vi-du-hoi-dap-mau.md                     5 câu trả lời mẫu để model bắt chước
+  quy-trinh-tu-cap-nhat-luat.md            AI tự tra luật mới ở nguồn chính chủ trước khi trả lời
   faq.md                                   27 câu hỏi thường gặp
   changelog.md
+AGENTS.md, GEMINI.md                       hướng dẫn cho Codex, Gemini CLI, Cursor
 ```
 
 ## Nguồn
@@ -80,7 +86,7 @@ MIT License — tndvnn.
 
 **tncn** is a skill for Claude, Claude Code, Antigravity and any AI platform that reads `SKILL.md`. It answers questions on **Vietnam personal income tax (PIT) for tax year 2026**: Vietnam tax rates and brackets, how to calculate salary tax, PIT finalization and refunds, deductions, tax on business and online selling income, securities, real estate and crypto, and **expat tax in Vietnam**: tax residency, worldwide income, foreign salary, double taxation treaties. Every answer cites the article of Law 109/2025/QH15, Decree 253/2026 or Circular 87/2026 so you can verify it.
 
-Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.3.0). Reference files are written in Vietnamese; the model answers in the language you ask in.
+Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.4.0). Reference files are written in Vietnamese; the model answers in the language you ask in.
 
 ## What it covers
 
@@ -90,6 +96,9 @@ Built for Vietnamese residents and for foreigners living, working or doing busin
 - Real estate 2%, securities and derivatives 0.1%, capital transfer 20%, digital assets 0.1%, gold bars, inheritance, royalties.
 - **Tax residency and expat tax**: when a foreigner becomes a Vietnamese tax resident taxed on worldwide income (183 days or a permanent place of residence, including hotel stays and housing provided at the workplace, Decree 253/2026 Art. 4), Vietnamese salary plus a remote salary from home, quarterly self-filing on form 02/KK-TNCN and mandatory direct finalization, industrial-zone workers, a US digital nomad with freelance income and a rental property back home, foreign tax credit under tax treaties (Circular 95/2026, in force 1 July 2026), Vietnamese certificate of residence, mutual agreement procedure.
 - Timeline of legal documents, drafts and repealed documents.
+- **Checks for newer law before answering**: an AI with web search must look up vbpl.vn, chinhphu.vn and gdt.gov.vn to see whether a document has been amended or replaced; without web search it must state the data date.
+- **Proactive deadline reminders**: every answer lists overdue and upcoming (60-day) deadlines for the user's situation, with late-filing penalties.
+- Works on Claude, Claude Code, Codex, Gemini CLI and Cursor: `AGENTS.md`, `GEMINI.md` and five model answers keep the output format stable across models.
 
 Not covered: corporate income tax, customs duties, lump-sum social insurance withdrawal, unemployment benefits.
 

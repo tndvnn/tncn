@@ -48,6 +48,13 @@ Sửa so với bản gốc:
 - Mục 5b digital nomad Mỹ: mốc 183 ngày/12 tháng liên tục hồi tố, giai đoạn chưa cư trú (suy luận Đ.21 + Đ.8.2.c), kỳ đầu 12 tháng với freelance 1,8 tỷ (390,9tr tiền công vs 11,2tr nếu đăng ký KD) + nhà cho thuê ở Mỹ 750tr (Luật 109 Đ.7.4, ≤1 tỷ không thuế), timeline khai; FAQ 27.
 - FAQ thêm câu 24, 25, 26; `tong-quan-thue.md` sửa Đ.6 → Đ.4; `van-ban-va-hieu-luc-2026.md` thêm TT 95/2026, 112/VBHN-VPQH, đưa TT 205/2013 vào mục E.
 
+## 24/09/2026 — v2.4.0
+
+- SKILL.md thêm **Bước 0 bắt buộc**: kiểm tra văn bản sửa đổi/thay thế trên vbpl.vn, chinhphu.vn, gdt.gov.vn trước khi trả lời (có web search), hoặc ghi rõ data đến ngày nào; thêm bước nhắc hạn chủ động.
+- Thêm `quy-trinh-tu-cap-nhat-luat.md` (nguồn chính chủ, 3 câu hỏi hiệu lực, cách dùng kết quả, cách gửi PR), `vi-du-hoi-dap-mau.md` (5 mẫu: lương, Shopee hỏi lại, expat tiếng Anh, từ chối tin đồn, đã quá hạn), `AGENTS.md` + `GEMINI.md` cho Codex/Gemini/Cursor.
+- Viết lại `lich-han-nop-2026-2027.md`: quy tắc nhắc chủ động, bảng khai quý 02/KK-TNCN cho lương trả từ nước ngoài, thứ trong tuần và ngày lùi (02/11/2026, 01/02/2027), quy tắc suy hạn NĐ 252 Đ.10, mức phạt chậm nộp NĐ 125 Đ.13 (cá nhân bằng một nửa, Đ.5.5), 0,03%/ngày, Luật 108 Đ.44.2.a.
+- Đổi tên skill và repo thành `tncn` (github.com/tndvnn/tncn).
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.
