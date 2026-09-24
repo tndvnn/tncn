@@ -75,6 +75,10 @@ Sửa so với bản gốc:
 
 - SKILL.md Bước 0a: nền tảng không có shell mà lệch phiên bản thì đọc thẳng SKILL.md + file tham chiếu mới trên GitHub (raw) để trả lời, thay vì chỉ nhắc tải zip.
 
+## 24/09/2026 — v2.5.3
+
+- Hóa đơn: NĐ 123/2020 + NĐ 70/2025 đã bị NĐ 254/2026 thay từ 01/07/2026; thêm quy tắc hóa đơn cho khách nước ngoài/hàng xuất khẩu của hộ, cá nhân kinh doanh (NĐ 254 Đ.6.1, Đ.8, Đ.9.1) vào `ho-kinh-doanh…md` và danh mục văn bản.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.
