@@ -4,7 +4,7 @@
 
 ## 1. Ai là cá nhân cư trú
 
-Một trong hai: có mặt ≥183 ngày trong năm dương lịch/12 tháng liên tục; hoặc có nơi ở thường xuyên (đăng ký thường trú, hoặc thuê nhà tổng thời hạn ≥183 ngày trong năm) (Luật 109 Đ.2.2; NĐ 253 Đ.6). Cư trú → chịu thuế thu nhập toàn cầu, biểu lũy tiến. Không cư trú → 20% trên lương, xem `nguoi-nuoc-ngoai.md`.
+Một trong hai: có mặt ≥183 ngày trong năm dương lịch/12 tháng liên tục; hoặc có nơi ở thường xuyên (đăng ký thường trú, hoặc thuê nhà tổng thời hạn ≥183 ngày trong năm) (Luật 109 Đ.2.2; NĐ 253 Đ.4). Cư trú → chịu thuế thu nhập toàn cầu, biểu lũy tiến. Không cư trú → 20% trên lương, xem `nguoi-nuoc-ngoai.md`.
 
 ## 2. Biểu thuế lũy tiến từng phần — Luật 109 Đ.9
 
@@ -76,7 +76,7 @@ Tính vào thu nhập chịu thuế: thưởng bằng tiền/hiện vật/chứn
 
 - HĐLĐ ≥3 tháng: khấu trừ theo biểu lũy tiến trên thu nhập tính thuế tháng.
 - Không ký HĐ hoặc HĐ <3 tháng (kể cả trả sau khi chấm dứt HĐ): khấu trừ **10%** khi chi trả **≥5tr/lần**; <5tr chỉ khấu trừ khi cá nhân yêu cầu. Cá nhân chỉ có loại thu nhập này và ước tính chưa tới mức chịu thuế → nộp bản cam kết theo mẫu văn bản quản lý thuế để tạm không khấu trừ; cuối năm tổ chức vẫn tổng hợp danh sách gửi cơ quan thuế (Đ.50.2).
-- Người nước ngoài: ≥183 ngày theo hợp đồng → lũy tiến; <183 ngày → 20% (Đ.50.2.c).
+- Người nước ngoài: ≥183 ngày theo hợp đồng → lũy tiến; <183 ngày → 20% (Đ.50.3.c).
 
 ## 9. Ngưỡng miễn, bù trừ nhỏ (NĐ 252/2026)
 

@@ -6,7 +6,7 @@
 
 Luật 109 Đ.3.1 và NĐ 253 Đ.7: sản xuất, kinh doanh hàng hóa, dịch vụ; hành nghề độc lập có giấy phép **và có đăng ký kinh doanh**; đại lý (bảo hiểm, xổ số, đa cấp); môi giới; hợp tác kinh doanh với tổ chức; **kinh doanh TMĐT, kinh doanh dựa trên nền tảng số** (Đ.7.6).
 
-**Ranh giới quyết định — NĐ 253 Đ.8.1.c (nguyên văn):** "Tiền thù lao nhận được từ cung cấp dịch vụ của cá nhân **không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh**, kể cả có hay không có giấy phép hoặc chứng chỉ hành nghề" là **thu nhập từ tiền lương, tiền công**. Hệ quả:
+**Ranh giới quyết định — NĐ 253 Đ.8.2.c (nguyên văn):** "Tiền thù lao nhận được từ cung cấp dịch vụ của cá nhân **không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh**, kể cả có hay không có giấy phép hoặc chứng chỉ hành nghề" là **thu nhập từ tiền lương, tiền công**. Hệ quả:
 
 | Tình trạng | Cơ chế thuế | Ngưỡng |
 |---|---|---|
@@ -75,12 +75,12 @@ Email Shopee: từ **01/10/2026**, đối tác affiliate là cá nhân, cá nhâ
 
 - Căn cứ để sàn khấu trừ dạng kinh doanh: NĐ 253 Đ.67.1, Đ.67.4.a; NĐ 252 Đ.43–44. Chưa có công văn nào khẳng định hoa hồng affiliate thuộc phạm vi Đ.43 (Đ.43 nói về "hoạt động kinh doanh trên nền tảng"), nên đây là cách áp dụng của Shopee, không phải kết luận của cơ quan thuế.
 - Thuế suất: Phụ lục NĐ 253 xếp "dịch vụ môi giới, đấu giá và hoa hồng đại lý" và "quảng cáo" vào nhóm dịch vụ **2%** TNCN; "quảng cáo số, nội dung thông tin số" **5%**. Hoa hồng affiliate có thể rơi vào 2% hoặc 5%; sàn không xác định được loại thì áp mức cao nhất (NĐ 252 Đ.44.2.b). Khấu trừ thừa được hoàn khi quyết toán. GTGT dịch vụ 5% (Luật 48 Đ.12.2).
-- Người chưa đăng ký thuế kinh doanh: theo Đ.8.1.c vẫn là tiền công khi quyết toán → có thể phải gộp vào biểu lũy tiến dù sàn đã khấu trừ 5%. Khuyến nghị: đăng ký thuế cho hoạt động kinh doanh trước khi nhận hoa hồng theo cơ chế mới, giữ thông báo/chứng từ khấu trừ của sàn.
+- Người chưa đăng ký thuế kinh doanh: theo Đ.8.2.c vẫn là tiền công khi quyết toán → có thể phải gộp vào biểu lũy tiến dù sàn đã khấu trừ 5%. Khuyến nghị: đăng ký thuế cho hoạt động kinh doanh trước khi nhận hoa hồng theo cơ chế mới, giữ thông báo/chứng từ khấu trừ của sàn.
 - Cuối năm: doanh thu ≤1 tỷ → thông báo doanh thu + đề nghị hoàn toàn bộ số sàn đã khấu trừ (NĐ 68 Đ.12); 1–3 tỷ → khai quý, số sàn khấu trừ trừ vào số phải nộp tính trên phần vượt (Đ.10.3); cộng giảm 30% NQ 43 khi có Nghị định.
 - Không có văn bản nào nâng ngưỡng miễn hay mốc 3 tỷ lên 10 tỷ; 10 tỷ chỉ là điều kiện hưởng giảm 30% (NQ 43 Đ.1.1).
 - MCN/agency trả hoa hồng cho KOL không phải sàn: khấu trừ 10% nếu KOL chưa đăng ký kinh doanh (Đ.50.2); không khấu trừ nếu KOL là cá nhân kinh doanh đã đăng ký (Đ.67.4.a) trừ khi ký hợp đồng môi giới/hợp tác kinh doanh.
 
-## 6. Hóa đơn điện tử (NĐ 68 Đ.14.5 sửa bởi NĐ 141 Đ.1.2)
+## 6. Hóa đơn điện tử (NĐ 68 Đ.8.5 sửa bởi NĐ 141 Đ.1.2)
 
 - Doanh thu >1 tỷ/năm: bắt buộc HĐĐT có mã hoặc từ máy tính tiền kết nối cơ quan thuế.
 - ≤1 tỷ: tự nguyện; không đăng ký mà cần hóa đơn thì khai nộp thuế theo từng lần để được cấp.

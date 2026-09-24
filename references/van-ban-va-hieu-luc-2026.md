@@ -1,4 +1,4 @@
-# Văn bản pháp luật và mốc hiệu lực liên quan thuế TNCN — cập nhật 15/09/2026
+# Văn bản pháp luật và mốc hiệu lực liên quan thuế TNCN — cập nhật 24/09/2026
 
 Ký hiệu tin cậy: **NV** = đã đọc nguyên văn (Công báo/vbpl/chinhphu.vn); **TC** = nguồn thứ cấp, chưa đọc toàn văn. Khi tư vấn, chỉ khẳng định chắc với NV.
 
@@ -23,6 +23,8 @@ Ký hiệu tin cậy: **NV** = đã đọc nguyên văn (Công báo/vbpl/chinhph
 | NĐ **293/2025/NĐ-CP** | 2025 | 01/01/2026 | Lương tối thiểu vùng I 5,31tr / II 4,73tr / III 4,14tr / IV 3,7tr → trần BHTN | NV |
 | NĐ **137/2026/NĐ-CP** | 07/04/2026 | 01/07/2026 | Đa cấp: DN khấu trừ TNCN trước khi trả hoa hồng (Đ.40.7); công chức, LLVT không được tham gia (Đ.28) | NV |
 | NĐ **245/2026/NĐ-CP** | 06/2026 | 27/06–30/12/2026 | Gia hạn TNCN của HKD/CNKD ngành Phụ lục I: Q2 → 02/11, Q3 → 30/12/2026 | NV |
+| TT **95/2026/TT-BTC** | 01/07/2026 | **01/07/2026** | Hướng dẫn Hiệp định tránh đánh thuế hai lần (thay TT 205/2013): cư trú hai nước (Đ.8.4), miễn thuế lương <183 ngày cho người cư trú nước kia (Đ.34.2), trừ thuế nước ngoài không vượt thuế VN (Đ.51), trao đổi thông tin (Đ.55). Hồ sơ trừ thuế: TT 89 Đ.34, mẫu 02/HTQT | NV (vbpl) |
+| **112/VBHN-VPQH** | 2026 | — | Văn bản hợp nhất Luật TNCN (chinhphu.vn đăng 08/08/2026); không phải văn bản mới, chưa đối chiếu nội dung | TC |
 | NĐ **310/2025** + NĐ **291/2026/NĐ-CP** | 2025; 2026 | 16/01/2026; **21/07/2026** | Sửa NĐ 125/2020 xử phạt thuế/hóa đơn; NĐ 291 thêm phạt về cung cấp thông tin trao đổi thuế quốc tế | NV (KB) |
 
 ## B. Đã ban hành sau 11/07/2026 (từ 1/9, 1/10 và các mốc khác)
@@ -65,4 +67,4 @@ Không có văn bản hay dự thảo nào sửa mức giảm trừ gia cảnh h
 
 ## E. Văn bản đã hết hiệu lực — không được trích dẫn cho kỳ 2026
 
-TT 111/2013 (→ TT 87/2026); NĐ 65/2013 (→ NĐ 253/2026); TT 80/2021, TT 103/2014 (→ TT 89/2026, 01/07/2026); NĐ 126/2020, NĐ 117/2025 (→ NĐ 252/2026); TT 40/2021, TT 100/2021 (→ TT 18/2026); TT 86/2024 (→ TT 90/2026); Luật TNCN 04/2007 và các luật sửa đổi (→ Luật 109/2025); TT 84/2008 (bãi bỏ 12/09/2026).
+TT 111/2013 (→ TT 87/2026); NĐ 65/2013 (→ NĐ 253/2026); TT 80/2021, TT 103/2014 (→ TT 89/2026, 01/07/2026); NĐ 126/2020, NĐ 117/2025 (→ NĐ 252/2026); TT 40/2021, TT 100/2021 (→ TT 18/2026); TT 86/2024 (→ TT 90/2026); Luật TNCN 04/2007 và các luật sửa đổi (→ Luật 109/2025); TT 84/2008 (bãi bỏ 12/09/2026); TT 205/2013 (→ TT 95/2026, 01/07/2026).

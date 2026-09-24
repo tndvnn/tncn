@@ -27,7 +27,7 @@
 - Có từ 2 nguồn tiền lương mà không thuộc diện ủy quyền; thu nhập vãng lai bình quân >15tr/tháng.
 - Có số thuế nộp thêm >50.000đ; hoặc nộp thừa muốn hoàn/bù trừ.
 - Khai giảm trừ y tế, giáo dục; xin giảm thuế Đ.40.
-- Người nước ngoài cư trú kết thúc hợp đồng rời Việt Nam: quyết toán trước khi xuất cảnh hoặc ủy quyền (Đ.50.2.c).
+- Người nước ngoài cư trú kết thúc hợp đồng rời Việt Nam: quyết toán trước khi xuất cảnh hoặc ủy quyền (Đ.50.3.c).
 
 ## 5. Thời hạn (NĐ 252/2026 Đ.10)
 

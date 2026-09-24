@@ -19,21 +19,33 @@ Sửa so với bản gốc:
 
 ## 15/09/2026 — v2.0.1
 
-- Thêm ranh giới NĐ 253 Đ.8.1.c: thù lao dịch vụ của cá nhân chưa đăng ký thuế kinh doanh là tiền lương, tiền công; sửa câu "freelancer/KOL đều là thu nhập kinh doanh".
+- Thêm ranh giới NĐ 253 Đ.8.2.c: thù lao dịch vụ của cá nhân chưa đăng ký thuế kinh doanh là tiền lương, tiền công; sửa câu "freelancer/KOL đều là thu nhập kinh doanh".
 - Thêm NĐ 253 Đ.67.4.a: tổ chức không khấu trừ thu nhập kinh doanh của cá nhân cư trú, trừ sàn/hợp tác KD/đại lý/môi giới.
 - Thêm mục 5a: Shopee affiliate khấu trừ 5% TNCN + 5% GTGT từ 01/10/2026 (nguồn email Shopee, TC), phân tích thuế suất 2% vs 5% theo Phụ lục NĐ 253, hoàn thuế cuối năm; bác tin "nâng ngưỡng lên 10 tỷ".
 - FAQ thêm câu 20 về affiliate.
 
 ## 15/09/2026 — v2.1.0
 
-- Thêm `thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md`: phân loại thu nhập từ nước ngoài (Đ.8.1.c), thuế suất theo ngành (YouTube/nội dung số 5%+5%, lập trình 2%+GTGT 0, dịch vụ xuất khẩu 0%, ads rủi ro 5%, affiliate 2%/5%, POD 0,5%), ai khấu trừ/ai tự khai (NĐ 252 Đ.3.5, Đ.43), quy đổi tỷ giá, không phải kiều hối, thuế Mỹ không trừ, rủi ro TT 94, 4 ví dụ, 6 điểm chưa có căn cứ.
+- Thêm `thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md`: phân loại thu nhập từ nước ngoài (Đ.8.2.c), thuế suất theo ngành (YouTube/nội dung số 5%+5%, lập trình 2%+GTGT 0, dịch vụ xuất khẩu 0%, ads rủi ro 5%, affiliate 2%/5%, POD 0,5%), ai khấu trừ/ai tự khai (NĐ 252 Đ.3.5, Đ.43), quy đổi tỷ giá, không phải kiều hối, thuế Mỹ không trừ, rủi ro TT 94, 4 ví dụ, 6 điểm chưa có căn cứ.
 - Nguồn thực tiễn: Hỏi đáp CSTC 157922 (10/03/2026) — YouTube/AdSense không phải dịch vụ xuất khẩu 0%; CV 5151/CT-CS (23/07/2026, TC).
 - FAQ thêm câu 21; SKILL.md thêm quy tắc về thu nhập từ nước ngoài.
 
 ## 17/09/2026 — v2.2.0
 
-- Thêm `dau-tu-ra-nuoc-ngoai-llc-my.md`: thuế TNCN khi rút lợi nhuận từ công ty ở nước ngoài (đầu tư vốn 5% theo NĐ 253 Đ.9.2, thời điểm nhận Đ.52.6, không miễn Đ.39, không trừ thuế Mỹ Đ.6.3, khai 10 ngày); rủi ro xếp lại theo Luật 108 Đ.6.a; so sánh 3 kịch bản; phía Mỹ (TC); câu hỏi bắt buộc.
+- Thêm `dau-tu-ra-nuoc-ngoai-llc-my.md`: thuế TNCN khi rút lợi nhuận từ công ty ở nước ngoài (đầu tư vốn 5% theo NĐ 253 Đ.9.2, thời điểm nhận Đ.52.6, không miễn Đ.39, không trừ thuế Mỹ Đ.6.3, khai 10 ngày); rủi ro xếp lại theo Luật 108 Đ.6.4.a; so sánh 3 kịch bản; phía Mỹ (TC); câu hỏi bắt buộc.
 - FAQ thêm câu 22; SKILL.md thêm quy tắc.
+
+## 24/09/2026 — v2.3.0
+
+- Viết lại `nguoi-nuoc-ngoai.md`: sửa số điều cư trú (NĐ 253 **Đ.4**, trước ghi nhầm Đ.6/Đ.6.2); thêm Đ.4.2.a (thẻ tạm trú), Đ.4.2.b (khách sạn, ở nơi làm việc, nhà NSDLĐ thuê), Đ.4.3; mục "bao lâu thì chịu thuế toàn cầu" (Đ.6.2.a, Đ.66.1.a, NĐ 252 Đ.10.5.c); tie-breaker TT 95/2026 Đ.8.4.
+- Thêm cách khai lương trả từ nước ngoài: khai quý 02/KK-TNCN (TT 89 Đ.22.1.c.1.2), tự quyết toán bắt buộc (NĐ 253 Đ.51.2), nơi nộp (Đ.22.1.c.3.2), hồ sơ trừ thuế nước ngoài 02/HTQT (TT 89 Đ.34); trừ BHBB nước ngoài (NĐ 253 Đ.46.2.a); trừ bản thân một nơi (Đ.48.1.a); công thức ngày/365 cho không cư trú (Đ.64.3).
+- Thêm **TT 95/2026/TT-BTC** (thay TT 205/2013 từ 01/07/2026): khấu trừ thuế nước ngoài Đ.51, miễn 183 ngày Đ.34.2 chỉ cho người cư trú nước kia, trao đổi thông tin Đ.55.
+- Mục công nhân/kỹ sư nước ngoài trong KCN + ví dụ lương VN 30tr + remote Hàn 25tr/tháng (nộp thêm 10,98tr khi quyết toán). Không có ưu đãi TNCN riêng cho KCN.
+- Mục rà soát thu nhập toàn cầu: căn cứ TT 95 Đ.55, NĐ 291/2026; thực tiễn chỉ có nguồn thứ cấp (Thuế TP.HCM), chưa có văn bản chỉ đạo đợt rà soát riêng.
+- Thêm mục 4a: thứ tự tránh đánh thuế hai lần, ưu tiên làm với cơ quan thuế nước sở tại trước (giấy chứng nhận cư trú, ngừng khấu trừ/hoàn), miễn theo TT 95 Đ.34.2 + mẫu 01/HTQT, MAP Đ.54 thời hạn 3 năm.
+- Mẫu khai lợi tức từ tổ chức nước ngoài là 04/NNG-TNCN (TT 89 Đ.22.4.c, PL I 7.4.c); nhận vào tài khoản nước ngoài vẫn phải khai (NĐ 253 Đ.6.2.a); thời điểm doanh thu kinh doanh theo NĐ 68 Đ.5.3.
+- Audit trước public (24/09): sửa vé máy bay về phép + học phí con expat (NĐ 253 Đ.8.4.e, g — không tính thu nhập chịu thuế); sản phẩm số 0% có mục riêng (Luật 48 Đ.9.1.c, NĐ 181 Đ.17.3.d); nền tảng nước ngoài NĐ 252 Đ.45.1.b; hoàn thuế trên 01/TKN-CNKD; giấy chứng nhận cư trú TT 89 Đ.44.3, hồ sơ miễn theo Hiệp định Đ.76; bỏ chữ "ký túc xá" (không có trong Đ.4.2.b); sửa số điều toàn cục: Đ.8.1.c→Đ.8.2.c, Luật 108 Đ.6.a→Đ.6.4.a, Đ.50.2.c→Đ.50.3.c, NĐ 68 Đ.14.5→Đ.8.5; khai bổ sung không bị phạt (Luật 108 Đ.44.2.a); gắn TC cho Hiệp định VN–Mỹ, Luật Đầu tư, chỉ tiêu 0% mẫu 01/CNKD.
+- FAQ thêm câu 24, 25, 26; `tong-quan-thue.md` sửa Đ.6 → Đ.4; `van-ban-va-hieu-luc-2026.md` thêm TT 95/2026, 112/VBHN-VPQH, đưa TT 205/2013 vào mục E.
 
 ## Kiểm tra định kỳ
 
