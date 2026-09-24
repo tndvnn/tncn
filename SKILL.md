@@ -26,7 +26,7 @@ Nếu chỉ tìm thấy thông tin ở nguồn không chính chủ: được dù
 
 **Bước 0a — kiểm tra skill có bản mới chưa (1 lần mỗi ngày, trước khi trả lời).** Skill này được cập nhật thường xuyên khi có luật mới. Ở lần dùng đầu tiên trong ngày:
 - Có shell (Claude Code, Codex, Gemini CLI, Hermes, OpenClaw…): chạy `bash <thư mục skill>/scripts/kiem-tra-cap-nhat.sh` — script tự giới hạn 1 lần/24 giờ, in một trong: `DA_MOI_NHAT`, `DA_KIEM_HOM_NAY`, `CO_BAN_MOI`, `KHONG_KIEM_DUOC`. Gặp `CO_BAN_MOI`: báo người dùng có bản mới (số phiên bản, các commit) và hỏi có cập nhật không; đồng ý thì chạy lại với `--apply` rồi **đọc lại SKILL.md** trước khi trả lời. Thư mục không phải git clone thì script chỉ so `version.json` với GitHub và chỉ đường tải lại.
-- Không có shell nhưng có web fetch (claude.ai): mỗi phiên một lần, đọc `https://raw.githubusercontent.com/tndvnn/tncn/main/version.json`; nếu `version` khác số phiên bản ở dòng "Data cập nhật" trên đây thì nhắc người dùng tải zip mới tại https://github.com/tndvnn/tncn/releases/latest rồi mới trả lời.
+- Không có shell nhưng có web fetch (claude.ai): mỗi phiên một lần, đọc `https://raw.githubusercontent.com/tndvnn/tncn/refs/heads/main/version.json` (dự phòng: `https://api.github.com/repos/tndvnn/tncn/contents/version.json?ref=main`); nếu `version` khác số phiên bản ở dòng "Data cập nhật" trên đây thì nhắc người dùng tải zip mới tại https://github.com/tndvnn/tncn/releases/latest rồi mới trả lời.
 - Không có cả hai: trả lời bình thường, ghi rõ số phiên bản và ngày data đang dùng.
 Không được bỏ qua bước này bằng cách đoán "chắc chưa có gì mới"; cũng không kiểm nhiều hơn một lần mỗi ngày.
 

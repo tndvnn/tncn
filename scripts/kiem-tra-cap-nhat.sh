@@ -56,11 +56,19 @@ fi
 
 # Cách 2: không phải git clone → so version.json trên GitHub
 fetch() {
-  if command -v curl >/dev/null 2>&1; then curl -fsSL -m 20 "$1";
+  if command -v curl >/dev/null 2>&1; then curl -fsSL -m 20 -H "Accept: application/vnd.github.raw" "$1";
   elif command -v wget >/dev/null 2>&1; then wget -qO- -T 20 "$1";
   else return 1; fi
 }
-remote_json=$(fetch "$REPO_RAW/version.json" 2>/dev/null) || { echo "KHONG_KIEM_DUOC — không có mạng hoặc không có curl/wget. Đang dùng $local_ver"; exit 3; }
+# raw.githubusercontent.com đôi khi cache 404 vài phút, nên thử lần lượt 3 địa chỉ
+remote_json=""
+for u in "https://raw.githubusercontent.com/tndvnn/tncn/refs/heads/main/version.json" \
+         "$REPO_RAW/version.json" \
+         "https://api.github.com/repos/tndvnn/tncn/contents/version.json?ref=main"; do
+  remote_json=$(fetch "$u" 2>/dev/null) && echo "$remote_json" | grep -q '"version"' && break
+  remote_json=""
+done
+[ -n "$remote_json" ] || { echo "KHONG_KIEM_DUOC — không có mạng hoặc không có curl/wget. Đang dùng $local_ver"; exit 3; }
 remote_ver=$(echo "$remote_json" | grep -o '"version": *"[^"]*"' | sed 's/.*"\([^"]*\)"$/\1/')
 remote_date=$(echo "$remote_json" | grep -o '"data_date": *"[^"]*"' | sed 's/.*"\([^"]*\)"$/\1/')
 date +%s > "$MARKER"
