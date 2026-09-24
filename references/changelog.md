@@ -67,6 +67,10 @@ Sửa so với bản gốc:
 
 - Thêm `version.json` và `scripts/kiem-tra-cap-nhat.sh`: kiểm tra bản mới tối đa 1 lần/24 giờ (git fetch so origin/main, hoặc so version.json trên GitHub), `--apply` để pull. SKILL.md thêm Bước 0a bắt AI kiểm tra trước khi trả lời lần đầu trong ngày; không có shell thì đọc version.json trên GitHub. AGENTS.md, GEMINI.md, README cập nhật theo.
 
+## 24/09/2026 — v2.5.1 — agent quét luật trên VPS riêng
+
+- Thêm thư mục `agent/` (quet_luat_moi.py, chay_hang_ngay.sh, crawl_vbpl_client.py): chạy 07:30 hằng ngày trên VPS NVMe riêng, quét vbpl.vn + watchlist 28 văn bản + hỏi đáp CSTC, email cảnh báo, báo cáo để cập nhật skill. README thêm mục giới thiệu agent và VPS (tnd.vn/vps-nvme).
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

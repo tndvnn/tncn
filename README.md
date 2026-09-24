@@ -4,7 +4,7 @@
 
 **tncn** là skill cho Claude, Claude Code, Antigravity và mọi nền tảng AI đọc được `SKILL.md`. Nạp vào là AI trả lời được các câu hỏi về **thuế thu nhập cá nhân 2026**: cách tính thuế thu nhập cá nhân từ tiền lương, quyết toán thuế TNCN kỳ 2026, hoàn thuế, giảm trừ gia cảnh 15,5 triệu, thuế cá nhân kinh doanh và bán hàng online, thuế chứng khoán, bất động sản, crypto, thuế người nước ngoài và thu nhập từ nước ngoài. Mọi câu trả lời kèm số điều khoản của Luật 109/2025/QH15, Nghị định 253/2026, Thông tư 87/2026 để người dùng tự đối chiếu.
 
-Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.5.0), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
+Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.5.1), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
 
 ## Skill trả lời được gì
 
@@ -57,6 +57,16 @@ Skill được cập nhật liên tục khi có luật mới, nên SKILL.md bắ
 
 Câu hỏi mẫu sau khi cài: "Lương 30 triệu, 1 người phụ thuộc, thuế thu nhập cá nhân 2026 bao nhiêu?", "Tôi bán hàng Shopee doanh thu 1,5 tỷ thì nộp thuế thế nào?", "Người Hàn Quốc làm ở khu công nghiệp có lương remote từ Hàn thì khai thuế ra sao?".
 
+## Agent quét luật mới chạy 24/7 trên VPS riêng
+
+Skill này được cấp một **VPS NVMe riêng** ([TND VPS NVMe cho AI Agent](https://www.tnd.vn/vps-nvme)) chỉ để chạy agent quét luật thuế mới, nên người dùng không phải lo skill lỗi thời. Mỗi ngày agent:
+
+1. Quét **vbpl.vn** (CSDL quốc gia về VBQPPL) lấy văn bản trung ương mới ban hành trong 10 ngày gần nhất khớp từ khóa thuế, lương, hóa đơn, BHXH.
+2. Kiểm tra **trạng thái hiệu lực của 28 văn bản skill đang dựa vào** (Luật 109/2025, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026…): văn bản nào đổi trạng thái hoặc có văn bản mới sửa/thay là cảnh báo ưu tiên.
+3. Quét **portal.mof.gov.vn/hoidapcstc** lấy câu hỏi đáp về thuế TNCN mới được Bộ Tài chính trả lời, kể cả câu cũ nay mới có trả lời.
+
+Có gì mới thì agent gửi email cảnh báo cho người bảo trì và lập báo cáo kèm việc phải làm với skill; người bảo trì đọc toàn văn ở nguồn chính chủ, sửa skill, tăng `version.json`, push lên GitHub. Phía người dùng, SKILL.md bắt AI kiểm tra phiên bản mới **một lần mỗi ngày trước khi trả lời** (mục "Tự kiểm tra cập nhật" ở trên), nên chỉ cần cài một lần, skill tự cập nhật. Mã nguồn agent nằm trong thư mục `agent/` của repo này.
+
 ## Cấu trúc
 
 ```
@@ -103,7 +113,7 @@ MIT License — tndvnn.
 
 **tncn** is a skill for Claude, Claude Code, Antigravity and any AI platform that reads `SKILL.md`. It answers questions on **Vietnam personal income tax (PIT) for tax year 2026**: Vietnam tax rates and brackets, how to calculate salary tax, PIT finalization and refunds, deductions, tax on business and online selling income, securities, real estate and crypto, and **expat tax in Vietnam**: tax residency, worldwide income, foreign salary, double taxation treaties. Every answer cites the article of Law 109/2025/QH15, Decree 253/2026 or Circular 87/2026 so you can verify it.
 
-Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.5.0). Reference files are written in Vietnamese; the model answers in the language you ask in.
+Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.5.1). Reference files are written in Vietnamese; the model answers in the language you ask in.
 
 ## What it covers
 
@@ -148,6 +158,16 @@ git clone https://github.com/tndvnn/tncn.git
 The skill changes whenever the law does, so SKILL.md instructs the AI to **check for a newer version once a day before answering**: with a shell it runs `scripts/kiem-tra-cap-nhat.sh` (rate-limited to 24h; compares `git fetch` with origin/main, or `version.json` with GitHub when the folder is not a git clone; `--apply` pulls immediately), without a shell it reads `version.json` on GitHub and asks the user to download the latest zip. Run it manually any time: `bash scripts/kiem-tra-cap-nhat.sh --force`. Version and data date are at the top of `SKILL.md` and in `version.json`.
 
 Sample questions: "I earn VND 50m/month in Hanoi with one dependant, what is my 2026 PIT?", "I am a Korean engineer in an industrial zone with a remote salary from Korea, how do I file?", "Is US tax withheld by Google creditable in Vietnam?".
+
+## 24/7 law-watch agent on a dedicated VPS
+
+This skill has its own **dedicated NVMe VPS** ([TND NVMe VPS for AI agents](https://www.tnd.vn/vps-nvme)) that runs a law-watch agent every day, so users never work from stale content. Each day the agent:
+
+1. Scans **vbpl.vn** (the national legal database) for new central-government documents issued in the last 10 days matching tax, payroll, invoice and social-insurance keywords.
+2. Checks the **legal status of the 28 documents the skill relies on** (Law 109/2025, Decree 253/2026, Circular 87/2026, Decree 252/2026, Circular 89/2026, Decree 68/2026…); any status change or amending/replacing document raises a priority alert.
+3. Scans **portal.mof.gov.vn/hoidapcstc** for newly answered official PIT rulings from the Ministry of Finance, including older questions that have just been answered.
+
+When something new appears, the agent emails the maintainer and writes a report with the required skill changes; the maintainer reads the full text at the official source, updates the skill, bumps `version.json` and pushes to GitHub. On the user side, SKILL.md makes the AI check for a new version **once a day before answering** (see "Daily self-update check"), so you install once and the skill keeps itself current. The agent source lives in this repo's `agent/` folder.
 
 ## Sources
 
