@@ -5,7 +5,7 @@ description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **24/09/2026** (v2.4.1). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **24/09/2026** (v2.5.0). Số phiên bản máy đọc: `version.json`. Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
@@ -23,6 +23,12 @@ Hỏi đáp CSTC (portal.mof.gov.vn) và gdt.gov.vn là nguồn chính chủ nh�
 Nếu chỉ tìm thấy thông tin ở nguồn không chính chủ: được dùng **duy nhất** để lấy số hiệu và ngày ban hành, rồi phải mở văn bản trên vbpl.vn/chinhphu.vn để đọc điều khoản gốc. Không mở được bản gốc thì trả lời theo data của skill và ghi rõ "có thông tin về [số hiệu] theo nguồn thứ cấp (TC), chưa đối chiếu được bản chính chủ" — không được trình bày nội dung thứ cấp như luật.
 
 ## Quy trình trả lời
+
+**Bước 0a — kiểm tra skill có bản mới chưa (1 lần mỗi ngày, trước khi trả lời).** Skill này được cập nhật thường xuyên khi có luật mới. Ở lần dùng đầu tiên trong ngày:
+- Có shell (Claude Code, Codex, Gemini CLI, Hermes, OpenClaw…): chạy `bash <thư mục skill>/scripts/kiem-tra-cap-nhat.sh` — script tự giới hạn 1 lần/24 giờ, in một trong: `DA_MOI_NHAT`, `DA_KIEM_HOM_NAY`, `CO_BAN_MOI`, `KHONG_KIEM_DUOC`. Gặp `CO_BAN_MOI`: báo người dùng có bản mới (số phiên bản, các commit) và hỏi có cập nhật không; đồng ý thì chạy lại với `--apply` rồi **đọc lại SKILL.md** trước khi trả lời. Thư mục không phải git clone thì script chỉ so `version.json` với GitHub và chỉ đường tải lại.
+- Không có shell nhưng có web fetch (claude.ai): mỗi phiên một lần, đọc `https://raw.githubusercontent.com/tndvnn/tncn/main/version.json`; nếu `version` khác số phiên bản ở dòng "Data cập nhật" trên đây thì nhắc người dùng tải zip mới tại https://github.com/tndvnn/tncn/releases/latest rồi mới trả lời.
+- Không có cả hai: trả lời bình thường, ghi rõ số phiên bản và ngày data đang dùng.
+Không được bỏ qua bước này bằng cách đoán "chắc chưa có gì mới"; cũng không kiểm nhiều hơn một lần mỗi ngày.
 
 **Bước 0 — kiểm tra văn bản mới trước khi trả lời (bắt buộc).** Nếu hôm nay đã qua ngày "Data cập nhật" ở trên và bạn có web search: trước khi trích một văn bản, tra **chỉ ở nguồn chính chủ** `site:vbpl.vn "<số hiệu>"` xem trạng thái hiệu lực và tab "Lược đồ" có văn bản sửa đổi/thay thế mới hơn không; tra thêm `site:chinhphu.vn` / `site:gdt.gov.vn` cho nghị định, công văn mới về thuế TNCN. Có văn bản mới → trả lời theo văn bản mới và nói rõ skill đã lỗi thời ở điểm nào. Không có web search → ghi trong câu trả lời: "Data đến 24/09/2026, chưa kiểm tra được văn bản mới hơn". Chi tiết và danh sách nguồn chính chủ: `references/quy-trinh-tu-cap-nhat-luat.md`. Không được bỏ bước này bằng cách đoán "chắc chưa có gì mới".
 

@@ -63,6 +63,10 @@ Sửa so với bản gốc:
 - Thêm: lương trả sau nghỉ việc xét theo ngày chi trả (CSTC 164679, 165289, 165897); thử việc/tạm hoãn chưa có căn cứ; khoán việc có quản lý có thể là HĐLĐ; danh sách NĐ 253 Đ.8.4 (hiếu hỉ, công đoàn…); miễn thuế nhiệm vụ KH&CN không dùng ngân sách; GTGT hộ tính trên toàn bộ doanh thu là thực tiễn cơ quan thuế, ngưỡng TNCN trừ lũy kế quý; HĐĐT từng lần bán, 01/BK-HTK, chủ nhà tự xây; cổ phần chưa in chứng chỉ 0,1%; kỳ ≤2025, kỳ đầu 12 tháng tự quyết toán, nhập quốc tịch VN; FAQ 28, 29 và bảng hỏi đáp chính thức đã đối chiếu.
 - SKILL.md: hỏi đáp cơ quan thuế không phải VBQPPL, phải kiểm tra văn bản họ trích còn hiệu lực.
 
+## 24/09/2026 — v2.5.0 — tự kiểm tra cập nhật
+
+- Thêm `version.json` và `scripts/kiem-tra-cap-nhat.sh`: kiểm tra bản mới tối đa 1 lần/24 giờ (git fetch so origin/main, hoặc so version.json trên GitHub), `--apply` để pull. SKILL.md thêm Bước 0a bắt AI kiểm tra trước khi trả lời lần đầu trong ngày; không có shell thì đọc version.json trên GitHub. AGENTS.md, GEMINI.md, README cập nhật theo.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

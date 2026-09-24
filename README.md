@@ -4,7 +4,7 @@
 
 **tncn** là skill cho Claude, Claude Code, Antigravity và mọi nền tảng AI đọc được `SKILL.md`. Nạp vào là AI trả lời được các câu hỏi về **thuế thu nhập cá nhân 2026**: cách tính thuế thu nhập cá nhân từ tiền lương, quyết toán thuế TNCN kỳ 2026, hoàn thuế, giảm trừ gia cảnh 15,5 triệu, thuế cá nhân kinh doanh và bán hàng online, thuế chứng khoán, bất động sản, crypto, thuế người nước ngoài và thu nhập từ nước ngoài. Mọi câu trả lời kèm số điều khoản của Luật 109/2025/QH15, Nghị định 253/2026, Thông tư 87/2026 để người dùng tự đối chiếu.
 
-Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.4.0), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
+Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.5.0), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
 
 ## Skill trả lời được gì
 
@@ -51,7 +51,9 @@ git clone https://github.com/tndvnn/tncn.git
 | **ChatGPT** (web) | Không có cơ chế skill. Tạo một Project (hoặc Custom GPT), tải lên `SKILL.md` và toàn bộ file trong `references/` làm tài liệu, dán nội dung `AGENTS.md` vào phần Instructions | Nhớ bật web search để làm Bước 0 kiểm tra luật mới |
 | Nền tảng khác | Dán `SKILL.md` vào system prompt, đưa `references/` vào knowledge base | |
 
-Cập nhật skill: vào thư mục đã clone chạy `git pull` (Hermes/OpenClaw: cài lại). Số phiên bản và ngày data ghi ở đầu `SKILL.md`.
+### Tự kiểm tra cập nhật mỗi ngày
+
+Skill được cập nhật liên tục khi có luật mới, nên SKILL.md bắt AI **kiểm tra bản mới một lần mỗi ngày trước khi trả lời**: có shell thì chạy `scripts/kiem-tra-cap-nhat.sh` (tự giới hạn 24 giờ; so `git fetch` với origin/main, hoặc so `version.json` với GitHub nếu không phải git clone; thêm `--apply` để `git pull` luôn), không có shell thì đọc `version.json` trên GitHub và nhắc người dùng tải zip mới. Chạy tay bất cứ lúc nào: `bash scripts/kiem-tra-cap-nhat.sh --force`. Số phiên bản và ngày data ghi ở đầu `SKILL.md` và trong `version.json`.
 
 Câu hỏi mẫu sau khi cài: "Lương 30 triệu, 1 người phụ thuộc, thuế thu nhập cá nhân 2026 bao nhiêu?", "Tôi bán hàng Shopee doanh thu 1,5 tỷ thì nộp thuế thế nào?", "Người Hàn Quốc làm ở khu công nghiệp có lương remote từ Hàn thì khai thuế ra sao?".
 
@@ -74,6 +76,8 @@ references/
   quy-trinh-tu-cap-nhat-luat.md            AI tự tra luật mới ở nguồn chính chủ trước khi trả lời
   faq.md                                   27 câu hỏi thường gặp
   changelog.md
+scripts/kiem-tra-cap-nhat.sh                 kiểm tra bản mới 1 lần/ngày
+version.json                               số phiên bản máy đọc
 AGENTS.md, GEMINI.md                       hướng dẫn cho Codex, Gemini CLI, Cursor
 ```
 
@@ -99,7 +103,7 @@ MIT License — tndvnn.
 
 **tncn** is a skill for Claude, Claude Code, Antigravity and any AI platform that reads `SKILL.md`. It answers questions on **Vietnam personal income tax (PIT) for tax year 2026**: Vietnam tax rates and brackets, how to calculate salary tax, PIT finalization and refunds, deductions, tax on business and online selling income, securities, real estate and crypto, and **expat tax in Vietnam**: tax residency, worldwide income, foreign salary, double taxation treaties. Every answer cites the article of Law 109/2025/QH15, Decree 253/2026 or Circular 87/2026 so you can verify it.
 
-Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.4.0). Reference files are written in Vietnamese; the model answers in the language you ask in.
+Built for Vietnamese residents and for foreigners living, working or doing business in Vietnam. Data as of **24 September 2026** (v2.5.0). Reference files are written in Vietnamese; the model answers in the language you ask in.
 
 ## What it covers
 
@@ -139,7 +143,9 @@ git clone https://github.com/tndvnn/tncn.git
 | **ChatGPT** (web) | No skill mechanism. Create a Project (or a Custom GPT), upload `SKILL.md` and every file in `references/` as knowledge, paste `AGENTS.md` into Instructions | Enable web search so Step 0 (check for newer law) can run |
 | Other platforms | Paste `SKILL.md` into the system prompt and add `references/` to the knowledge base | |
 
-To update: `git pull` in the cloned folder (Hermes/OpenClaw: reinstall). Version and data date are at the top of `SKILL.md`.
+### Daily self-update check
+
+The skill changes whenever the law does, so SKILL.md instructs the AI to **check for a newer version once a day before answering**: with a shell it runs `scripts/kiem-tra-cap-nhat.sh` (rate-limited to 24h; compares `git fetch` with origin/main, or `version.json` with GitHub when the folder is not a git clone; `--apply` pulls immediately), without a shell it reads `version.json` on GitHub and asks the user to download the latest zip. Run it manually any time: `bash scripts/kiem-tra-cap-nhat.sh --force`. Version and data date are at the top of `SKILL.md` and in `version.json`.
 
 Sample questions: "I earn VND 50m/month in Hanoi with one dependant, what is my 2026 PIT?", "I am a Korean engineer in an industrial zone with a remote salary from Korea, how do I file?", "Is US tax withheld by Google creditable in Vietnam?".
 
