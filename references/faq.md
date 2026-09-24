@@ -80,3 +80,6 @@ Nếu cư trú: cộng cả hai khoản lương vào thu nhập chịu thuế n�
 **26. Tôi để tiền trên Payoneer/tài khoản Mỹ, chưa rút về Việt Nam thì đã phải khai chưa?**
 Rồi. Cá nhân cư trú chịu thuế không phân biệt nơi trả và nhận (NĐ 253 Đ.6.2.a). Freelancer, YouTuber theo cơ chế kinh doanh: doanh thu tính khi hoàn thành dịch vụ (NĐ 68 Đ.5.3), không phải khi rút tiền. Lợi tức công ty nước ngoài: tính khi được chia về tài khoản cá nhân, dù tài khoản ở nước ngoài (Đ.52.6); chỉ lợi nhuận còn nằm trong công ty chưa chia mới chưa tính. Khai mẫu 04/NNG-TNCN trong 10 ngày từ khi nhận (TT 89 Đ.22.4.c; NĐ 252 Đ.10.1).
 
+**27. Tôi là freelancer Mỹ, sang Việt Nam sống, còn nhà ở Mỹ cho thuê. Ở bao lâu thì phải đóng thuế và đóng thế nào?**
+Ở đủ 183 ngày (đếm cả 12 tháng liên tục từ ngày đến) hoặc thuê chỗ ở tổng cộng đủ 183 ngày trong năm (kể cả Airbnb, khách sạn) là cá nhân cư trú, hồi tố từ ngày đến, chịu thuế toàn bộ thu nhập trong và ngoài Việt Nam (NĐ 253 Đ.4, Đ.6.2.a, Đ.66.1.a). Freelance chưa đăng ký kinh doanh là tiền công, biểu lũy tiến tới 35% (Đ.8.2.c); tiền thuê nhà ở Mỹ là kinh doanh cho thuê bất động sản, 5% trên phần vượt 1 tỷ/năm (Luật 109 Đ.7.4), dưới 1 tỷ không thuế. Thuế đã nộp ở Mỹ không trừ được vì chưa có Hiệp định (Đ.6.3). Tự khai quý 02/KK-TNCN, quyết toán 02/QTT-TNCN. Ví dụ tính đầy đủ ở `nguoi-nuoc-ngoai.md` mục 5b.
+

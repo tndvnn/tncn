@@ -1,6 +1,6 @@
 ---
 name: tncn-ca-nhan-vn
-description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026, TT 95/2026 (Hiệp định thuế). Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, rút lợi nhuận LLC Mỹ về, người nước ngoài cư trú chịu thuế thu nhập toàn cầu, lương VN + lương remote nước ngoài, thuế crypto, Vietnam personal income tax for expats/foreigners (tax residency 183 days, worldwide income, double taxation treaty, PIT finalization), thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
+description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026, TT 95/2026 (Hiệp định thuế). Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, rút lợi nhuận LLC Mỹ về, người nước ngoài cư trú chịu thuế thu nhập toàn cầu, lương VN + lương remote nước ngoài, thuế crypto, Vietnam personal income tax for expats/foreigners/digital nomads (tax residency 183 days, worldwide income, US rental income, double taxation treaty, PIT finalization), thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
 ---
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
@@ -31,10 +31,10 @@ Data cập nhật: **24/09/2026** (v2.3.0). Mọi con số trong `references/` �
 | Kiếm tiền từ nước ngoài: YouTube/AdSense, MMO, affiliate quốc tế, freelancer lập trình/design/content, chạy ads cho khách nước ngoài, POD/dropship, nhận USD qua Payoneer/PayPal/Wise, GTGT 0% xuất khẩu, thuế Mỹ | `references/thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md` |
 | Rút lợi nhuận từ LLC Mỹ / công ty ở nước ngoài về VN: đầu tư vốn 5% vs bị xếp lại thành kinh doanh, thuế Mỹ không trừ | `references/dau-tu-ra-nuoc-ngoai-llc-my.md` |
 | BĐS, vốn, chứng khoán, phái sinh, tài sản số, vàng miếng, thừa kế, bản quyền, trúng thưởng | `references/bat-dong-san-chung-khoan-tai-san-so.md` |
-| Người nước ngoài: bao lâu thì cư trú và chịu thuế toàn cầu, lương VN + lương remote/trả từ nước ngoài (khai quý 02/KK, tự quyết toán), công nhân KCN, trừ thuế nước ngoài theo Hiệp định (TT 95/2026), rà soát | `references/nguoi-nuoc-ngoai.md` |
+| Người nước ngoài: bao lâu thì cư trú và chịu thuế toàn cầu, lương VN + lương remote/trả từ nước ngoài (khai quý 02/KK, tự quyết toán), công nhân KCN, digital nomad Mỹ (freelance + nhà cho thuê ở Mỹ), trừ thuế nước ngoài theo Hiệp định (TT 95/2026), rà soát | `references/nguoi-nuoc-ngoai.md` |
 | Văn bản, mốc hiệu lực 1/7, 1/9, 1/10/2026, sắp tới, dự thảo, đã hết hiệu lực | `references/van-ban-va-hieu-luc-2026.md` |
 | Lịch hạn nộp 9/2026 → 4/2027 | `references/lich-han-nop-2026-2027.md` |
-| 26 câu hỏi thường gặp có điều khoản | `references/faq.md` |
+| 27 câu hỏi thường gặp có điều khoản | `references/faq.md` |
 | Lịch sử sửa đổi | `references/changelog.md` |
 
 ## Số liệu nhanh (đã kiểm chứng toàn văn)

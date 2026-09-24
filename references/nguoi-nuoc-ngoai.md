@@ -102,6 +102,50 @@ Nếu có thuế Hàn Quốc hợp lệ được trừ theo Hiệp định: tr�
 
 Cách tạm tính theo biểu tháng cho từng quý là cách áp dụng thông thường; mẫu 02/KK-TNCN không ghi công thức. Số chính xác do quyết toán năm quyết định.
 
+## 5b. Digital nomad: freelancer Mỹ sang Việt Nam sống, còn nhà ở Mỹ cho thuê
+
+Giả định: anh J, quốc tịch Mỹ, freelancer thiết kế cho khách Mỹ, đến Việt Nam **15/08/2026**, thuê căn hộ theo tháng, chưa đăng ký kinh doanh ở Việt Nam. Thu nhập: freelance 6.000 USD/tháng (≈150tr, tỷ giá giả định 25.000), nhà ở Mỹ cho thuê 2.500 USD/tháng (≈62,5tr, 750tr/năm). Việt Nam – Hoa Kỳ chưa có Hiệp định thuế có hiệu lực (TC).
+
+### Quá bao nhiêu ngày thì thành cư trú?
+
+| Mốc | Tình trạng | Căn cứ |
+|---|---|---|
+| Năm 2026: có mặt 15/08–31/12 = 139 ngày, hợp đồng thuê nhà trong năm 139 ngày | **Chưa** đủ 183 ngày, chưa đủ 183 ngày thuê nhà → tính riêng năm 2026 là không cư trú | NĐ 253 Đ.4.1, Đ.4.2.b |
+| Ngày thứ 183 kể từ 15/08/2026 ≈ **13/02/2027** | Nếu còn ở Việt Nam → trở thành cư trú **hồi tố từ 15/08/2026**: kỳ tính thuế đầu tiên = 12 tháng liên tục 15/08/2026–14/08/2027 | NĐ 253 Đ.66.1.a |
+| Năm 2027 | Có mặt ≥183 ngày hoặc thuê nhà ≥183 ngày trong năm → cư trú theo năm dương lịch; thuế các tháng trùng với kỳ đầu (01–08/2027) được trừ theo công thức số tháng trùng | NĐ 253 Đ.66.1.a |
+| Rời Việt Nam trước 13/02/2027 và không quay lại | Vẫn là không cư trú cho cả giai đoạn | NĐ 253 Đ.5 |
+
+Không có "thời gian miễn". Thuê nhà theo tháng, Airbnb, khách sạn đều đếm vào 183 ngày thuê (Đ.4.2.b), nên người thuê chỗ ở liên tục thường thành cư trú qua vế nhà thuê trước cả khi đếm đủ ngày có mặt.
+
+### Giai đoạn chưa cư trú (ví dụ: rời đi trước 13/02/2027)
+
+- Chỉ chịu thuế thu nhập **phát sinh tại Việt Nam** (Luật 109 Đ.2.1; NĐ 253 Đ.6.2.b). Nhà cho thuê ở Mỹ: ngoài Việt Nam, không chịu thuế.
+- Freelance làm cho khách Mỹ nhưng **ngồi làm tại Việt Nam**: theo câu chữ, thù lao dịch vụ của cá nhân chưa đăng ký kinh doanh là tiền công (Đ.8.2.c, áp cả cho không cư trú theo Đ.64.2) và tiền công "do thực hiện công việc tại Việt Nam" chịu 20% không phân biệt nơi trả (Luật 109 Đ.21). Đây là **suy luận từ câu chữ**; chưa có hướng dẫn riêng cho digital nomad, và không có tổ chức Việt Nam nào khấu trừ nên cá nhân phải tự khai quý 02/KK-TNCN phần II tại cơ quan thuế nơi phát sinh thu nhập (TT 89 Đ.22.1.c.1.3). Thực tế nhiều người không khai; skill không được khuyên bỏ qua, chỉ nêu căn cứ và rủi ro.
+
+### Giai đoạn cư trú (ở lại, kỳ đầu 15/08/2026–14/08/2027)
+
+Chịu thuế thu nhập toàn cầu cho cả kỳ (Đ.6.2.a).
+
+| Khoản | Phân loại | Tính | Kết quả |
+|---|---|---|---|
+| Freelance 150tr × 12 = 1.800tr | Tiền công (chưa đăng ký kinh doanh, Đ.8.2.c) | TNTT = 1.800 − 186 (bản thân 12 tháng từ tháng đến, Đ.48.1.c) = 1.614tr → 6 + 24 + 72 + 144 + (1.614 − 1.200) × 35% = 144,9 | **390,9tr** |
+| Tiền thuê nhà ở Mỹ 750tr | Kinh doanh cho thuê bất động sản: 5% trên phần doanh thu **vượt 1 tỷ** (Luật 109 Đ.7.4; ngưỡng 1 tỷ theo Luật 09/2026, NĐ 141) | 750tr ≤ 1 tỷ | **0** (nếu 1,2 tỷ → 200tr × 5% = 10tr) |
+| Thuế Mỹ đã nộp (thu nhập liên bang, self-employment tax) | Không trừ được: chưa có Hiệp định (NĐ 253 Đ.6.3) | | Nộp hai lần thực sự |
+| BH bắt buộc đã đóng ở Mỹ | Được trừ nếu là bảo hiểm **bắt buộc** theo luật Mỹ (Đ.46.2.a); self-employment tax có phải "bảo hiểm bắt buộc" không — chưa có hướng dẫn | | Hỏi cơ quan thuế |
+
+Nếu J **đăng ký thuế cho hoạt động kinh doanh** tại Việt Nam thì freelance thành thu nhập kinh doanh: 1.800tr − 1 tỷ = 800tr × 2% (dịch vụ) = 16tr, giảm 30% theo NQ 43 còn 11,2tr, GTGT 0% nếu đủ hồ sơ dịch vụ xuất khẩu (xem `thu-nhap-tu-nuoc-ngoai-mmo-youtube-freelancer.md`). Chênh 390,9tr so với 11,2tr là lý do phải hỏi ngay câu "đã đăng ký kinh doanh chưa". Người nước ngoài có được đăng ký kinh doanh cá nhân, và làm việc bằng visa gì, là chuyện pháp luật đầu tư, lao động, xuất nhập cảnh — **ngoài phạm vi skill**, phải nói rõ.
+
+### Việc phải làm theo thứ tự thời gian
+
+1. Ngay khi đến: đăng ký MST theo hộ chiếu trong 10 ngày làm việc từ khi phát sinh nghĩa vụ (NĐ 252 Đ.6.3.a.4); lưu dấu xuất nhập cảnh, hợp đồng thuê nhà, hóa đơn khách hàng, sao kê.
+2. Hằng quý: khai 02/KK-TNCN cho thu nhập trả từ nước ngoài (TT 89 Đ.22.1.c.1.2), hạn cuối tháng đầu quý sau.
+3. Tháng thứ 4 sau khi hết 12 tháng đầu (hạn **31/12/2027** cho kỳ 15/08/2026–14/08/2027): quyết toán 02/QTT-TNCN (NĐ 252 Đ.10.5.c). Từ 2027 theo năm dương lịch, hạn 30/04/2028, trừ phần tính trùng.
+4. Rời Việt Nam hẳn: quyết toán trước khi xuất cảnh, tối đa 45 ngày (NĐ 252 Đ.10.5.d).
+5. Phía Mỹ (TC, hỏi CPA): công dân Mỹ vẫn khai thuế toàn cầu với IRS; thuế đã nộp ở Việt Nam có thể được tính foreign tax credit hoặc loại trừ thu nhập kiếm ở nước ngoài theo luật Mỹ. Không có MAP vì không có Hiệp định.
+
+### Câu hỏi phải hỏi trước khi trả lời digital nomad
+Ngày đến; đã thuê chỗ ở bao nhiêu ngày tính đến nay; dự định ở tiếp không; đã đăng ký thuế/kinh doanh ở Việt Nam chưa; thu nhập nào nhận từ đâu; nước quê có Hiệp định với Việt Nam không.
+
 ## 6. Cá nhân không cư trú — thuế suất (Luật 109 Đ.20–Đ.27)
 
 | Loại thu nhập | Thuế suất | Cơ sở tính |

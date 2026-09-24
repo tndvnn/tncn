@@ -45,6 +45,7 @@ Sửa so với bản gốc:
 - Thêm mục 4a: thứ tự tránh đánh thuế hai lần, ưu tiên làm với cơ quan thuế nước sở tại trước (giấy chứng nhận cư trú, ngừng khấu trừ/hoàn), miễn theo TT 95 Đ.34.2 + mẫu 01/HTQT, MAP Đ.54 thời hạn 3 năm.
 - Mẫu khai lợi tức từ tổ chức nước ngoài là 04/NNG-TNCN (TT 89 Đ.22.4.c, PL I 7.4.c); nhận vào tài khoản nước ngoài vẫn phải khai (NĐ 253 Đ.6.2.a); thời điểm doanh thu kinh doanh theo NĐ 68 Đ.5.3.
 - Audit trước public (24/09): sửa vé máy bay về phép + học phí con expat (NĐ 253 Đ.8.4.e, g — không tính thu nhập chịu thuế); sản phẩm số 0% có mục riêng (Luật 48 Đ.9.1.c, NĐ 181 Đ.17.3.d); nền tảng nước ngoài NĐ 252 Đ.45.1.b; hoàn thuế trên 01/TKN-CNKD; giấy chứng nhận cư trú TT 89 Đ.44.3, hồ sơ miễn theo Hiệp định Đ.76; bỏ chữ "ký túc xá" (không có trong Đ.4.2.b); sửa số điều toàn cục: Đ.8.1.c→Đ.8.2.c, Luật 108 Đ.6.a→Đ.6.4.a, Đ.50.2.c→Đ.50.3.c, NĐ 68 Đ.14.5→Đ.8.5; khai bổ sung không bị phạt (Luật 108 Đ.44.2.a); gắn TC cho Hiệp định VN–Mỹ, Luật Đầu tư, chỉ tiêu 0% mẫu 01/CNKD.
+- Mục 5b digital nomad Mỹ: mốc 183 ngày/12 tháng liên tục hồi tố, giai đoạn chưa cư trú (suy luận Đ.21 + Đ.8.2.c), kỳ đầu 12 tháng với freelance 1,8 tỷ (390,9tr tiền công vs 11,2tr nếu đăng ký KD) + nhà cho thuê ở Mỹ 750tr (Luật 109 Đ.7.4, ≤1 tỷ không thuế), timeline khai; FAQ 27.
 - FAQ thêm câu 24, 25, 26; `tong-quan-thue.md` sửa Đ.6 → Đ.4; `van-ban-va-hieu-luc-2026.md` thêm TT 95/2026, 112/VBHN-VPQH, đưa TT 205/2013 vào mục E.
 
 ## Kiểm tra định kỳ

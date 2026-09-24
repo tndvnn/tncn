@@ -21,7 +21,7 @@ Ngưỡng doanh thu 1 tỷ không phải nộp thuế, thuế suất theo % doan
 Chuyển nhượng bất động sản 2%, nhà ở duy nhất, chứng khoán và phái sinh 0,1%, chuyển nhượng vốn 20%, tài sản số 0,1%, vàng miếng, thừa kế, quà tặng, bản quyền, trúng thưởng.
 
 ### Thuế thu nhập cá nhân người nước ngoài, hiệp định tránh đánh thuế hai lần
-Khi nào thành cá nhân cư trú và chịu thuế thu nhập toàn cầu (183 ngày hoặc nơi ở thường xuyên, kể cả khách sạn và chỗ ở công ty bố trí tại nơi làm việc), lương Việt Nam cộng lương làm remote cho công ty nước ngoài, tự khai quý mẫu 02/KK-TNCN, công nhân khu công nghiệp, trừ thuế đã nộp ở nước ngoài theo Thông tư 95/2026, giấy chứng nhận cư trú, thỏa thuận song phương.
+Khi nào thành cá nhân cư trú và chịu thuế thu nhập toàn cầu (183 ngày hoặc nơi ở thường xuyên, kể cả khách sạn và chỗ ở công ty bố trí tại nơi làm việc), lương Việt Nam cộng lương làm remote cho công ty nước ngoài, tự khai quý mẫu 02/KK-TNCN, công nhân khu công nghiệp, digital nomad Mỹ có nhà cho thuê ở Mỹ, trừ thuế đã nộp ở nước ngoài theo Thông tư 95/2026, giấy chứng nhận cư trú, thỏa thuận song phương.
 
 ### Văn bản pháp luật và mốc hiệu lực
 Luật thuế thu nhập cá nhân 2025 (Luật 109/2025/QH15), Nghị định 253/2026, Thông tư 87/2026, lịch hạn nộp đến 30/04/2027, dự thảo đang lấy ý kiến, văn bản đã hết hiệu lực không được trích.
@@ -54,7 +54,7 @@ references/
   nguoi-nuoc-ngoai.md                      cư trú, thuế toàn cầu, hiệp định, MAP
   van-ban-va-hieu-luc-2026.md              văn bản, hiệu lực, dự thảo, hết hiệu lực
   lich-han-nop-2026-2027.md
-  faq.md                                   26 câu hỏi thường gặp
+  faq.md                                   27 câu hỏi thường gặp
   changelog.md
 ```
 
@@ -88,7 +88,7 @@ Built for Vietnamese residents and for foreigners living, working or doing busin
 - **PIT finalization** for 2026: who may authorize the employer, who must file directly, deadlines 31 March and 30 April 2027, forms under Circular 89/2026, refunds, finalization before leaving Vietnam.
 - Household businesses, freelancers, KOLs, online sellers: VND 1bn threshold, e-commerce platform withholding (Decree 252/2026), 30% reduction (Resolution 43/2026), e-invoices. Income from abroad: YouTube/AdSense, Upwork, Fiverr, affiliate, print-on-demand, Payoneer, profit from a US LLC.
 - Real estate 2%, securities and derivatives 0.1%, capital transfer 20%, digital assets 0.1%, gold bars, inheritance, royalties.
-- **Tax residency and expat tax**: when a foreigner becomes a Vietnamese tax resident taxed on worldwide income (183 days or a permanent place of residence, including hotel stays and housing provided at the workplace, Decree 253/2026 Art. 4), Vietnamese salary plus a remote salary from home, quarterly self-filing on form 02/KK-TNCN and mandatory direct finalization, industrial-zone workers, foreign tax credit under tax treaties (Circular 95/2026, in force 1 July 2026), Vietnamese certificate of residence, mutual agreement procedure.
+- **Tax residency and expat tax**: when a foreigner becomes a Vietnamese tax resident taxed on worldwide income (183 days or a permanent place of residence, including hotel stays and housing provided at the workplace, Decree 253/2026 Art. 4), Vietnamese salary plus a remote salary from home, quarterly self-filing on form 02/KK-TNCN and mandatory direct finalization, industrial-zone workers, a US digital nomad with freelance income and a rental property back home, foreign tax credit under tax treaties (Circular 95/2026, in force 1 July 2026), Vietnamese certificate of residence, mutual agreement procedure.
 - Timeline of legal documents, drafts and repealed documents.
 
 Not covered: corporate income tax, customs duties, lump-sum social insurance withdrawal, unemployment benefits.
