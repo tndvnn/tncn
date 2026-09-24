@@ -71,6 +71,10 @@ Sửa so với bản gốc:
 
 - Thêm thư mục `agent/` (quet_luat_moi.py, chay_hang_ngay.sh, crawl_vbpl_client.py): chạy 07:30 hằng ngày trên VPS NVMe riêng, quét vbpl.vn + watchlist 28 văn bản + hỏi đáp CSTC, email cảnh báo, báo cáo để cập nhật skill. README thêm mục giới thiệu agent và VPS (tnd.vn/vps-nvme).
 
+## 24/09/2026 — v2.5.2 — chế độ trực tuyến cho claude.ai
+
+- SKILL.md Bước 0a: nền tảng không có shell mà lệch phiên bản thì đọc thẳng SKILL.md + file tham chiếu mới trên GitHub (raw) để trả lời, thay vì chỉ nhắc tải zip.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.
