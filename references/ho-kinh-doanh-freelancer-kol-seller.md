@@ -40,8 +40,8 @@ Thuế suất % doanh thu (Luật 109 Đ.7.3; GTGT Luật 48 Đ.12.2):
 
 Ghi chú:
 - Ngưỡng 1 tỷ là mức trừ khi tính TNCN: nhiều ngành/địa điểm thì chọn nơi trừ có lợi nhất, tổng không quá 1 tỷ (NĐ 68 Đ.4.3).
-- Với GTGT, khi doanh thu vượt ngưỡng thì hàng hóa, dịch vụ của hộ thuộc diện chịu thuế; câu chữ Luật 48 Đ.5.25 và NĐ 68 Đ.3.2 không nói "phần vượt" như TNCN → cách đọc thận trọng là tính trên doanh thu chịu thuế của cả năm. Xác nhận với cơ quan thuế khi áp dụng.
-- Đã chọn phương pháp lợi nhuận × thuế suất thì ổn định 2 năm; đang tính % doanh thu mà cuối năm vượt 3 tỷ thì năm sau chuyển sang lợi nhuận (NĐ 68 Đ.4.4.d).
+- Với GTGT, khi doanh thu vượt ngưỡng thì hàng hóa, dịch vụ của hộ thuộc diện chịu thuế; câu chữ Luật 48 Đ.5.25 và NĐ 68 Đ.3.2 không nói "phần vượt" như TNCN → **thực tiễn cơ quan thuế**: GTGT tính trên toàn bộ doanh thu ngay từ quý đầu, TNCN chỉ trên phần vượt ngưỡng (Cục Thuế, hội thảo hộ kinh doanh 26/03/2026 câu 6, ví dụ gốc theo ngưỡng 500tr trước NĐ 141; Thuế cơ sở 1 Sơn La theo mô tả trong CSTC 164343). Ngưỡng TNCN trừ **lũy kế theo quý**: quý chưa trừ hết thì chuyển sang quý sau.
+- Đã chọn phương pháp lợi nhuận × thuế suất thì ổn định 2 năm; đang tính % doanh thu mà cuối năm vượt 3 tỷ thì năm sau chuyển sang lợi nhuận (NĐ 68 Đ.4.5.d).
 - Chi phí được trừ: NĐ 68 Đ.6; chi ≥5tr/lần phải thanh toán không dùng tiền mặt (theo TT 18/2026 — chưa đọc toàn văn, dùng như lưu ý).
 - Cho thuê BĐS: 5% × phần vượt 1 tỷ, không áp dụng cách tính lợi nhuận (Đ.7.4).
 
@@ -67,7 +67,7 @@ Ghi chú:
 - Sàn có chức năng đặt hàng + thanh toán (Shopee, Lazada, TikTok Shop, Grab...; kể cả nền tảng nước ngoài hoặc tổ chức tại VN chi trả thay nền tảng nước ngoài cho nội dung số) khấu trừ GTGT + TNCN **theo từng giao dịch**, theo tỷ lệ % của ngành; không xác định được loại hàng/dịch vụ thì áp mức cao nhất (Đ.44.2).
 - Khấu trừ ngay từ giao dịch đầu tiên, không chờ vượt 1 tỷ → seller nhỏ được hoàn cuối năm (mục 4).
 - Kênh không có chức năng thanh toán (Facebook, Zalo, website tự thu tiền): tự kê khai.
-- Số đã bị sàn khấu trừ được trừ vào số phải nộp khi quyết toán (NĐ 68 Đ.10.3).
+- Số đã bị sàn khấu trừ được trừ vào số phải nộp khi quyết toán (NĐ 68 Đ.11.3).
 
 ### 5a. Tiếp thị liên kết (affiliate) — thay đổi của Shopee từ 01/10/2026 (nguồn: email Shopee gửi đối tác, TC)
 
@@ -76,14 +76,17 @@ Email Shopee: từ **01/10/2026**, đối tác affiliate là cá nhân, cá nhâ
 - Căn cứ để sàn khấu trừ dạng kinh doanh: NĐ 253 Đ.67.1, Đ.67.4.a; NĐ 252 Đ.43–44. Chưa có công văn nào khẳng định hoa hồng affiliate thuộc phạm vi Đ.43 (Đ.43 nói về "hoạt động kinh doanh trên nền tảng"), nên đây là cách áp dụng của Shopee, không phải kết luận của cơ quan thuế.
 - Thuế suất: Phụ lục NĐ 253 xếp "dịch vụ môi giới, đấu giá và hoa hồng đại lý" và "quảng cáo" vào nhóm dịch vụ **2%** TNCN; "quảng cáo số, nội dung thông tin số" **5%**. Hoa hồng affiliate có thể rơi vào 2% hoặc 5%; sàn không xác định được loại thì áp mức cao nhất (NĐ 252 Đ.44.2.b). Khấu trừ thừa được hoàn khi quyết toán. GTGT dịch vụ 5% (Luật 48 Đ.12.2).
 - Người chưa đăng ký thuế kinh doanh: theo Đ.8.2.c vẫn là tiền công khi quyết toán → có thể phải gộp vào biểu lũy tiến dù sàn đã khấu trừ 5%. Khuyến nghị: đăng ký thuế cho hoạt động kinh doanh trước khi nhận hoa hồng theo cơ chế mới, giữ thông báo/chứng từ khấu trừ của sàn.
-- Cuối năm: doanh thu ≤1 tỷ → thông báo doanh thu + đề nghị hoàn toàn bộ số sàn đã khấu trừ (NĐ 68 Đ.12); 1–3 tỷ → khai quý, số sàn khấu trừ trừ vào số phải nộp tính trên phần vượt (Đ.10.3); cộng giảm 30% NQ 43 khi có Nghị định.
+- Cuối năm: doanh thu ≤1 tỷ → thông báo doanh thu + đề nghị hoàn toàn bộ số sàn đã khấu trừ (NĐ 68 Đ.12); 1–3 tỷ → khai quý, số sàn khấu trừ trừ vào số phải nộp tính trên phần vượt (Đ.8.1.b, Đ.10.2.a; >3 tỷ hoặc chọn lợi nhuận: Đ.11.3); cộng giảm 30% NQ 43 khi có Nghị định.
 - Không có văn bản nào nâng ngưỡng miễn hay mốc 3 tỷ lên 10 tỷ; 10 tỷ chỉ là điều kiện hưởng giảm 30% (NQ 43 Đ.1.1).
 - MCN/agency trả hoa hồng cho KOL không phải sàn: khấu trừ 10% nếu KOL chưa đăng ký kinh doanh (Đ.50.2); không khấu trừ nếu KOL là cá nhân kinh doanh đã đăng ký (Đ.67.4.a) trừ khi ký hợp đồng môi giới/hợp tác kinh doanh.
 
 ## 6. Hóa đơn điện tử (NĐ 68 Đ.8.5 sửa bởi NĐ 141 Đ.1.2)
 
 - Doanh thu >1 tỷ/năm: bắt buộc HĐĐT có mã hoặc từ máy tính tiền kết nối cơ quan thuế.
-- ≤1 tỷ: tự nguyện; không đăng ký mà cần hóa đơn thì khai nộp thuế theo từng lần để được cấp.
+- ≤1 tỷ: đáp ứng điều kiện và có nhu cầu thì đăng ký HĐĐT (NĐ 68 Đ.8.5.b sửa bởi NĐ 141); không đăng ký mà cần hóa đơn thì khai nộp thuế theo từng lần để được cấp (căn cứ NĐ 252 Đ.10.1 — câu này đã bị NĐ 141 bỏ khỏi NĐ 68 Đ.8.5). Trả lời "≤500tr không thuộc diện HĐĐT" của Cục Thuế ngày 26/03/2026 đã lỗi thời.
+- Xuất HĐĐT theo **từng lần bán**, không gộp theo ngày/tuần; sàn đã khấu trừ vẫn phải xuất; hóa đơn máy tính tiền ghi thông tin người mua khi người mua yêu cầu (NĐ 123 Đ.11.3.b sửa bởi NĐ 70 — TC, theo trả lời Cục Thuế).
+- Hộ >3 tỷ hoặc chọn phương pháp lợi nhuận: lập bảng kê tồn kho, máy móc tại 31/12/2025 mẫu 01/BK-HTK, gửi cơ quan thuế, để được trừ chi phí hàng tồn trong kỳ 2026 (NĐ 68 Đ.18.4).
+- Chủ nhà tự mua vật liệu, tự thuê nhân công lẻ xây nhà ở riêng lẻ: không phải người nộp thuế, người nhận thầu mới nộp; cơ quan thuế sẽ đòi chứng từ chứng minh tự thuê (CSTC 164343 ngày 07/08/2026).
 - Trong năm vượt 1 tỷ: đăng ký trong **30 ngày** kể từ ngày cuối kỳ tính thuế có doanh thu lũy kế vượt 1 tỷ.
 
 ## 7. Gia hạn nộp thuế năm 2026 — NĐ 245/2026/NĐ-CP (hiệu lực 27/06–30/12/2026)

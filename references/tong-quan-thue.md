@@ -4,7 +4,7 @@
 
 ## 1. Ai là cá nhân cư trú
 
-Một trong hai: có mặt ≥183 ngày trong năm dương lịch/12 tháng liên tục; hoặc có nơi ở thường xuyên (đăng ký thường trú, hoặc thuê nhà tổng thời hạn ≥183 ngày trong năm) (Luật 109 Đ.2.2; NĐ 253 Đ.4). Cư trú → chịu thuế thu nhập toàn cầu, biểu lũy tiến. Không cư trú → 20% trên lương, xem `nguoi-nuoc-ngoai.md`.
+Một trong hai: có mặt ≥183 ngày trong năm dương lịch/12 tháng liên tục; hoặc có nơi ở thường xuyên (đăng ký thường trú; người nước ngoài là nơi ghi trên thẻ thường trú/tạm trú; hoặc thuê nhà kể cả khách sạn, chỗ ở tại nơi làm việc tổng thời hạn ≥183 ngày trong năm). Có nơi ở thường xuyên mà <183 ngày và không chứng minh được cư trú nước khác thì vẫn là cư trú VN (Luật 109 Đ.2.2; NĐ 253 Đ.4.1–4.3). Cư trú → chịu thuế thu nhập toàn cầu, biểu lũy tiến. Không cư trú → 20% trên lương, xem `nguoi-nuoc-ngoai.md`.
 
 ## 2. Biểu thuế lũy tiến từng phần — Luật 109 Đ.9
 
@@ -38,7 +38,10 @@ Thu nhập tính thuế = Thu nhập chịu thuế − (BHXH, BHYT, BHTN, BH tr�
 ### Người phụ thuộc (NĐ 253 Đ.47; TT 87 Đ.3–4)
 - Con <18 tuổi; con ≥18 mất năng lực hành vi/khuyết tật/không có khả năng lao động; con đang học ĐH, CĐ, THCN, học nghề, kể cả ≥18 học phổ thông (tính cả tháng 6–9 chờ kết quả lớp 12) có thu nhập bình quân ≤3tr/tháng.
 - Vợ/chồng; cha mẹ đẻ, dượng, kế, nuôi, cha mẹ vợ/chồng; anh chị em ruột, ông bà, cô dì chú bác ruột, cháu ruột không nơi nương tựa mà NNT trực tiếp nuôi dưỡng.
-- Người trong độ tuổi lao động (không phải con đang học): phải **đồng thời** không có khả năng lao động (suy giảm ≥81%) và thu nhập ≤3tr/tháng. Ngoài tuổi lao động: thu nhập ≤3tr/tháng.
+- Vợ/chồng, cha mẹ (NĐ 253 Đ.47.2.d) và cá nhân khác không nơi nương tựa (Đ.47.2.đ): trong độ tuổi lao động phải **đồng thời** không có khả năng lao động (suy giảm ≥81%, Đ.47.4) và thu nhập bình quân ≤3tr/tháng; ngoài tuổi lao động chỉ cần thu nhập ≤3tr/tháng (Đ.47.3; TT 87 Đ.3.1). Nhóm đ còn phải **đang sống cùng** người nộp thuế và có nghĩa vụ nuôi dưỡng theo Luật HN&GĐ Đ.104–106 (Đ.47.2.đ).
+- Con từ 18 tuổi **khuyết tật** hoặc **mất năng lực hành vi dân sự**: không xét thu nhập, không cần tỷ lệ 81%; hồ sơ là giấy xác nhận khuyết tật/mất năng lực hành vi (Đ.47.2.b; TT 87 Đ.4.1.d). Con từ 18 tuổi **không có khả năng lao động** (kể cả bệnh hiểm nghèo: ung thư, suy thận) phải có giấy tờ suy giảm ≥81% (TT 87 Đ.4.5) — bệnh án đơn thuần như thời TT 111 không còn đủ (Hỏi đáp CSTC 164965, 24/08/2026).
+- Hồ sơ NPT (TT 87 Đ.4): con: khai sinh + CCCD (con nuôi thêm quyết định nuôi con nuôi; con riêng thêm đăng ký kết hôn; con đi học thêm thẻ sinh viên/xác nhận trường); vợ/chồng: CCCD + đăng ký kết hôn; cha mẹ: CCCD + khai sinh NNT (cha mẹ vợ/chồng thêm khai sinh vợ/chồng + đăng ký kết hôn); cá nhân khác: CCCD + bảng kê 07/XN-NPT-TNCN + giấy tờ quan hệ. Cơ quan thuế ưu tiên khai thác CSDL dân cư (Đ.4.9). Mẫu đăng ký: 20-ĐKT tự nộp, hoặc 41/UQ-ĐKT + 20-ĐKT-TH qua nơi chi trả (TT 90 Đ.21.1.b.2–b.3).
+- Chưa trừ đủ 12 tháng bản thân trong năm thì trừ đủ khi quyết toán (Đ.48.1.b). Đăng ký NPT một lần, ổn định các năm sau nếu không thay đổi — không phải đăng ký lại khi chuyển từ ủy quyền sang tự quyết toán (Đ.48.2.a). Đổi người nhận giảm trừ cho cùng một NPT áp dụng từ kỳ sau (Đ.48.2.b). Hạn đăng ký NPT: **trước ngày 31/12** của năm tính thuế (Đ.48.2.a; câu chữ khác TT 111 "chậm nhất 31/12" — nộp sớm cho chắc).
 - Đăng ký NPT kèm hồ sơ chứng minh trước 31/12 năm tính thuế; tính giảm trừ từ tháng phát sinh nghĩa vụ nuôi dưỡng; mỗi NPT chỉ tính vào một NNT (Đ.48.2).
 - Cơ quan thuế ưu tiên khai thác dữ liệu Cổng DVC quốc gia, CSDL quốc gia; NNT chỉ nộp giấy tờ khi dữ liệu không khai thác được (TT 87 Đ.4.9).
 
@@ -63,6 +66,8 @@ Không tính vào thu nhập chịu thuế:
 
 Tính vào thu nhập chịu thuế: thưởng bằng tiền/hiện vật/chứng khoán, lợi ích NSDLĐ chi (dịch vụ thuế cá nhân, giúp việc, lái xe...), phần ăn ca/tiền nhà vượt mức (Đ.8.2.i, k).
 
+Không tính vào thu nhập chịu thuế theo NĐ 253 Đ.8.4 (hay bị hỏi): hỗ trợ khám chữa bệnh hiểm nghèo cho NLĐ và thân nhân (b); xe đưa đón (c); vé máy bay về phép mỗi năm một lần cho NLĐ nước ngoài (e); học phí con NLĐ nước ngoài học tại VN (g); bảo hiểm không bắt buộc, không tích lũy phí (h); đào tạo (i); chi điều động, công tác (k); **hiếu hỉ theo quy chế**, phù hợp mức được trừ TNDN (m); **tiền từ tài chính công đoàn** (n).
+
 ## 7. Thu nhập miễn thuế liên quan người làm công (Luật 109 Đ.4–Đ.5; NĐ 253 Đ.26–Đ.27)
 
 - Toàn bộ tiền lương làm thêm giờ, làm đêm, tiền lương ngày phép không nghỉ — trong giới hạn Bộ luật Lao động; phần vượt giới hạn chịu thuế; NSDLĐ lập bảng kê giờ làm thêm (Đ.4.8; NĐ 253 Đ.26).
@@ -72,10 +77,16 @@ Tính vào thu nhập chịu thuế: thưởng bằng tiền/hiện vật/chứn
 - Miễn 5 năm lương của nhân lực công nghiệp công nghệ số chất lượng cao (dự án trong khu công nghệ số tập trung, R&D chip/AI, đào tạo) và nhân lực công nghệ cao làm R&D công nghệ chiến lược (Đ.5.2–5.3).
 - Giảm thuế tương ứng thiệt hại do thiên tai, dịch bệnh, hỏa hoạn, tai nạn, bệnh hiểm nghèo, không quá số thuế phải nộp (Đ.5.1; NĐ 253 Đ.40) — muốn giảm phải tự quyết toán (Đ.51.3).
 
+- Tiền lương, tiền công thực hiện nhiệm vụ KH&CN và đổi mới sáng tạo: miễn, **dù có hay không dùng ngân sách nhà nước** (Luật 109 Đ.4.17; NĐ 253 Đ.35; CSTC 163079 ngày 25/06/2026). Không ngân sách: nhiệm vụ do doanh nghiệp phê duyệt, hồ sơ (quyết định/thuyết minh, hợp đồng, biên bản nghiệm thu) lưu tại doanh nghiệp.
+
 ## 8. Khấu trừ tại nguồn (NĐ 253 Đ.50)
 
 - HĐLĐ ≥3 tháng: khấu trừ theo biểu lũy tiến trên thu nhập tính thuế tháng.
-- Không ký HĐ hoặc HĐ <3 tháng (kể cả trả sau khi chấm dứt HĐ): khấu trừ **10%** khi chi trả **≥5tr/lần**; <5tr chỉ khấu trừ khi cá nhân yêu cầu. Cá nhân chỉ có loại thu nhập này và ước tính chưa tới mức chịu thuế → nộp bản cam kết theo mẫu văn bản quản lý thuế để tạm không khấu trừ; cuối năm tổ chức vẫn tổng hợp danh sách gửi cơ quan thuế (Đ.50.2).
+- Không ký HĐ hoặc HĐLĐ <3 tháng, **kể cả mọi khoản lương/thu nhập trả cho người đã chấm dứt HĐLĐ** (dù trước đó ký HĐLĐ ≥3 tháng): khấu trừ **10%** khi **mỗi lần** chi trả **≥5tr**; <5tr chỉ khấu trừ khi cá nhân yêu cầu.
+  - Tiêu chí là **ngày chi trả so với ngày chấm dứt HĐLĐ**, theo ngày chứ không theo tháng lương: trả trước ngày chấm dứt → lũy tiến (Đ.46.3); trả từ ngày đã chấm dứt → 10% (Hỏi đáp CSTC 164679 ngày 12/08/2026, 165289 ngày 27/08/2026, 165897 ngày 23/09/2026 — Thuế Đà Nẵng).
+  - Trước khi tính 10%: loại khoản không tính vào thu nhập chịu thuế (ăn ca ≤1,2tr/tháng, Đ.8.2.g) và khoản miễn thuế Luật 109 Đ.4.8 (làm đêm, làm thêm giờ, lương ngày phép chưa nghỉ).
+  - **Hợp đồng thử việc, HĐLĐ đang tạm hoãn**: chưa có hướng dẫn phân xử (CSTC 163760 ngày 16/07/2026 chỉ trích lại Đ.50). Trả lời "hỏi cơ quan thuế quản lý", không tự kết luận.
+  - Hợp đồng khoán việc mà có quản lý, điều hành, giám sát có thể bị coi là HĐLĐ (BLLĐ Đ.13.1); đã khấu trừ 10% không loại trừ nghĩa vụ BHXH (CSTC 164150) — suy luận: khi đó khấu trừ đúng là lũy tiến. Cá nhân chỉ có loại thu nhập này và ước tính chưa tới mức chịu thuế → nộp bản cam kết theo mẫu văn bản quản lý thuế để tạm không khấu trừ; cuối năm tổ chức vẫn tổng hợp danh sách gửi cơ quan thuế (Đ.50.2).
 - Người nước ngoài: ≥183 ngày theo hợp đồng → lũy tiến; <183 ngày → 20% (Đ.50.3.c).
 
 ## 9. Ngưỡng miễn, bù trừ nhỏ (NĐ 252/2026)

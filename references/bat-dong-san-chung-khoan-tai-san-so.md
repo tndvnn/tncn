@@ -20,7 +20,7 @@ Thời điểm tính thuế: hợp đồng có hiệu lực hoặc đăng ký qu
 4. Đất được Nhà nước giao; chuyển đổi đất nông nghiệp của hộ gia đình (Luật 109 Đ.4.3, Đ.4.5).
 
 ### Cho thuê bất động sản
-Thu nhập từ kinh doanh, thuế = 5% × phần doanh thu vượt ngưỡng 1 tỷ/năm (Luật 109 Đ.7.4; NĐ 68/2026 Đ.4.3 sửa bởi NĐ 141/2026). Nhiều hợp đồng ở nhiều nơi: được chọn hợp đồng để trừ ngưỡng, tổng không quá 1 tỷ (NĐ 68 Đ.4.3.a).
+Thu nhập từ kinh doanh, thuế = 5% × phần doanh thu vượt ngưỡng 1 tỷ/năm (Luật 109 Đ.7.4; NĐ 68/2026 Đ.4.4 sửa bởi NĐ 141/2026). Nhiều hợp đồng ở nhiều nơi: được chọn hợp đồng để trừ ngưỡng, tổng không quá 1 tỷ (NĐ 68 Đ.4.4.a).
 
 ## 2. Chuyển nhượng vốn góp — 20% trên lãi (Luật 109 Đ.13.1)
 
@@ -65,3 +65,5 @@ Trừ trúng thưởng trong casino (Đ.3.6.d).
 ## 10. Thu nhập khác — 5% phần vượt 20tr (Đ.19.1)
 
 Tên miền .vn, tín chỉ carbon (chuyển nhượng lần đầu được miễn — Đ.4.16), biển số xe trúng đấu giá (trừ giá trị còn lại của xe theo giá trước bạ — NĐ 253 Đ.62.1).
+
+- Cổ phần trong công ty cổ phần chưa đại chúng, chưa in chứng chỉ (chỉ ghi sổ cổ đông): chuyển nhượng **chứng khoán 0,1%** — suy luận từ NĐ 253 Đ.10.2 + Luật DN Đ.121.1; CSTC 164954 (15/08/2026) không phản bác, ghi "kế thừa quy định trước đây".

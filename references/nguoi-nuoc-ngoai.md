@@ -146,6 +146,12 @@ Nếu J **đăng ký thuế cho hoạt động kinh doanh** tại Việt Nam th�
 ### Câu hỏi phải hỏi trước khi trả lời digital nomad
 Ngày đến; đã thuê chỗ ở bao nhiêu ngày tính đến nay; dự định ở tiếp không; đã đăng ký thuế/kinh doanh ở Việt Nam chưa; thu nhập nào nhận từ đâu; nước quê có Hiệp định với Việt Nam không.
 
+## 5c. Điểm bổ sung từ hỏi đáp cơ quan thuế 2026
+
+- **Kỳ ≤2025** vẫn theo Luật 04/2007, NĐ 65/2013, TT 111/2013 (Luật 109 Đ.29.2; NĐ 253 Đ.69.1.a); thủ tục nộp sau 01/07/2026 theo NĐ 252, TT 89. Vế thẻ tạm trú đã có ở cả TT 111 và NĐ 253 Đ.4.2.a — Thuế Tây Ninh (CSTC 164630, 11/08/2026) trả lời bỏ sót vế này, skill đúng hơn.
+- Kỳ đầu 12 tháng liên tục: cá nhân **tự quyết toán** — suy luận từ vị trí quy định tại NĐ 252 Đ.10.5.c (NĐ 126/2020 Đ.8.6.d.3 cũ nói rõ). Lần nhập cảnh ngắn ở năm trước, ngoài cửa sổ 12 tháng, không ảnh hưởng.
+- Người nước ngoài nhập quốc tịch Việt Nam: MST là số định danh cá nhân; cập nhật số định danh cho MST 10 số cũ (TT 90 Đ.5.2.a, Đ.37.4; thay đổi thông tin Đ.23.4). Tình trạng cư trú thuế không phụ thuộc quốc tịch (CSTC 163327, 06/07/2026).
+
 ## 6. Cá nhân không cư trú — thuế suất (Luật 109 Đ.20–Đ.27)
 
 | Loại thu nhập | Thuế suất | Cơ sở tính |

@@ -5,7 +5,7 @@ description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **24/09/2026** (v2.4.0). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **24/09/2026** (v2.4.1). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
@@ -17,6 +17,8 @@ Khi kiểm tra, đối chiếu hay cập nhật văn bản pháp luật, **chỉ
 - Các trang đó làm SEO để kiếm tiền: mỗi bài là văn bản gốc **cộng thêm nhận định của người viết**. Model đọc vào rất dễ lấy luôn nhận định đó làm câu trả lời, tưởng là luật.
 - Phần lớn bài trong top 10 kết quả tìm kiếm là bài cũ (viết cho TT 111/2013, NĐ 126/2020, Luật 04/2007, mức giảm trừ 11 triệu…), được cập nhật tiêu đề để giữ thứ hạng nhưng nội dung đã hết hiệu lực từ 01/07/2026. Trích theo là sai hàng loạt.
 - Chúng không có giá trị pháp lý; cơ quan thuế không chấp nhận "theo thuvienphapluat" làm căn cứ.
+
+Hỏi đáp CSTC (portal.mof.gov.vn) và gdt.gov.vn là nguồn chính chủ nhưng **không phải văn bản quy phạm**: nhiều cơ quan thuế tỉnh vẫn dẫn TT 111/2013, NĐ 126/2020, TT 86/2024 sau 01/07/2026 và có câu dẫn sai điểm. Chỉ dùng kết luận của họ khi văn bản họ trích còn hiệu lực cho kỳ đang hỏi; khi trích ghi ID câu hỏi và ngày trả lời.
 
 Nếu chỉ tìm thấy thông tin ở nguồn không chính chủ: được dùng **duy nhất** để lấy số hiệu và ngày ban hành, rồi phải mở văn bản trên vbpl.vn/chinhphu.vn để đọc điều khoản gốc. Không mở được bản gốc thì trả lời theo data của skill và ghi rõ "có thông tin về [số hiệu] theo nguồn thứ cấp (TC), chưa đối chiếu được bản chính chủ" — không được trình bày nội dung thứ cấp như luật.
 
@@ -50,7 +52,7 @@ Nếu chỉ tìm thấy thông tin ở nguồn không chính chủ: được dù
 | Lịch hạn nộp 9/2026 → 4/2027, quy tắc nhắc chủ động, mức phạt chậm nộp | `references/lich-han-nop-2026-2027.md` |
 | 5 câu trả lời mẫu (lương, Shopee phải hỏi lại, expat tiếng Anh, từ chối tin đồn, đã quá hạn) | `references/vi-du-hoi-dap-mau.md` |
 | Tự kiểm tra luật mới: nguồn chính chủ vbpl.vn, chinhphu.vn, mof.gov.vn, gdt.gov.vn; 3 câu hỏi hiệu lực; cách dùng kết quả | `references/quy-trinh-tu-cap-nhat-luat.md` |
-| 27 câu hỏi thường gặp có điều khoản | `references/faq.md` |
+| 29 câu hỏi thường gặp + bảng hỏi đáp chính thức đã đối chiếu | `references/faq.md` |
 | Lịch sử sửa đổi | `references/changelog.md` |
 
 ## Số liệu nhanh (đã kiểm chứng toàn văn)

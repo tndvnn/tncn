@@ -57,6 +57,12 @@ Sửa so với bản gốc:
 - README: bảng cài đặt cho Claude Code, claude.ai, Codex CLI (.agents/skills, $skill-installer), Gemini CLI (.gemini/skills, /skills list), OpenClaw (openclaw skills install git:tndvnn/tncn), Hermes Agent (hermes skills install URL SKILL.md), Cursor/Antigravity, ChatGPT Project.
 - Thêm **Quy tắc nguồn** vào SKILL.md, AGENTS.md, GEMINI.md, README và quy trình tự cập nhật: chỉ kiểm tra luật ở vbpl.vn, chinhphu.vn, mof.gov.vn, gdt.gov.vn, quochoi.vn; cấm lấy kết luận từ thuvienphapluat.vn, luatvietnam.vn và trang SEO pháp luật (chèn nhận định riêng, phần lớn bài top đã lỗi thời); nguồn thứ cấp chỉ dùng lấy số hiệu rồi phải mở bản gốc; thêm portal.mof.gov.vn/hoidapcstc làm nguồn thực tiễn cơ quan thuế.
 
+## 24/09/2026 — v2.4.1 — đối chiếu 34 câu hỏi đáp chính thức của cơ quan thuế 2026
+
+- Sửa: điều kiện NPT (NĐ 253 Đ.47.2–47.4: con ≥18 khuyết tật không xét thu nhập/81%; nhóm cá nhân khác phải sống cùng), hồ sơ NPT TT 87 Đ.4, mẫu 20-ĐKT/41/UQ-ĐKT; mẫu 1 trong `vi-du-hoi-dap-mau.md` (257.500đ, trước ghi nhầm 132.000đ); số điều NĐ 68 (Đ.4.5.d, Đ.11.3, Đ.4.4, Đ.8.5.b) và căn cứ khai từng lần (NĐ 252 Đ.10.1); forex chưa xác định loại thu nhập.
+- Thêm: lương trả sau nghỉ việc xét theo ngày chi trả (CSTC 164679, 165289, 165897); thử việc/tạm hoãn chưa có căn cứ; khoán việc có quản lý có thể là HĐLĐ; danh sách NĐ 253 Đ.8.4 (hiếu hỉ, công đoàn…); miễn thuế nhiệm vụ KH&CN không dùng ngân sách; GTGT hộ tính trên toàn bộ doanh thu là thực tiễn cơ quan thuế, ngưỡng TNCN trừ lũy kế quý; HĐĐT từng lần bán, 01/BK-HTK, chủ nhà tự xây; cổ phần chưa in chứng chỉ 0,1%; kỳ ≤2025, kỳ đầu 12 tháng tự quyết toán, nhập quốc tịch VN; FAQ 28, 29 và bảng hỏi đáp chính thức đã đối chiếu.
+- SKILL.md: hỏi đáp cơ quan thuế không phải VBQPPL, phải kiểm tra văn bản họ trích còn hiệu lực.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

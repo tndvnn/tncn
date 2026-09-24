@@ -83,3 +83,24 @@ Rồi. Cá nhân cư trú chịu thuế không phân biệt nơi trả và nhậ
 **27. Tôi là freelancer Mỹ, sang Việt Nam sống, còn nhà ở Mỹ cho thuê. Ở bao lâu thì phải đóng thuế và đóng thế nào?**
 Ở đủ 183 ngày (đếm cả 12 tháng liên tục từ ngày đến) hoặc thuê chỗ ở tổng cộng đủ 183 ngày trong năm (kể cả Airbnb, khách sạn) là cá nhân cư trú, hồi tố từ ngày đến, chịu thuế toàn bộ thu nhập trong và ngoài Việt Nam (NĐ 253 Đ.4, Đ.6.2.a, Đ.66.1.a). Freelance chưa đăng ký kinh doanh là tiền công, biểu lũy tiến tới 35% (Đ.8.2.c); tiền thuê nhà ở Mỹ là kinh doanh cho thuê bất động sản, 5% trên phần vượt 1 tỷ/năm (Luật 109 Đ.7.4), dưới 1 tỷ không thuế. Thuế đã nộp ở Mỹ không trừ được vì chưa có Hiệp định (Đ.6.3). Tự khai quý 02/KK-TNCN, quyết toán 02/QTT-TNCN. Ví dụ tính đầy đủ ở `nguoi-nuoc-ngoai.md` mục 5b.
 
+**28. Cộng tác viên nhận hoa hồng bán hàng cho công ty thì công ty khấu trừ thế nào?**
+Chưa đăng ký thuế kinh doanh: hoa hồng là tiền công (NĐ 253 Đ.8.2.c), công ty khấu trừ 10% khi mỗi lần chi trả từ **5 triệu** (Đ.50.2); cả năm ước chưa tới mức chịu thuế thì nộp cam kết để tạm không khấu trừ. Đã đăng ký kinh doanh: thu nhập kinh doanh (Đ.7.3–7.4), công ty không khấu trừ trừ khi là hợp đồng môi giới/đại lý (Đ.67.4.a). Lưu ý: Thuế Hà Nội (CSTC 163301, 01/07/2026) còn dẫn TT 111 với mức 2 triệu — đã hết hiệu lực cho kỳ 2026.
+
+**29. Nghỉ việc rồi công ty mới trả nốt lương, có bị khấu trừ 10% không?**
+Xét theo **ngày chi trả so với ngày chấm dứt hợp đồng**: trả trước ngày chấm dứt → khấu trừ lũy tiến; trả từ ngày đã chấm dứt → 10% nếu lần chi trả ≥5 triệu, sau khi loại ăn ca ≤1,2 triệu và các khoản miễn thuế Đ.4.8 (NĐ 253 Đ.50.2; Hỏi đáp CSTC 165289, 165897 — Thuế Đà Nẵng). Cuối năm tự quyết toán để bù trừ nếu khấu trừ thừa.
+
+## Hỏi đáp chính thức đã đối chiếu với skill (portal.mof.gov.vn/hoidapcstc, 2026)
+
+| ID | Ngày | Kết luận cơ quan thuế | Skill |
+|---|---|---|---|
+| 163079 | 25/06 | Miễn thuế lương nhiệm vụ KH&CN kể cả không dùng ngân sách | đã bổ sung |
+| 163301 | 01/07 | CTV hoa hồng: khấu trừ 10% (Thuế HN còn dẫn TT 111, mức 2tr — lỗi thời) | FAQ 28 |
+| 163327 | 06/07 | Nhập quốc tịch VN: MST theo số định danh; cư trú không phụ thuộc quốc tịch | mục 5c |
+| 163410 | 08/07 | Forex sàn nước ngoài: chưa có quy định, đang xin ý kiến | đã sửa |
+| 163760 | 16/07 | Thử việc/tạm hoãn HĐ: chỉ trích lại Đ.50, không phân xử | ghi "chưa có căn cứ" |
+| 164343 | 07/08 | Chủ nhà tự xây nhà: không phải NNT | đã bổ sung |
+| 164630 | 11/08 | Cư trú thuế người nước ngoài (bỏ sót vế thẻ tạm trú) | skill đúng hơn |
+| 164679, 165289, 165897 | 08–09 | Lương trả sau nghỉ việc: xét theo ngày chi trả, ngưỡng 5tr/lần | FAQ 29 |
+| 164954 | 15/08 | Cổ phần CTCP chưa in chứng chỉ: kế thừa quy định trước | đã bổ sung |
+| 164965 | 24/08 | NPT bệnh hiểm nghèo phải có giấy suy giảm ≥81%; con khuyết tật chỉ cần giấy xác nhận | đã sửa |
+

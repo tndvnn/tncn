@@ -10,7 +10,7 @@ Mỗi câu trả lời đi theo khung: **Kết luận → Cách tính → Căn c
 
 **Đáp:**
 
-Thuế tạm khấu trừ khoảng **132.000đ/tháng**, giả định bảo hiểm đóng trên đủ 30 triệu và đã đăng ký người phụ thuộc.
+Thuế tạm khấu trừ **257.500đ/tháng**, giả định bảo hiểm đóng trên đủ 30 triệu và đã đăng ký người phụ thuộc.
 
 Cách tính:
 - Bảo hiểm bắt buộc phần bạn đóng 10,5% × 30tr = 3.150.000
