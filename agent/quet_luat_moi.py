@@ -48,7 +48,7 @@ WATCHLIST = [
     "245/2026/NĐ-CP", "181/2025/NĐ-CP", "125/2020/NĐ-CP", "310/2025/NĐ-CP", "291/2026/NĐ-CP",
     "161/2026/NĐ-CP", "293/2025/NĐ-CP", "137/2026/NĐ-CP", "284/2026/NĐ-CP", "283/2026/NĐ-CP",
     "103/2026/NĐ-CP", "87/2026/TT-BTC", "89/2026/TT-BTC", "90/2026/TT-BTC", "95/2026/TT-BTC",
-    "18/2026/TT-BTC", "50/2026/TT-BTC", "94/2026/TT-BTC",
+    "18/2026/TT-BTC", "50/2026/TT-BTC", "94/2026/TT-BTC", "254/2026/NĐ-CP", "91/2026/TT-BTC",
 ]
 RE_SO_HIEU_WATCH = re.compile("|".join(re.escape(w) for w in WATCHLIST))  # so cả số + năm + loại, tránh khớp 109/2026/QĐ-UBND
 RE_DIA_PHUONG = re.compile(r"UBND|HĐND|Hội đồng nhân dân|Ủy ban nhân dân|Uỷ ban nhân dân", re.I)
