@@ -26,8 +26,8 @@ Khi nào thành cá nhân cư trú và chịu thuế thu nhập toàn cầu (183
 ### Văn bản pháp luật và mốc hiệu lực
 Luật thuế thu nhập cá nhân 2025 (Luật 109/2025/QH15), Nghị định 253/2026, Thông tư 87/2026, lịch hạn nộp đến 30/04/2027, dự thảo đang lấy ý kiến, văn bản đã hết hiệu lực không được trích.
 
-### Tự kiểm tra luật mới, nhắc hạn, chạy trên nhiều AI
-AI có web search phải tra vbpl.vn, chinhphu.vn, gdt.gov.vn xem văn bản định trích đã bị sửa hay thay thế chưa trước khi trả lời; không có web search thì phải nói rõ data đến ngày nào. Mỗi câu trả lời nêu hạn đã quá và hạn sắp tới trong 60 ngày của đúng nhóm người hỏi, kèm mức phạt chậm nộp. Có `AGENTS.md`, `GEMINI.md` và 5 câu trả lời mẫu để Claude, Codex, Gemini CLI, Cursor giữ đúng định dạng.
+### Tự kiểm tra luật mới ở nguồn chính chủ, nhắc hạn, chạy trên nhiều AI
+AI có web search phải tra vbpl.vn, chinhphu.vn, mof.gov.vn, gdt.gov.vn xem văn bản định trích đã bị sửa hay thay thế chưa trước khi trả lời; không có web search thì phải nói rõ data đến ngày nào. Skill **cấm** AI lấy kết luận từ thuvienphapluat.vn, luatvietnam.vn và các trang SEO pháp luật: các trang này chèn nhận định của người viết bên cạnh văn bản, và phần lớn bài trên top tìm kiếm là bài cũ được sửa tiêu đề, nội dung đã hết hiệu lực từ 01/07/2026. AI không bị ép thì sẽ tự tìm đến các trang đó và chép luôn nhận định của họ thành câu trả lời. Mỗi câu trả lời nêu hạn đã quá và hạn sắp tới trong 60 ngày của đúng nhóm người hỏi, kèm mức phạt chậm nộp. Có `AGENTS.md`, `GEMINI.md` và 5 câu trả lời mẫu để Claude, Codex, Gemini CLI, Cursor giữ đúng định dạng.
 
 Không cover: thuế TNDN, thuế xuất nhập khẩu, BHXH rút một lần, trợ cấp thất nghiệp.
 
@@ -96,7 +96,7 @@ Built for Vietnamese residents and for foreigners living, working or doing busin
 - Real estate 2%, securities and derivatives 0.1%, capital transfer 20%, digital assets 0.1%, gold bars, inheritance, royalties.
 - **Tax residency and expat tax**: when a foreigner becomes a Vietnamese tax resident taxed on worldwide income (183 days or a permanent place of residence, including hotel stays and housing provided at the workplace, Decree 253/2026 Art. 4), Vietnamese salary plus a remote salary from home, quarterly self-filing on form 02/KK-TNCN and mandatory direct finalization, industrial-zone workers, a US digital nomad with freelance income and a rental property back home, foreign tax credit under tax treaties (Circular 95/2026, in force 1 July 2026), Vietnamese certificate of residence, mutual agreement procedure.
 - Timeline of legal documents, drafts and repealed documents.
-- **Checks for newer law before answering**: an AI with web search must look up vbpl.vn, chinhphu.vn and gdt.gov.vn to see whether a document has been amended or replaced; without web search it must state the data date.
+- **Checks for newer law before answering, official sources only**: an AI with web search must look up vbpl.vn, chinhphu.vn, mof.gov.vn and gdt.gov.vn to see whether a document has been amended or replaced; without web search it must state the data date. The skill **forbids** taking conclusions from thuvienphapluat.vn, luatvietnam.vn and similar legal-SEO sites: they wrap the law in the author's own commentary, and most of their top-ranking pages are old articles with refreshed titles whose content expired on 1 July 2026. Left unconstrained, an AI drifts to those pages and copies their opinions as answers.
 - **Proactive deadline reminders**: every answer lists overdue and upcoming (60-day) deadlines for the user's situation, with late-filing penalties.
 - Works on Claude, Claude Code, Codex, Gemini CLI and Cursor: `AGENTS.md`, `GEMINI.md` and five model answers keep the output format stable across models.
 

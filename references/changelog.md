@@ -54,6 +54,7 @@ Sửa so với bản gốc:
 - Thêm `quy-trinh-tu-cap-nhat-luat.md` (nguồn chính chủ, 3 câu hỏi hiệu lực, cách dùng kết quả, cách gửi PR), `vi-du-hoi-dap-mau.md` (5 mẫu: lương, Shopee hỏi lại, expat tiếng Anh, từ chối tin đồn, đã quá hạn), `AGENTS.md` + `GEMINI.md` cho Codex/Gemini/Cursor.
 - Viết lại `lich-han-nop-2026-2027.md`: quy tắc nhắc chủ động, bảng khai quý 02/KK-TNCN cho lương trả từ nước ngoài, thứ trong tuần và ngày lùi (02/11/2026, 01/02/2027), quy tắc suy hạn NĐ 252 Đ.10, mức phạt chậm nộp NĐ 125 Đ.13 (cá nhân bằng một nửa, Đ.5.5), 0,03%/ngày, Luật 108 Đ.44.2.a.
 - Đổi tên skill và repo thành `tncn` (github.com/tndvnn/tncn).
+- Thêm **Quy tắc nguồn** vào SKILL.md, AGENTS.md, GEMINI.md, README và quy trình tự cập nhật: chỉ kiểm tra luật ở vbpl.vn, chinhphu.vn, mof.gov.vn, gdt.gov.vn, quochoi.vn; cấm lấy kết luận từ thuvienphapluat.vn, luatvietnam.vn và trang SEO pháp luật (chèn nhận định riêng, phần lớn bài top đã lỗi thời); nguồn thứ cấp chỉ dùng lấy số hiệu rồi phải mở bản gốc; thêm portal.mof.gov.vn/hoidapcstc làm nguồn thực tiễn cơ quan thuế.
 
 ## Kiểm tra định kỳ
 
