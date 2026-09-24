@@ -9,9 +9,20 @@ Data cập nhật: **24/09/2026** (v2.4.0). Mọi con số trong `references/` �
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
+## Quy tắc nguồn (bắt buộc, không có ngoại lệ)
+
+Khi kiểm tra, đối chiếu hay cập nhật văn bản pháp luật, **chỉ dùng nguồn chính chủ**: `vbpl.vn` (CSDL quốc gia về VBQPPL, Bộ Tư pháp), `congbao.chinhphu.vn`, `vanban.chinhphu.vn`, `xaydungchinhsach.chinhphu.vn` (Văn phòng Chính phủ), `vbpq.mof.gov.vn` (Bộ Tài chính), `gdt.gov.vn` và `portal.mof.gov.vn/hoidapcstc` (Cục Thuế, Bộ Tài chính), `quochoi.vn`. Web search phải giới hạn bằng `site:` vào các tên miền này.
+
+**Cấm** lấy kết luận từ thuvienphapluat.vn, luatvietnam.vn, luatminhkhue, các trang "hỏi đáp pháp luật", blog kế toán, báo, mạng xã hội, video. Lý do, phải nhớ:
+- Các trang đó làm SEO để kiếm tiền: mỗi bài là văn bản gốc **cộng thêm nhận định của người viết**. Model đọc vào rất dễ lấy luôn nhận định đó làm câu trả lời, tưởng là luật.
+- Phần lớn bài trong top 10 kết quả tìm kiếm là bài cũ (viết cho TT 111/2013, NĐ 126/2020, Luật 04/2007, mức giảm trừ 11 triệu…), được cập nhật tiêu đề để giữ thứ hạng nhưng nội dung đã hết hiệu lực từ 01/07/2026. Trích theo là sai hàng loạt.
+- Chúng không có giá trị pháp lý; cơ quan thuế không chấp nhận "theo thuvienphapluat" làm căn cứ.
+
+Nếu chỉ tìm thấy thông tin ở nguồn không chính chủ: được dùng **duy nhất** để lấy số hiệu và ngày ban hành, rồi phải mở văn bản trên vbpl.vn/chinhphu.vn để đọc điều khoản gốc. Không mở được bản gốc thì trả lời theo data của skill và ghi rõ "có thông tin về [số hiệu] theo nguồn thứ cấp (TC), chưa đối chiếu được bản chính chủ" — không được trình bày nội dung thứ cấp như luật.
+
 ## Quy trình trả lời
 
-**Bước 0 — kiểm tra văn bản mới trước khi trả lời (bắt buộc).** Nếu hôm nay đã qua ngày "Data cập nhật" ở trên và bạn có web search: trước khi trích một văn bản, tra `site:vbpl.vn "<số hiệu>"` xem trạng thái hiệu lực và tab "Lược đồ" có văn bản sửa đổi/thay thế mới hơn không; tra thêm `site:chinhphu.vn` / `site:gdt.gov.vn` cho nghị định, công văn mới về thuế TNCN. Có văn bản mới → trả lời theo văn bản mới và nói rõ skill đã lỗi thời ở điểm nào. Không có web search → ghi trong câu trả lời: "Data đến 24/09/2026, chưa kiểm tra được văn bản mới hơn". Chi tiết và danh sách nguồn chính chủ: `references/quy-trinh-tu-cap-nhat-luat.md`. Không được bỏ bước này bằng cách đoán "chắc chưa có gì mới".
+**Bước 0 — kiểm tra văn bản mới trước khi trả lời (bắt buộc).** Nếu hôm nay đã qua ngày "Data cập nhật" ở trên và bạn có web search: trước khi trích một văn bản, tra **chỉ ở nguồn chính chủ** `site:vbpl.vn "<số hiệu>"` xem trạng thái hiệu lực và tab "Lược đồ" có văn bản sửa đổi/thay thế mới hơn không; tra thêm `site:chinhphu.vn` / `site:gdt.gov.vn` cho nghị định, công văn mới về thuế TNCN. Có văn bản mới → trả lời theo văn bản mới và nói rõ skill đã lỗi thời ở điểm nào. Không có web search → ghi trong câu trả lời: "Data đến 24/09/2026, chưa kiểm tra được văn bản mới hơn". Chi tiết và danh sách nguồn chính chủ: `references/quy-trinh-tu-cap-nhat-luat.md`. Không được bỏ bước này bằng cách đoán "chắc chưa có gì mới".
 
 0b. **Trả lời bằng ngôn ngữ người hỏi dùng** (tiếng Anh nếu hỏi bằng tiếng Anh); tên văn bản giữ số hiệu gốc kèm dịch nghĩa ngắn (vd "Decree 253/2026/NĐ-CP").
 

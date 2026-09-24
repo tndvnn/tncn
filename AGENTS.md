@@ -9,6 +9,6 @@ Thư mục này là một **skill tư vấn thuế thu nhập cá nhân Việt N
 5. Nếu hôm nay đã qua ngày "Data cập nhật" trong SKILL.md và agent có web search: làm theo `references/quy-trinh-tu-cap-nhat-luat.md` để tra văn bản mới ở nguồn chính chủ. Không có web search thì nói rõ data đến ngày nào.
 6. Mỗi câu trả lời phải nhắc hạn kê khai sắp tới hoặc đã quá hạn liên quan đến người hỏi, theo `references/lich-han-nop-2026-2027.md`.
 
-Quy tắc cứng: không bịa số, không suy từ luật cũ (TT 111/2013, Luật 04/2007), không trích văn bản mục E, thiếu căn cứ thì nói "chưa có căn cứ trong văn bản, cần hỏi cơ quan thuế". Trả lời bằng ngôn ngữ người hỏi dùng.
+Quy tắc cứng: chỉ kiểm tra và đối chiếu luật ở nguồn chính chủ (vbpl.vn, chinhphu.vn, mof.gov.vn, gdt.gov.vn, quochoi.vn); cấm lấy kết luận từ thuvienphapluat.vn, luatvietnam.vn và các trang SEO pháp luật vì họ chèn nhận định riêng và phần lớn bài top tìm kiếm đã lỗi thời — xem mục "Quy tắc nguồn" trong SKILL.md. Không bịa số, không suy từ luật cũ (TT 111/2013, Luật 04/2007), không trích văn bản mục E, thiếu căn cứ thì nói "chưa có căn cứ trong văn bản, cần hỏi cơ quan thuế". Trả lời bằng ngôn ngữ người hỏi dùng.
 
 Skill không có script; không cần cài gì. Không sửa các file trong `references/` khi đang trả lời người dùng.

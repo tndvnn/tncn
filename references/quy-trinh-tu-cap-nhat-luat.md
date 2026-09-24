@@ -13,7 +13,15 @@ Skill này là ảnh chụp pháp luật đến ngày ghi trong SKILL.md. Luật
 | `gdt.gov.vn` (kể cả `thuedientu.gdt.gov.vn`, `canhan.gdt.gov.vn`) | Cục Thuế | Công văn hướng dẫn, hỏi đáp chính sách thuế, danh sách Hiệp định thuế, danh sách nhà cung cấp nước ngoài đã đăng ký, mẫu biểu | `site:gdt.gov.vn "từ khóa"` |
 | `quochoi.vn`, `duthaoonline.quochoi.vn` | Quốc hội | Luật, nghị quyết Quốc hội; dự thảo luật | |
 
-Trang tổng hợp thương mại (thuvienphapluat.vn, luatvietnam.vn, thuvienphapluat "hỏi đáp") chỉ dùng để **tìm số hiệu và ngày** rồi bắt buộc quay về nguồn chính chủ đối chiếu toàn văn. Báo chí, blog kế toán, Facebook, TikTok chỉ là gợi ý; nếu dùng phải gắn nhãn **TC** (nguồn thứ cấp) trong câu trả lời.
+### Vì sao cấm dùng thuvienphapluat.vn, luatvietnam.vn và các trang SEO pháp luật làm căn cứ
+
+1. **Họ bán SEO, không bán luật.** Mỗi bài là văn bản gốc kèm phần "phân tích", "lưu ý", "như vậy…" của người viết để bài dài và lên top. Model đọc cả khối đó và rất hay lấy kết luận của người viết làm kết luận của mình. Người dùng skill này đã nhiều lần nhận câu trả lời sai vì AI chép nhận định của trang SEO.
+2. **Phần lớn bài trên top 10 đã lỗi thời.** Bài viết cho TT 111/2013, NĐ 126/2020, Luật 04/2007, giảm trừ 11 triệu, thuế khoán… vẫn xếp hạng cao nhờ tuổi domain và được sửa tiêu đề "2026" mà không sửa nội dung. Từ 01/07/2026 gần như toàn bộ khung TNCN đã đổi, nên trích theo các bài này là sai có hệ thống.
+3. **Không có giá trị pháp lý.** Cơ quan thuế chỉ làm việc trên văn bản gốc và công văn của chính họ.
+
+Cách dùng được phép, duy nhất: lấy **số hiệu và ngày ban hành** từ các trang đó, rồi mở văn bản gốc trên vbpl.vn/chinhphu.vn/mof.gov.vn để đọc điều khoản. Không mở được bản gốc → trả lời theo data của skill và ghi "có thông tin về [số hiệu] theo nguồn thứ cấp (TC), chưa đối chiếu được bản chính chủ". Báo chí, blog kế toán, Facebook, TikTok, video: chỉ là gợi ý để đi tìm văn bản gốc, không bao giờ là căn cứ.
+
+Trang hỏi đáp chính chủ được dùng làm thực tiễn cơ quan thuế: `portal.mof.gov.vn/hoidapcstc` (Bộ Tài chính trả lời, có ngày), `gdt.gov.vn` mục Hỏi đáp/Câu hỏi hướng dẫn, và các hội nghị đối thoại đăng trên gdt.gov.vn. Khi trích phải ghi ngày trả lời và kiểm tra câu trả lời đó dẫn văn bản còn hiệu lực hay đã cũ (nhiều câu trả lời năm 2025 dẫn NĐ 126/2020, TT 111/2013 đã hết hiệu lực).
 
 ## 2. Ba câu hỏi phải trả lời trước khi trích một văn bản
 
