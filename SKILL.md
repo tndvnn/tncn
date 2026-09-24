@@ -1,24 +1,27 @@
 ---
 name: tncn
-description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026, TT 95/2026 (Hiệp định thuế). Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, rút lợi nhuận LLC Mỹ về, người nước ngoài cư trú chịu thuế thu nhập toàn cầu, lương VN + lương remote nước ngoài, thuế crypto, Vietnam personal income tax for expats/foreigners/digital nomads (tax residency 183 days, worldwide income, US rental income, double taxation treaty, PIT finalization), thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
+description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 2026 (tiền lương, quyết toán, người phụ thuộc, giảm trừ y tế/giáo dục, hộ kinh doanh, freelancer/KOL/seller, sàn TMĐT, bất động sản, chứng khoán, tài sản số, người nước ngoài) theo Luật 109/2025/QH15, Luật 09/2026/QH16, NĐ 253/2026, TT 87/2026, NĐ 252/2026, TT 89/2026, NĐ 68/2026 + NĐ 141/2026, NQ 43/2026/QH16, NĐ 245/2026, TT 95/2026 (Hiệp định thuế). Dùng khi hỏi về thuế TNCN, quyết toán, giảm trừ gia cảnh, thuế hộ kinh doanh, thuế bán hàng online, thuế YouTube/AdSense/MMO/freelancer/Upwork/affiliate/POD nhận tiền từ nước ngoài, rút lợi nhuận LLC Mỹ về, người nước ngoài cư trú chịu thuế thu nhập toàn cầu, lương VN + lương remote nước ngoài, thuế crypto, hạn nộp và phạt chậm nộp, tự kiểm tra luật thuế mới trên vbpl.vn, Vietnam personal income tax for expats/foreigners/digital nomads (tax residency 183 days, worldwide income, US rental income, double taxation treaty, PIT finalization), thuế nhà đất, hạn nộp thuế, luật thuế mới 2026.
 ---
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **24/09/2026** (v2.3.0). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **24/09/2026** (v2.4.0). Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
 ## Quy trình trả lời
 
-0. **Trả lời bằng ngôn ngữ người hỏi dùng** (tiếng Anh nếu hỏi bằng tiếng Anh); tên văn bản giữ số hiệu gốc kèm dịch nghĩa ngắn (vd "Decree 253/2026/NĐ-CP").
+**Bước 0 — kiểm tra văn bản mới trước khi trả lời (bắt buộc).** Nếu hôm nay đã qua ngày "Data cập nhật" ở trên và bạn có web search: trước khi trích một văn bản, tra `site:vbpl.vn "<số hiệu>"` xem trạng thái hiệu lực và tab "Lược đồ" có văn bản sửa đổi/thay thế mới hơn không; tra thêm `site:chinhphu.vn` / `site:gdt.gov.vn` cho nghị định, công văn mới về thuế TNCN. Có văn bản mới → trả lời theo văn bản mới và nói rõ skill đã lỗi thời ở điểm nào. Không có web search → ghi trong câu trả lời: "Data đến 24/09/2026, chưa kiểm tra được văn bản mới hơn". Chi tiết và danh sách nguồn chính chủ: `references/quy-trinh-tu-cap-nhat-luat.md`. Không được bỏ bước này bằng cách đoán "chắc chưa có gì mới".
+
+0b. **Trả lời bằng ngôn ngữ người hỏi dùng** (tiếng Anh nếu hỏi bằng tiếng Anh); tên văn bản giữ số hiệu gốc kèm dịch nghĩa ngắn (vd "Decree 253/2026/NĐ-CP").
 
 1. **Xác định loại thu nhập** trước khi tính: tiền lương (HĐLĐ ≥3 tháng) / tiền công vãng lai (khấu trừ 10%) / kinh doanh (HKD, freelancer, KOL, seller, cho thuê) / từng lần phát sinh (BĐS, chứng khoán, vốn, tài sản số, thừa kế). Một người có nhiều loại → xử lý từng loại theo cơ chế riêng, không cộng gộp.
 2. **Xác định cư trú** nếu là người nước ngoài hoặc có thu nhập từ nước ngoài.
 3. **Mở đúng file** trong bảng dưới. Hỏi các câu bắt buộc ở đầu file `quyet-toan-thue.md` trước khi đưa hướng dẫn quyết toán.
 4. **Tính từng bước**: tách BHBB, giảm trừ, từng bậc thuế; dùng biểu năm khi quyết toán, biểu tháng khi khấu trừ. Kết quả ghi rõ giả định.
 5. **Kiểm tra hiệu lực**: chỉ trích văn bản trong `van-ban-va-hieu-luc-2026.md` mục A–C; mục D là dự thảo, phải nói "chưa có hiệu lực"; mục E đã hết hiệu lực, không trích.
-6. **Đầu ra**: kết luận → cách tính → điều khoản → việc phải làm + hạn → disclaimer.
+6. **Nhắc hạn chủ động**: xác định hôm nay, nhóm người hỏi, rồi nêu hạn đã quá (kèm hệ quả) và hạn sắp tới trong 60 ngày theo `references/lich-han-nop-2026-2027.md` mục 0. Không có ngày hôm nay thì ghi giả định.
+7. **Đầu ra**: kết luận → cách tính → điều khoản → việc phải làm + hạn → nhắc hạn sắp tới → disclaimer. Định dạng và giọng văn theo `references/vi-du-hoi-dap-mau.md`.
 
 ## File tham chiếu
 
@@ -33,7 +36,9 @@ Data cập nhật: **24/09/2026** (v2.3.0). Mọi con số trong `references/` �
 | BĐS, vốn, chứng khoán, phái sinh, tài sản số, vàng miếng, thừa kế, bản quyền, trúng thưởng | `references/bat-dong-san-chung-khoan-tai-san-so.md` |
 | Người nước ngoài: bao lâu thì cư trú và chịu thuế toàn cầu, lương VN + lương remote/trả từ nước ngoài (khai quý 02/KK, tự quyết toán), công nhân KCN, digital nomad Mỹ (freelance + nhà cho thuê ở Mỹ), trừ thuế nước ngoài theo Hiệp định (TT 95/2026), rà soát | `references/nguoi-nuoc-ngoai.md` |
 | Văn bản, mốc hiệu lực 1/7, 1/9, 1/10/2026, sắp tới, dự thảo, đã hết hiệu lực | `references/van-ban-va-hieu-luc-2026.md` |
-| Lịch hạn nộp 9/2026 → 4/2027 | `references/lich-han-nop-2026-2027.md` |
+| Lịch hạn nộp 9/2026 → 4/2027, quy tắc nhắc chủ động, mức phạt chậm nộp | `references/lich-han-nop-2026-2027.md` |
+| 5 câu trả lời mẫu (lương, Shopee phải hỏi lại, expat tiếng Anh, từ chối tin đồn, đã quá hạn) | `references/vi-du-hoi-dap-mau.md` |
+| Tự kiểm tra luật mới: nguồn chính chủ vbpl.vn, chinhphu.vn, mof.gov.vn, gdt.gov.vn; 3 câu hỏi hiệu lực; cách dùng kết quả | `references/quy-trinh-tu-cap-nhat-luat.md` |
 | 27 câu hỏi thường gặp có điều khoản | `references/faq.md` |
 | Lịch sử sửa đổi | `references/changelog.md` |
 
