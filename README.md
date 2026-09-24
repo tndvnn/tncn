@@ -33,12 +33,25 @@ Không cover: thuế TNDN, thuế xuất nhập khẩu, BHXH rút một lần, t
 
 ## Cài đặt
 
-```
-.claude/skills/tncn/   (Claude Code) — git clone https://github.com/tndvnn/tncn.git
-.agents/skill/tncn/    (Antigravity / Claude Desktop)
+Skill theo chuẩn mở [Agent Skills](https://agentskills.io): một thư mục có `SKILL.md` + `references/`. Cách chung cho mọi công cụ: clone repo vào đúng thư mục skill của công cụ đó, tên thư mục là `tncn`, rồi khởi động lại công cụ.
+
+```bash
+git clone https://github.com/tndvnn/tncn.git
 ```
 
-claude.ai gói Pro hoặc Max: nén thư mục thành zip, tải lên tại Settings → Capabilities → Skills. Nền tảng khác: dán `SKILL.md` vào system prompt, đưa thư mục `references/` vào knowledge base.
+| Công cụ | Đặt thư mục `tncn/` ở đâu | Ghi chú |
+|---|---|---|
+| **Claude Code** | `.claude/skills/tncn/` (theo dự án) hoặc `~/.claude/skills/tncn/` (mọi dự án) | Tự kích hoạt theo `description`; gọi tay bằng `/tncn` |
+| **claude.ai** (web, app; gói Pro/Max) | Nén thư mục thành zip, tải lên tại Settings → Capabilities → Skills | Có sẵn zip trong mục Releases |
+| **OpenAI Codex CLI** | `.agents/skills/tncn/` trong repo, hoặc `~/.agents/skills/tncn/` (mọi repo; `~/.codex/skills/` cũng được) | Phải là thư mục thật, Codex không đọc symlink. Hoặc trong Codex gõ `$skill-installer install https://github.com/tndvnn/tncn`. Khởi động lại Codex sau khi cài |
+| **Gemini CLI** | `.gemini/skills/tncn/` (workspace) hoặc `~/.gemini/skills/tncn/` (user); `.agents/skills/` cũng được nhận | Kiểm tra bằng `/skills list` |
+| **OpenClaw** | `openclaw skills install git:tndvnn/tncn` (SKILL.md ở gốc repo nên cài thẳng được) hoặc `openclaw skills install ./tncn` | Lưu tại `~/.openclaw/skills/`; cũng đọc `~/.agents/skills/` |
+| **Hermes Agent** (Nous Research) | `hermes skills install https://raw.githubusercontent.com/tndvnn/tncn/main/SKILL.md --name tncn`, hoặc trong chat `/skills install <URL đó> --name tncn`; hoặc copy vào `~/.hermes/skills/tncn/` | Hermes tự tải kèm thư mục `references/`; sau đó gọi bằng `/tncn` |
+| **Cursor, Antigravity, agent khác theo chuẩn Agent Skills** | `.agents/skills/tncn/` | Có thêm `AGENTS.md` để agent nào không nạp skill vẫn đọc được hướng dẫn |
+| **ChatGPT** (web) | Không có cơ chế skill. Tạo một Project (hoặc Custom GPT), tải lên `SKILL.md` và toàn bộ file trong `references/` làm tài liệu, dán nội dung `AGENTS.md` vào phần Instructions | Nhớ bật web search để làm Bước 0 kiểm tra luật mới |
+| Nền tảng khác | Dán `SKILL.md` vào system prompt, đưa `references/` vào knowledge base | |
+
+Cập nhật skill: vào thư mục đã clone chạy `git pull` (Hermes/OpenClaw: cài lại). Số phiên bản và ngày data ghi ở đầu `SKILL.md`.
 
 Câu hỏi mẫu sau khi cài: "Lương 30 triệu, 1 người phụ thuộc, thuế thu nhập cá nhân 2026 bao nhiêu?", "Tôi bán hàng Shopee doanh thu 1,5 tỷ thì nộp thuế thế nào?", "Người Hàn Quốc làm ở khu công nghiệp có lương remote từ Hàn thì khai thuế ra sao?".
 
@@ -108,12 +121,25 @@ The skill tells foreign users to **sort things out with their home-country tax a
 
 ## Installation
 
-```
-.claude/skills/tncn/   (Claude Code) — git clone https://github.com/tndvnn/tncn.git
-.agents/skill/tncn/    (Antigravity / Claude Desktop)
+The skill follows the open [Agent Skills](https://agentskills.io) format: one folder with `SKILL.md` + `references/`. Generic recipe for every tool: clone the repo into that tool's skills directory under the name `tncn`, then restart the tool.
+
+```bash
+git clone https://github.com/tndvnn/tncn.git
 ```
 
-claude.ai Pro or Max: zip the folder and upload it under Settings → Capabilities → Skills. Other platforms: paste `SKILL.md` into the system prompt and add the `references/` folder to the knowledge base.
+| Tool | Where the `tncn/` folder goes | Notes |
+|---|---|---|
+| **Claude Code** | `.claude/skills/tncn/` (per project) or `~/.claude/skills/tncn/` (all projects) | Auto-triggers from `description`; invoke manually with `/tncn` |
+| **claude.ai** (web/app, Pro/Max) | Zip the folder, upload under Settings → Capabilities → Skills | A ready zip is in Releases |
+| **OpenAI Codex CLI** | `.agents/skills/tncn/` inside the repo, or `~/.agents/skills/tncn/` for every repo (`~/.codex/skills/` also works) | Must be a real directory, Codex does not follow symlinks. Or inside Codex run `$skill-installer install https://github.com/tndvnn/tncn`. Restart Codex afterwards |
+| **Gemini CLI** | `.gemini/skills/tncn/` (workspace) or `~/.gemini/skills/tncn/` (user); `.agents/skills/` is accepted as an alias | Verify with `/skills list` |
+| **OpenClaw** | `openclaw skills install git:tndvnn/tncn` (SKILL.md sits at the repo root, so it installs directly) or `openclaw skills install ./tncn` | Stored in `~/.openclaw/skills/`; `~/.agents/skills/` is also read |
+| **Hermes Agent** (Nous Research) | `hermes skills install https://raw.githubusercontent.com/tndvnn/tncn/main/SKILL.md --name tncn`, or in chat `/skills install <that URL> --name tncn`; or copy into `~/.hermes/skills/tncn/` | Hermes downloads `references/` along with it; then call `/tncn` |
+| **Cursor, Antigravity and other Agent-Skills-compatible agents** | `.agents/skills/tncn/` | `AGENTS.md` is included so agents that do not load skills still get the instructions |
+| **ChatGPT** (web) | No skill mechanism. Create a Project (or a Custom GPT), upload `SKILL.md` and every file in `references/` as knowledge, paste `AGENTS.md` into Instructions | Enable web search so Step 0 (check for newer law) can run |
+| Other platforms | Paste `SKILL.md` into the system prompt and add `references/` to the knowledge base | |
+
+To update: `git pull` in the cloned folder (Hermes/OpenClaw: reinstall). Version and data date are at the top of `SKILL.md`.
 
 Sample questions: "I earn VND 50m/month in Hanoi with one dependant, what is my 2026 PIT?", "I am a Korean engineer in an industrial zone with a remote salary from Korea, how do I file?", "Is US tax withheld by Google creditable in Vietnam?".
 
