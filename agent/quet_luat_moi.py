@@ -217,6 +217,51 @@ GDT_KW = re.compile(r"thu nhập cá nhân|TNCN|cá nhân|hộ kinh doanh|chính
 RE_GDT_ITEM = re.compile(r'<a[^>]+href="([^"]*vbhd_tct[^"]*)"[^>]*>\s*([^<]{10,300}?)\s*</a>\s*(?:<[^>]+>\s*)*\((\d{2}/\d{2}/\d{4})\)')
 
 
+CHROME = Path.home() / "chromium" / "chrome"
+PDF_DIR = REPORTS / "cv-cuc-thue"
+CV_KW = re.compile(r"thu nhập cá nhân|TNCN|hộ kinh doanh|cá nhân kinh doanh|giảm trừ|người phụ thuộc|quyết toán thuế thu nhập cá nhân|nền tảng thương mại điện tử|sàn thương mại", re.I)
+
+
+def trich_ket_luan(txt: str) -> str:
+    """Lấy dòng V/v + phần sau 'có ý kiến như sau' để tóm tắt, bỏ phần đầu công văn."""
+    vv = re.search(r"V/v[^\n]{0,160}", txt)
+    body = re.split(r"có ý kiến như sau[:\.]?", txt, maxsplit=1)
+    phan = body[1] if len(body) > 1 else txt
+    phan = re.sub(r"\s+", " ", phan).strip()
+    return ((vv.group(0).strip() + " | ") if vv else "") + phan[:1200]
+
+
+def tai_pdf_cong_van(url: str, so_hieu: str, ss: requests.Session) -> tuple[str, str]:
+    """Render trang chi tiết bằng headless Chromium, tìm link /wps/wcm/connect/...pdf, tải và trích text.
+    Trả (đường dẫn pdf, text 3000 ký tự đầu); chuỗi rỗng nếu không lấy được."""
+    if not CHROME.exists():
+        return "", ""
+    PDF_DIR.mkdir(exist_ok=True)
+    import subprocess
+    try:
+        dom = subprocess.run([str(CHROME), "--headless=new", "--no-sandbox", "--disable-gpu",
+                              "--virtual-time-budget=15000", "--dump-dom", url],
+                             capture_output=True, text=True, timeout=120).stdout
+    except (subprocess.SubprocessError, OSError):
+        return "", ""
+    m = re.search(r'href="(/wps/wcm/connect/[^"]+\.pdf[^"]*)"', dom, re.I)
+    if not m:
+        return "", ""
+    link = "https://web.gdt.gov.vn" + html.unescape(m.group(1))  # host gdt.gov.vn chặn curl/requests
+    ten = re.sub(r"[^0-9A-Za-z]+", "-", so_hieu or "cv").strip("-") or "cv"
+    pdf = PDF_DIR / f"{ten}.pdf"
+    try:
+        r = ss.get(link, timeout=90)
+        r.raise_for_status()
+        pdf.write_bytes(r.content)
+        txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True, text=True, timeout=60).stdout
+    except (requests.RequestException, subprocess.SubprocessError, OSError):
+        return "", ""
+    txt = re.sub(r"[ \t]+", " ", txt)
+    (PDF_DIR / f"{ten}.txt").write_text(txt, encoding="utf-8")
+    return str(pdf), txt[:3000]
+
+
 def quet_gdt() -> tuple[list[dict], list[str]]:
     loi: list[str] = []
     da_thay: dict = doc_state("gdt_da_thay.json", {})
@@ -241,8 +286,12 @@ def quet_gdt() -> tuple[list[dict], list[str]]:
             m = re.search(r"(\d{1,5}/[A-ZĐ-]+(?:-[A-ZĐ]+)*)", tieu_de)
             uuid = re.search(r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", href)
             link = (f"https://gdt.gov.vn/wps/portal?1dmy&page=Z6_CQKCVKV0009520IMEVDLA60O10&urile=wcm%3apath%3a%2Fgdt%2Bcontent%2Fsa_gdt%2Fsa_vanban%2Fvbhd%2Fvbhd_tct%2F{d.month:02d}-{d.year}%2F{uuid.group(1)}" if uuid else url)
-            moi.append({"so_hieu": m.group(1) if m else "", "tieu_de": tieu_de, "ngay_dang": ngay_dang, "url": link,
-                        "cham_watchlist": bool(RE_SO_HIEU_WATCH.search(tieu_de))})
+            so_hieu = m.group(1) if m else ""
+            pdf, txt = tai_pdf_cong_van(link, so_hieu, ss)
+            moi.append({"so_hieu": so_hieu, "tieu_de": tieu_de, "ngay_dang": ngay_dang, "url": link,
+                        # công văn nào cũng trích Luật 48/NĐ 252 làm căn cứ, nên "chạm watchlist" chỉ khi kèm sửa/thay/bãi bỏ
+                        "cham_watchlist": bool(RE_SO_HIEU_WATCH.search(tieu_de) or re.search(r"(sửa đổi|thay thế|bãi bỏ|hết hiệu lực)[^.]{0,80}(" + RE_SO_HIEU_WATCH.pattern + ")", txt)),
+                        "lien_quan_tncn": bool(CV_KW.search(txt)), "pdf": pdf, "trich": trich_ket_luan(txt)})
             da_thay[khoa] = hom_nay.isoformat()
         time.sleep(0.8)
     ghi_state("gdt_da_thay.json", da_thay)
@@ -258,7 +307,7 @@ def viet_bao_cao(moi, doi, hoi_dap, loi, cv_gdt=None) -> tuple[Path, bool]:
     dong = [f"# Quét luật thuế mới — {hom_nay}", "",
             f"Nguồn: vbpl.vn (cửa sổ {CUA_SO_NGAY} ngày, văn bản trung ương), watchlist {len(WATCHLIST)} văn bản skill đang dùng, portal.mof.gov.vn/hoidapcstc. "
             f"Skill: https://github.com/tndvnn/tncn", ""]
-    uu_tien = [v for v in moi if v["cham_watchlist"]] + doi
+    uu_tien = [v for v in moi if v["cham_watchlist"]] + doi + [c for c in cv_gdt if c.get("cham_watchlist") or c.get("lien_quan_tncn")]
     if uu_tien:
         dong.append("## ⚠️ ƯU TIÊN — chạm văn bản skill đang dựa vào")
         for v in moi:
@@ -275,10 +324,13 @@ def viet_bao_cao(moi, doi, hoi_dap, loi, cv_gdt=None) -> tuple[Path, bool]:
         dong.append("- không có")
     dong.append("")
     dong.append(f"## Công văn hướng dẫn mới của Cục Thuế trên gdt.gov.vn ({len(cv_gdt)})")
-    for c in cv_gdt:
-        dong.append(f"- {'**[chạm watchlist]** ' if c['cham_watchlist'] else ''}{c['tieu_de']} (đăng {c['ngay_dang']}) — {c['url']}")
-    if cv_gdt:
-        dong.append("  Trang chi tiết nạp bằng JS; PDF nằm ở /wps/wcm/connect/<uuid>/<số>_CT-QLNT.pdf, mở bằng trình duyệt hoặc headless Chrome rồi đối chiếu toàn văn.")
+    for c in sorted(cv_gdt, key=lambda x: (not x.get("cham_watchlist"), not x.get("lien_quan_tncn"))):
+        nhan = ("**[chạm watchlist]** " if c["cham_watchlist"] else "") + ("**[liên quan TNCN/hộ KD]** " if c.get("lien_quan_tncn") else "")
+        dong.append(f"- {nhan}{c['tieu_de']} (đăng {c['ngay_dang']}) — {c['url']}")
+        if c.get("pdf"):
+            dong.append(f"  PDF: `{c['pdf']}` (text cùng tên .txt). Trích: " + re.sub(r"\s+", " ", c.get("trich", ""))[:700])
+        else:
+            dong.append("  Không tải được PDF tự động — mở link bằng trình duyệt.")
     if not cv_gdt:
         dong.append("- không có")
     dong.append("")
