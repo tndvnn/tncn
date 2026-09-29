@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Agent quét luật thuế mới hằng ngày cho skill tncn (github.com/tndvnn/tncn).
 
-Ba việc, chỉ dùng nguồn chính chủ:
+Bốn việc, chỉ dùng nguồn chính chủ:
 1. vbpl.vn: văn bản trung ương mới ban hành trong cửa sổ N ngày khớp từ khóa thuế/lương.
 2. vbpl.vn: trạng thái hiệu lực của danh sách văn bản skill đang dựa vào (watchlist) —
    đổi trạng thái hoặc có văn bản mới sửa/thay là tín hiệu phải update skill.
 3. portal.mof.gov.vn/hoidapcstc: câu hỏi đáp mới về thuế TNCN đã được Bộ Tài chính trả lời
    (kể cả câu cũ nay mới có trả lời).
+4. gdt.gov.vn: công văn hướng dẫn mới của Cục Thuế (danh sách theo tháng) khớp từ khóa thuế.
 
 Kết quả: reports/YYYY-MM-DD.md + .json; exit 10 nếu có phát hiện mới, 0 nếu không, 1 nếu lỗi.
 State lưu trong state/ để không báo trùng.
@@ -209,11 +210,51 @@ def quet_mof() -> tuple[list[dict], list[str]]:
     return ket_qua, loi
 
 
+# ---------- 4: gdt.gov.vn — Văn bản hướng dẫn của Cục Thuế ----------
+# Trang chi tiết nạp bằng JS, nhưng danh sách theo tháng có sẵn trong HTML tĩnh (17 mục mới nhất).
+GDT_THANG = "https://web.gdt.gov.vn/wps/portal?1dmy&page=Z6_CQKCVKV0009520IMEVDLA60O10&urile=wcm%3apath%3a%2Fgdt%2Bcontent%2Fsa_gdt%2Fsa_vanban%2Fvbhd%2Fvbhd_tct%2F{mm}-{yyyy}"
+GDT_KW = re.compile(r"thu nhập cá nhân|TNCN|cá nhân|hộ kinh doanh|chính sách thuế|khai thuế|giá trị gia tăng|GTGT|hóa đơn|quyết toán|nhà thầu|thương mại điện tử|nền tảng|giảm trừ|khấu trừ|người phụ thuộc", re.I)
+RE_GDT_ITEM = re.compile(r'<a[^>]+href="([^"]*vbhd_tct[^"]*)"[^>]*>\s*([^<]{10,300}?)\s*</a>\s*(?:<[^>]+>\s*)*\((\d{2}/\d{2}/\d{4})\)')
+
+
+def quet_gdt() -> tuple[list[dict], list[str]]:
+    loi: list[str] = []
+    da_thay: dict = doc_state("gdt_da_thay.json", {})
+    ss = requests.Session()
+    ss.headers.update(UA)
+    hom_nay = date.today()
+    thang_truoc = (hom_nay.replace(day=1) - timedelta(days=1))
+    moi: list[dict] = []
+    for d in (hom_nay, thang_truoc):
+        url = GDT_THANG.format(mm=f"{d.month:02d}", yyyy=d.year)
+        try:
+            r = ss.get(url, timeout=60)
+            r.raise_for_status()
+        except requests.RequestException as e:
+            loi.append(f"gdt {d.month:02d}/{d.year}: {e}")
+            continue
+        for href, tieu_de, ngay_dang in RE_GDT_ITEM.findall(r.text):
+            tieu_de = html.unescape(tieu_de).strip()
+            khoa = tieu_de[:120]
+            if khoa in da_thay or not GDT_KW.search(tieu_de):
+                continue
+            m = re.search(r"(\d{1,5}/[A-ZĐ-]+(?:-[A-ZĐ]+)*)", tieu_de)
+            uuid = re.search(r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", href)
+            link = (f"https://gdt.gov.vn/wps/portal?1dmy&page=Z6_CQKCVKV0009520IMEVDLA60O10&urile=wcm%3apath%3a%2Fgdt%2Bcontent%2Fsa_gdt%2Fsa_vanban%2Fvbhd%2Fvbhd_tct%2F{d.month:02d}-{d.year}%2F{uuid.group(1)}" if uuid else url)
+            moi.append({"so_hieu": m.group(1) if m else "", "tieu_de": tieu_de, "ngay_dang": ngay_dang, "url": link,
+                        "cham_watchlist": bool(RE_SO_HIEU_WATCH.search(tieu_de))})
+            da_thay[khoa] = hom_nay.isoformat()
+        time.sleep(0.8)
+    ghi_state("gdt_da_thay.json", da_thay)
+    return moi, loi
+
+
 # ---------- báo cáo ----------
 
-def viet_bao_cao(moi, doi, hoi_dap, loi) -> tuple[Path, bool]:
+def viet_bao_cao(moi, doi, hoi_dap, loi, cv_gdt=None) -> tuple[Path, bool]:
+    cv_gdt = cv_gdt or []
     hom_nay = date.today().isoformat()
-    co_gi = bool(moi or doi or hoi_dap)
+    co_gi = bool(moi or doi or hoi_dap or cv_gdt)
     dong = [f"# Quét luật thuế mới — {hom_nay}", "",
             f"Nguồn: vbpl.vn (cửa sổ {CUA_SO_NGAY} ngày, văn bản trung ương), watchlist {len(WATCHLIST)} văn bản skill đang dùng, portal.mof.gov.vn/hoidapcstc. "
             f"Skill: https://github.com/tndvnn/tncn", ""]
@@ -231,6 +272,14 @@ def viet_bao_cao(moi, doi, hoi_dap, loi) -> tuple[Path, bool]:
     for v in khac:
         dong.append(f"- {v['so_hieu']} ({v['loai']}, {v['co_quan']}, BH {v['ban_hanh']}, HL {v['hieu_luc']}, {v['trang_thai']}): {v['tieu_de']} — {v['url']}")
     if not khac:
+        dong.append("- không có")
+    dong.append("")
+    dong.append(f"## Công văn hướng dẫn mới của Cục Thuế trên gdt.gov.vn ({len(cv_gdt)})")
+    for c in cv_gdt:
+        dong.append(f"- {'**[chạm watchlist]** ' if c['cham_watchlist'] else ''}{c['tieu_de']} (đăng {c['ngay_dang']}) — {c['url']}")
+    if cv_gdt:
+        dong.append("  Trang chi tiết nạp bằng JS; PDF nằm ở /wps/wcm/connect/<uuid>/<số>_CT-QLNT.pdf, mở bằng trình duyệt hoặc headless Chrome rồi đối chiếu toàn văn.")
+    if not cv_gdt:
         dong.append("- không có")
     dong.append("")
     dong.append(f"## Hỏi đáp CSTC mới về TNCN đã được trả lời ({len(hoi_dap)})")
@@ -257,7 +306,7 @@ def viet_bao_cao(moi, doi, hoi_dap, loi) -> tuple[Path, bool]:
     p = REPORTS / f"{hom_nay}.md"
     p.write_text("\n".join(dong) + "\n", encoding="utf-8")
     (REPORTS / f"{hom_nay}.json").write_text(json.dumps(
-        {"ngay": hom_nay, "uu_tien": len(uu_tien), "van_ban_moi": moi, "watchlist_doi": doi, "hoi_dap": hoi_dap, "loi": loi},
+        {"ngay": hom_nay, "uu_tien": len(uu_tien), "van_ban_moi": moi, "watchlist_doi": doi, "hoi_dap": hoi_dap, "cv_gdt": cv_gdt, "loi": loi},
         ensure_ascii=False, indent=1), encoding="utf-8")
     return p, co_gi
 
@@ -279,8 +328,14 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001
         hoi_dap = []
         loi.append(f"mof: {e!r}")
-    p, co_gi = viet_bao_cao(moi, doi, hoi_dap, loi)
-    print(f"{p} | văn bản mới {len(moi)} (ưu tiên {sum(v['cham_watchlist'] for v in moi)}) | watchlist đổi {len(doi)} | hỏi đáp {len(hoi_dap)} | lỗi {len(loi)} | {(datetime.now() - bat_dau).seconds}s")
+    try:
+        cv_gdt, l3 = quet_gdt()
+        loi += l3
+    except Exception as e:  # noqa: BLE001
+        cv_gdt = []
+        loi.append(f"gdt: {e!r}")
+    p, co_gi = viet_bao_cao(moi, doi, hoi_dap, loi, cv_gdt)
+    print(f"{p} | văn bản mới {len(moi)} (ưu tiên {sum(v['cham_watchlist'] for v in moi)}) | watchlist đổi {len(doi)} | hỏi đáp {len(hoi_dap)} | CV Cục Thuế {len(cv_gdt)} | lỗi {len(loi)} | {(datetime.now() - bat_dau).seconds}s")
     if loi and not co_gi:
         return 1
     return 10 if co_gi else 0

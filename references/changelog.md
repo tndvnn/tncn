@@ -79,6 +79,11 @@ Sửa so với bản gốc:
 
 - Hóa đơn: NĐ 123/2020 + NĐ 70/2025 đã bị NĐ 254/2026 thay từ 01/07/2026; thêm quy tắc hóa đơn cho khách nước ngoài/hàng xuất khẩu của hộ, cá nhân kinh doanh (NĐ 254 Đ.6.1, Đ.8, Đ.9.1) vào `ho-kinh-doanh…md` và danh mục văn bản.
 
+## 29/09/2026 — v2.5.4 — CV 7129/CT-QLNT
+
+- Nạp CV 7129/CT-QLNT (Cục Thuế, 25/09/2026, toàn văn PDF từ gdt.gov.vn): hộ tự sản xuất bán qua sàn khai ngành "sản xuất, dịch vụ có gắn với hàng hóa" 1,5%/3%, sàn khấu trừ theo thông tin hộ cung cấp. Tách dòng POD tự sản xuất khỏi dropship trong bảng thuế suất; FAQ, danh mục văn bản.
+- Agent VPS: thêm nguồn quét mục "Văn bản hướng dẫn của Cục Thuế" trên gdt.gov.vn (trước chỉ quét vbpl.vn và Hỏi đáp CSTC nên đã bỏ lọt công văn này).
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

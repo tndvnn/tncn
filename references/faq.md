@@ -103,4 +103,5 @@ Xét theo **ngày chi trả so với ngày chấm dứt hợp đồng**: trả t
 | 164679, 165289, 165897 | 08–09 | Lương trả sau nghỉ việc: xét theo ngày chi trả, ngưỡng 5tr/lần | FAQ 29 |
 | 164954 | 15/08 | Cổ phần CTCP chưa in chứng chỉ: kế thừa quy định trước | đã bổ sung |
 | 164965 | 24/08 | NPT bệnh hiểm nghèo phải có giấy suy giảm ≥81%; con khuyết tật chỉ cần giấy xác nhận | đã sửa |
+| CV 7129/CT-QLNT | 25/09 | Hộ tự sản xuất bán qua sàn: khai ngành "sản xuất, dịch vụ gắn với hàng hóa" (1,5%/3%), sàn khấu trừ theo thông tin hộ cung cấp (gdt.gov.vn, văn bản hướng dẫn 09/2026) | đã bổ sung |
 

@@ -117,3 +117,5 @@ Cá nhân cư trú chịu thuế trên thu nhập toàn cầu (Luật 109 Đ.2.1
 - [ ] Ngành nghề để chọn tỷ lệ; nhiều ngành thì chọn nơi trừ 1 tỷ có lợi.
 - [ ] Hạn: thông báo doanh thu 31/01; khai quý cuối tháng đầu quý sau; gia hạn NĐ 245 nếu thuộc ngành.
 - [ ] HĐĐT nếu vượt 1 tỷ; tài khoản ngân hàng kinh doanh đã thông báo.
+
+- Sàn khấu trừ **theo ngành nghề hộ tự cung cấp** (NĐ 252 Đ.44; mẫu 01/CNKD-NCCNN-TMĐT TT 89): hộ **tự sản xuất** hàng bán trên sàn phải khai "Sản xuất, dịch vụ có gắn với hàng hóa" (TNCN 1,5%, GTGT 3%), không phải "phân phối" 0,5%/1% — CV 7129/CT-QLNT ngày 25/09/2026 của Cục Thuế trả lời Thuế Quảng Ngãi.
