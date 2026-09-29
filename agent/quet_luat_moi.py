@@ -225,6 +225,7 @@ CV_KW = re.compile(r"thu nhập cá nhân|TNCN|hộ kinh doanh|cá nhân kinh do
 def trich_ket_luan(txt: str) -> str:
     """Lấy dòng V/v + phần sau 'có ý kiến như sau' để tóm tắt, bỏ phần đầu công văn."""
     vv = re.search(r"V/v[^\n]{0,160}", txt)
+    txt = re.sub(r"\s+", " ", txt)  # pdftotext ngắt dòng giữa cụm "có ý kiến\nnhư sau"
     body = re.split(r"có ý kiến như sau[:\.]?", txt, maxsplit=1)
     phan = body[1] if len(body) > 1 else txt
     phan = re.sub(r"\s+", " ", phan).strip()
