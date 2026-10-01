@@ -155,8 +155,12 @@ def tach_hoi_dap(s: str) -> dict | None:
         return None
     hoi = t[q0 + 4:a0].strip()
     tra_loi = t[a0 + 8:].split("Văn bản quy phạm, điều luật liên quan")[0].strip()
+    # Nhiều câu được trả lời bằng ẢNH văn bản (/hoidapcstc/imgans/<id>/*.jpg), text rỗng → vẫn là đã trả lời
+    anh = ["https://portal.mof.gov.vn" + html.unescape(u) for u in re.findall(r'src="(/hoidapcstc/imgans/[^"]+)"', s)]
+    if anh:
+        tra_loi = (tra_loi + "\n" if tra_loi else "") + "[Trả lời bằng ảnh văn bản, %d trang — mở ảnh để đọc] " % len(anh) + " ".join(anh)
     m = re.findall(r"(\d{2}/\d{2}/\d{4})", t[max(0, a0 - 200):a0])
-    return {"hoi": hoi, "tra_loi": tra_loi, "ngay": m[-1] if m else "", "da_tra_loi": len(tra_loi) >= 200}
+    return {"hoi": hoi, "tra_loi": tra_loi, "ngay": m[-1] if m else "", "da_tra_loi": len(tra_loi) >= 200 or bool(anh), "anh": anh}
 
 
 def quet_mof() -> tuple[list[dict], list[str]]:
