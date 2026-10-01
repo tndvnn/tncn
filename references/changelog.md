@@ -84,6 +84,10 @@ Sửa so với bản gốc:
 - Nạp CV 7129/CT-QLNT (Cục Thuế, 25/09/2026, toàn văn PDF từ gdt.gov.vn): hộ tự sản xuất bán qua sàn khai ngành "sản xuất, dịch vụ có gắn với hàng hóa" 1,5%/3%, sàn khấu trừ theo thông tin hộ cung cấp. Tách dòng POD tự sản xuất khỏi dropship trong bảng thuế suất; FAQ, danh mục văn bản.
 - Agent VPS: thêm nguồn quét mục "Văn bản hướng dẫn của Cục Thuế" trên gdt.gov.vn (trước chỉ quét vbpl.vn và Hỏi đáp CSTC nên đã bỏ lọt công văn này).
 
+## 01/10/2026 — v2.5.5 — dropship không qua VN: không chịu GTGT
+
+- Theo trả lời Thuế cơ sở 3 TP Quảng Ninh (Hỏi đáp CSTC 166050, ảnh trả lời): hàng mua Trung Quốc giao thẳng Mỹ không phải xuất khẩu (không 0%), là chuyển khẩu → không chịu GTGT (NĐ 181 Đ.4.12); TNCN vẫn 0,5% phần vượt 1 tỷ; phải lập HĐĐT từng đơn, người mua nước ngoài ghi hộ chiếu/quốc tịch hoặc "Bán cho người tiêu dùng", không gộp theo kỳ, tỷ giá hóa đơn theo kế toán. Bỏ cách đọc "khai 1% cho chắc".
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.
