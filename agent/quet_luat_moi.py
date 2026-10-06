@@ -51,7 +51,7 @@ WATCHLIST = [
     "103/2026/NĐ-CP", "87/2026/TT-BTC", "89/2026/TT-BTC", "90/2026/TT-BTC", "95/2026/TT-BTC",
     "18/2026/TT-BTC", "50/2026/TT-BTC", "94/2026/TT-BTC", "254/2026/NĐ-CP", "91/2026/TT-BTC",
 ]
-RE_SO_HIEU_WATCH = re.compile("|".join(re.escape(w) for w in WATCHLIST))  # so cả số + năm + loại, tránh khớp 109/2026/QĐ-UBND
+RE_SO_HIEU_WATCH = re.compile(r"(?<![0-9])(?:" + "|".join(re.escape(w) for w in WATCHLIST) + r")")  # đủ số+năm+loại và không dính số đứng trước (368/2026/NĐ-CP ≠ 68/2026/NĐ-CP)
 RE_DIA_PHUONG = re.compile(r"UBND|HĐND|Hội đồng nhân dân|Ủy ban nhân dân|Uỷ ban nhân dân", re.I)
 LOAI_TRUNG_UONG = re.compile(r"^(Luật|Bộ luật|Nghị quyết|Pháp lệnh|Nghị định|Quyết định|Thông tư|Văn bản hợp nhất)", re.I)
 
@@ -288,6 +288,13 @@ def quet_gdt() -> tuple[list[dict], list[str]]:
             khoa = tieu_de[:120]
             if khoa in da_thay or not GDT_KW.search(tieu_de):
                 continue
+            # Tháng mới ít bài thì trang danh sách độn văn bản cũ (2013, 2017…) vào → chỉ lấy bài đăng trong 120 ngày
+            try:
+                if (hom_nay - datetime.strptime(ngay_dang, "%d/%m/%Y").date()).days > 120:
+                    da_thay[khoa] = hom_nay.isoformat()
+                    continue
+            except ValueError:
+                pass
             m = re.search(r"(\d{1,5}/[A-ZĐ-]+(?:-[A-ZĐ]+)*)", tieu_de)
             uuid = re.search(r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", href)
             link = (f"https://gdt.gov.vn/wps/portal?1dmy&page=Z6_CQKCVKV0009520IMEVDLA60O10&urile=wcm%3apath%3a%2Fgdt%2Bcontent%2Fsa_gdt%2Fsa_vanban%2Fvbhd%2Fvbhd_tct%2F{d.month:02d}-{d.year}%2F{uuid.group(1)}" if uuid else url)
