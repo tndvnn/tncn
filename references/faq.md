@@ -103,6 +103,9 @@ Xét theo **ngày chi trả so với ngày chấm dứt hợp đồng**: trả t
 | 164679, 165289, 165897 | 08–09 | Lương trả sau nghỉ việc: xét theo ngày chi trả, ngưỡng 5tr/lần | FAQ 29 |
 | 164954 | 15/08 | Cổ phần CTCP chưa in chứng chỉ: kế thừa quy định trước | đã bổ sung |
 | 164965 | 24/08 | NPT bệnh hiểm nghèo phải có giấy suy giảm ≥81%; con khuyết tật chỉ cần giấy xác nhận | đã sửa |
+| CSTC 165652 | 22/09 | Giảm trừ giáo dục: chi phát sinh cả năm 2026 kể cả trước 01/07 được trừ nếu đủ Đ.49.3; phải tự quyết toán (Thuế TP.HCM) | đã bổ sung |
+| CSTC 165965 | 28/09 | Lương trả sau nghỉ việc: 10% trên thu nhập chịu thuế sau khi loại khoản miễn, ngưỡng 5tr/lần (Thuế Ninh Bình) | khớp FAQ 29 |
+| CSTC 165933 | 28/09 | Hộ KD trả lương: khai 05/KK-TNCN quý, quyết toán 05/QTT-TNCN như tổ chức (Thuế cơ sở 3 Lâm Đồng) | đã bổ sung |
 | CSTC 166050 | 09/2026 | Dropship Trung Quốc → Mỹ không qua VN: không phải xuất khẩu, là chuyển khẩu, không chịu GTGT (NĐ 181 Đ.4.12); vẫn lập hóa đơn từng đơn, người mua nước ngoài ghi hộ chiếu, không cần MST; tỷ giá hóa đơn theo kế toán; không gộp hóa đơn (Thuế cơ sở 3 Quảng Ninh, ảnh trả lời) | đã sửa |
 | CV 7129/CT-QLNT | 25/09 | Hộ tự sản xuất bán qua sàn: khai ngành "sản xuất, dịch vụ gắn với hàng hóa" (1,5%/3%), sàn khấu trừ theo thông tin hộ cung cấp (gdt.gov.vn, văn bản hướng dẫn 09/2026) | đã bổ sung |
 

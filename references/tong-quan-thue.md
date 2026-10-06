@@ -33,7 +33,7 @@ Thu nhập tính thuế = Thu nhập chịu thuế − (BHXH, BHYT, BHTN, BH tr�
 | Học phí mầm non → đại học, giáo dục nghề nghiệp, kỹ năng chuyên môn tại cơ sở trong nước | ≤24tr/năm | NĐ 253 Đ.49.2.b |
 | Từ thiện, nhân đạo, khuyến học vào tổ chức được phép | theo chứng từ | Đ.49.1 |
 
-Điều kiện y tế/giáo dục (Đ.49.3–5): có hóa đơn, chứng từ ghi tên NNT hoặc NPT; y tế thêm Bảng kê chi phí KCB theo mẫu Bộ Y tế; không được chi trả từ nguồn khác (tài trợ, BHYT, bảo hiểm thương mại, NSDLĐ trả thay); phát sinh năm nào trừ năm đó; **muốn giảm trừ phải tự quyết toán, không ủy quyền** (Đ.51.3). Chi phí đã trừ theo Đ.8.4 (NSDLĐ chi) không được trừ lại.
+Điều kiện y tế/giáo dục (Đ.49.3–5): có hóa đơn, chứng từ ghi tên NNT hoặc NPT; y tế thêm Bảng kê chi phí KCB theo mẫu Bộ Y tế; không được chi trả từ nguồn khác (tài trợ, BHYT, bảo hiểm thương mại, NSDLĐ trả thay); phát sinh năm nào trừ năm đó; **muốn giảm trừ phải tự quyết toán, không ủy quyền** (Đ.51.3). Chi y tế, giáo dục phát sinh **từ 01/01/2026, kể cả trước 01/07/2026**, đều được trừ cho kỳ 2026 vì quy định về tiền lương áp dụng cả kỳ (Đ.69.1.a) — Thuế TP.HCM xác nhận (Hỏi đáp CSTC 165652, 22/09/2026). Học ngoại ngữ, kỹ năng (Toán, nhạc, cờ…) chỉ được trừ khi là **cơ sở giáo dục, đào tạo** theo pháp luật giáo dục và có hóa đơn; trung tâm không phải cơ sở giáo dục thì không có căn cứ. Chi phí đã trừ theo Đ.8.4 (NSDLĐ chi) không được trừ lại.
 
 ### Người phụ thuộc (NĐ 253 Đ.47; TT 87 Đ.3–4)
 - Con <18 tuổi; con ≥18 mất năng lực hành vi/khuyết tật/không có khả năng lao động; con đang học ĐH, CĐ, THCN, học nghề, kể cả ≥18 học phổ thông (tính cả tháng 6–9 chờ kết quả lớp 12) có thu nhập bình quân ≤3tr/tháng.

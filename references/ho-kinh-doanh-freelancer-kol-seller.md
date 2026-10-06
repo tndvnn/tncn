@@ -103,6 +103,10 @@ Cá nhân cư trú chịu thuế trên thu nhập toàn cầu (Luật 109 Đ.2.1
 - Doanh nghiệp đa cấp khấu trừ, khai, nộp TNCN của người tham gia trước khi chi trả hoa hồng/thưởng (Đ.40.7); thuế suất đại lý đa cấp 5% trên phần doanh thu vượt ngưỡng (Luật 109 Đ.7.3.c).
 - Cán bộ, công chức; sĩ quan, quân nhân chuyên nghiệp, công nhân viên chức quốc phòng; sĩ quan, hạ sĩ quan, chiến sĩ chuyên nghiệp, công nhân công an không được ký hợp đồng tham gia (Đ.28.2.đ). Viên chức thường không nằm trong danh sách này.
 
+## 9b. Hộ kinh doanh thuê lao động, trả lương
+
+Hộ trả lương cho người lao động thì khấu trừ, khai và quyết toán TNCN **như tổ chức trả thu nhập**: khai quý mẫu **05/KK-TNCN** (số thuế đã khấu trừ), quyết toán năm **05/QTT-TNCN** kèm phụ lục, nộp điện tử trên Cổng dịch vụ công ngành thuế (TT 89/2026 Đ.22.1; NĐ 252 Đ.10.3). Quý không phát sinh khấu trừ thì không phải nộp tờ khai quý; cả năm không trả lương thì không phải quyết toán (NĐ 252 Đ.11.6, 11.7). Thông tin số thuế đã nộp thay cho từng người nằm trong bảng kê 05-1/BK-QTT-TNCN của quyết toán (Thuế cơ sở 3 Lâm Đồng, Hỏi đáp CSTC 165933, 28/09/2026).
+
 ## 10. Chế tài thường gặp
 
 - Không kê khai/kê khai sai: phạt theo NĐ 125/2020 (sửa bởi NĐ 310/2025 từ 16/01/2026 và NĐ 291/2026 từ 21/07/2026); khai sai thiếu thuế phạt 20% số thiếu + chậm nộp 0,03%/ngày.

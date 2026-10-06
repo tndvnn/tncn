@@ -88,6 +88,11 @@ Sửa so với bản gốc:
 
 - Theo trả lời Thuế cơ sở 3 TP Quảng Ninh (Hỏi đáp CSTC 166050, ảnh trả lời): hàng mua Trung Quốc giao thẳng Mỹ không phải xuất khẩu (không 0%), là chuyển khẩu → không chịu GTGT (NĐ 181 Đ.4.12); TNCN vẫn 0,5% phần vượt 1 tỷ; phải lập HĐĐT từng đơn, người mua nước ngoài ghi hộ chiếu/quốc tịch hoặc "Bán cho người tiêu dùng", không gộp theo kỳ, tỷ giá hóa đơn theo kế toán. Bỏ cách đọc "khai 1% cho chắc".
 
+## 06/10/2026 — v2.5.6 — rà hỏi đáp CSTC 02/10
+
+- Giảm trừ giáo dục: chi cả năm 2026 kể cả trước 01/07 (CSTC 165652); điều kiện "cơ sở giáo dục" cho lớp kỹ năng. Hộ kinh doanh trả lương: khai 05/KK-TNCN, 05/QTT-TNCN như tổ chức (CSTC 165933). Xác nhận thêm FAQ 29 bằng CSTC 165965 (Thuế Ninh Bình).
+- Agent: nhận trả lời bằng ảnh; bỏ công văn cũ độn trong danh sách tháng; regex watchlist không khớp số đứng trước.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

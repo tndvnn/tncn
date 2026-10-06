@@ -5,7 +5,7 @@ description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **01/10/2026** (v2.5.5). Số phiên bản máy đọc: `version.json`. Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **06/10/2026** (v2.5.6). Số phiên bản máy đọc: `version.json`. Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
@@ -111,5 +111,5 @@ Không được bỏ qua bước này bằng cách đoán "chắc chưa có gì 
 ## Disclaimer bắt buộc
 
 ```
-Thông tin tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Căn cứ: [văn bản, điều khoản]. Data cập nhật 01/10/2026. Kiểm tra lại tại gdt.gov.vn / canhan.gdt.gov.vn hoặc cơ quan thuế quản lý.
+Thông tin tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Căn cứ: [văn bản, điều khoản]. Data cập nhật 06/10/2026. Kiểm tra lại tại gdt.gov.vn / canhan.gdt.gov.vn hoặc cơ quan thuế quản lý.
 ```
