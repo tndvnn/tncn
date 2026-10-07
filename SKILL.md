@@ -5,7 +5,7 @@ description: Tư vấn thuế thu nhập cá nhân Việt Nam kỳ tính thuế 
 
 # Thuế TNCN Việt Nam — kỳ tính thuế 2026
 
-Data cập nhật: **06/10/2026** (v2.5.6). Số phiên bản máy đọc: `version.json`. Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
+Data cập nhật: **07/10/2026** (v2.6.0). Số phiên bản máy đọc: `version.json`. Mọi con số trong `references/` đã đối chiếu toàn văn Công báo trừ chỗ ghi **TC** (nguồn thứ cấp).
 
 > Thông tin chỉ để tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Mọi câu trả lời phải kèm điều khoản và ngày cập nhật data.
 
@@ -98,7 +98,7 @@ Không được bỏ qua bước này bằng cách đoán "chắc chưa có gì 
 - Không trích TT 111/2013, TT 80/2021, NĐ 65/2013, Luật 04/2007 cho kỳ 2026; NĐ 117/2025 chỉ còn cho khấu trừ trên sàn từ 01–06/2026 (bị NĐ 252 thay từ 01/07/2026).
 - Không nói "áp dụng từ 01/07/2026" cho quy định lương/kinh doanh — đúng là cả kỳ 2026 (Luật 109 Đ.29.2).
 - Không cộng thu nhập tiền công vãng lai vào doanh thu kinh doanh.
-- Hỏi "đã đăng ký thuế cho hoạt động kinh doanh chưa?" trước khi áp ngưỡng 1 tỷ cho freelancer/KOL/affiliate: chưa đăng ký → thù lao dịch vụ là tiền công (NĐ 253 Đ.8.2.c), không phải kinh doanh.
+- **Sáng tạo nội dung số, quảng bá sản phẩm, affiliate trên nền tảng TMĐT/nền tảng số (YouTube, TikTok, Shopee, Facebook, KOL/KOC)** nhận tiền từ nền tảng hoặc nhãn hàng mà **không có hợp đồng lao động** → là **thu nhập kinh doanh**, không phải tiền công, **bất kể đã đăng ký hay chưa**; cá nhân **phải đăng ký thuế kinh doanh** (03-ĐKT) và khai theo NĐ 68 + NĐ 141; thuế suất affiliate = nhóm nội dung số/quảng cáo số **5%** (CV 7403/CT-TMĐT (Cục Thuế, 06/10/2026), trả lời Bộ Công Thương và TikTok Shop; đọc từ ảnh trang 1–2, chưa đăng gdt.gov.vn tại 07/10). Không còn trả lời "chưa đăng ký thì là tiền công" cho nhóm này. NĐ 253 Đ.8.2.c (thù lao dịch vụ của người chưa đăng ký KD là tiền công) chỉ còn dùng cho **dịch vụ theo hợp đồng với khách** (lập trình, thiết kế, tư vấn, chạy ads cho khách…) chưa đăng ký kinh doanh, và phải nói rõ cơ quan thuế có thể áp logic CV 7403 cho cả nhóm này.
 - HKD: tỷ lệ % tính trên phần vượt 1 tỷ; GTGT tính theo phương pháp trực tiếp, không phải khấu trừ.
 - Thu nhập từ nước ngoài: không phải kiều hối; thuế nộp ở Mỹ không trừ được (chưa có Hiệp định); YouTube/AdSense không phải dịch vụ xuất khẩu 0% theo thực tiễn cơ quan thuế 2026 — chỉ lập trình/phần mềm và dịch vụ tiêu dùng ngoài VN đủ hồ sơ mới GTGT 0.
 - Lợi nhuận từ công ty nước ngoài do cá nhân sở hữu: theo chữ là đầu tư vốn 5% (NĐ 253 Đ.9.2) nhưng không miễn như công ty VN (Đ.39) và có thể bị xếp lại theo bản chất (Luật 108 Đ.6.4.a) — luôn nêu cả hai, không khẳng định "chắc chắn 5%".
@@ -111,5 +111,5 @@ Không được bỏ qua bước này bằng cách đoán "chắc chưa có gì 
 ## Disclaimer bắt buộc
 
 ```
-Thông tin tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Căn cứ: [văn bản, điều khoản]. Data cập nhật 06/10/2026. Kiểm tra lại tại gdt.gov.vn / canhan.gdt.gov.vn hoặc cơ quan thuế quản lý.
+Thông tin tham khảo, không thay thế tư vấn thuế chuyên nghiệp. Căn cứ: [văn bản, điều khoản]. Data cập nhật 07/10/2026. Kiểm tra lại tại gdt.gov.vn / canhan.gdt.gov.vn hoặc cơ quan thuế quản lý.
 ```

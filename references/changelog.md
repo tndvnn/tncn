@@ -93,6 +93,10 @@ Sửa so với bản gốc:
 - Giảm trừ giáo dục: chi cả năm 2026 kể cả trước 01/07 (CSTC 165652); điều kiện "cơ sở giáo dục" cho lớp kỹ năng. Hộ kinh doanh trả lương: khai 05/KK-TNCN, 05/QTT-TNCN như tổ chức (CSTC 165933). Xác nhận thêm FAQ 29 bằng CSTC 165965 (Thuế Ninh Bình).
 - Agent: nhận trả lời bằng ảnh; bỏ công văn cũ độn trong danh sách tháng; regex watchlist không khớp số đứng trước.
 
+## 07/10/2026 — v2.6.0 — CV 7403/CT-TMĐT: affiliate, sáng tạo nội dung là kinh doanh dù chưa đăng ký
+
+- Cục Thuế (06/10/2026, gửi Bộ Công Thương + TikTok Shop) chốt: không có HĐLĐ thì thu nhập từ sáng tạo nội dung số, quảng bá, affiliate trên nền tảng là **thu nhập kinh doanh**, phải đăng ký thuế KD, khai theo NĐ 68/141; affiliate thuế suất **5%** (quảng cáo số). Đổi quy tắc chống sai trong SKILL.md, bảng phân loại MMO, mục 5a và ranh giới Đ.8.2.c trong file hộ KD, FAQ 20–21, danh mục văn bản. Đ.8.2.c chỉ còn cho dịch vụ theo hợp đồng với khách ngoài nền tảng.
+
 ## Kiểm tra định kỳ
 
 Mỗi tháng: tra vbpl.vn + chinhphu.vn "Tham vấn chính sách" cho: Nghị định hướng dẫn NQ 43; lương tối thiểu vùng 2027; BHYT 5,1%; bất kỳ sửa đổi giảm trừ gia cảnh. Cập nhật `van-ban-va-hieu-luc-2026.md` và dòng "Data cập nhật" trong SKILL.md.

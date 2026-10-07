@@ -6,7 +6,9 @@
 
 Luật 109 Đ.3.1 và NĐ 253 Đ.7: sản xuất, kinh doanh hàng hóa, dịch vụ; hành nghề độc lập có giấy phép **và có đăng ký kinh doanh**; đại lý (bảo hiểm, xổ số, đa cấp); môi giới; hợp tác kinh doanh với tổ chức; **kinh doanh TMĐT, kinh doanh dựa trên nền tảng số** (Đ.7.6).
 
-**Ranh giới quyết định — NĐ 253 Đ.8.2.c (nguyên văn):** "Tiền thù lao nhận được từ cung cấp dịch vụ của cá nhân **không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh**, kể cả có hay không có giấy phép hoặc chứng chỉ hành nghề" là **thu nhập từ tiền lương, tiền công**. Hệ quả:
+**Ranh giới quyết định — NĐ 253 Đ.8.2.c (nguyên văn):** "Tiền thù lao nhận được từ cung cấp dịch vụ của cá nhân **không đăng ký kinh doanh, không đăng ký thuế cho hoạt động kinh doanh**, kể cả có hay không có giấy phép hoặc chứng chỉ hành nghề" là **thu nhập từ tiền lương, tiền công**.
+
+**Nhưng từ CV 7403/CT-TMĐT (Cục Thuế, 06/10/2026):** cá nhân **sáng tạo nội dung số, quảng bá sản phẩm, tiếp thị liên kết trên nền tảng TMĐT/nền tảng số** nhận thu nhập từ nền tảng hoặc nhãn hàng mà không có HĐLĐ/thỏa ước lao động → **là thu nhập từ kinh doanh, không phải tiền lương**, bất kể đã đăng ký hay chưa; hộ, cá nhân kinh doanh **phải đăng ký thuế**, khai và nộp theo NĐ 68 + NĐ 141; thuế suất affiliate = nhóm nội dung số/quảng cáo số **5%** (Luật 109 Đ.7.3.đ). Đ.8.2.c vì vậy chỉ còn áp cho dịch vụ theo hợp đồng với khách hàng (không qua nền tảng) của người chưa đăng ký kinh doanh. Hệ quả:
 
 | Tình trạng | Cơ chế thuế | Ngưỡng |
 |---|---|---|
@@ -69,13 +71,13 @@ Ghi chú:
 - Kênh không có chức năng thanh toán (Facebook, Zalo, website tự thu tiền): tự kê khai.
 - Số đã bị sàn khấu trừ được trừ vào số phải nộp khi quyết toán (NĐ 68 Đ.11.3).
 
-### 5a. Tiếp thị liên kết (affiliate) — thay đổi của Shopee từ 01/10/2026 (nguồn: email Shopee gửi đối tác, TC)
+### 5a. Tiếp thị liên kết (affiliate) — Shopee khấu trừ 5%+5% từ 01/10/2026 (email Shopee, TC); Cục Thuế chốt bản chất và thuế suất tại CV 7403/CT-TMĐT (Cục Thuế, 06/10/2026)
 
 Email Shopee: từ **01/10/2026**, đối tác affiliate là cá nhân, cá nhân kinh doanh, hộ kinh doanh bị khấu trừ **5% TNCN + 5% GTGT** trên thu nhập kinh doanh từ tiếp thị liên kết (trước đó: khấu trừ 10% như tiền công); việc xác định nghĩa vụ "căn cứ trên thông tin định danh, hồ sơ thuế và tình trạng đăng ký của từng đối tác"; đối tác tự quyết toán. Đọc theo luật:
 
 - Căn cứ để sàn khấu trừ dạng kinh doanh: NĐ 253 Đ.67.1, Đ.67.4.a; NĐ 252 Đ.43–44. Chưa có công văn nào khẳng định hoa hồng affiliate thuộc phạm vi Đ.43 (Đ.43 nói về "hoạt động kinh doanh trên nền tảng"), nên đây là cách áp dụng của Shopee, không phải kết luận của cơ quan thuế.
 - Thuế suất: Phụ lục NĐ 253 xếp "dịch vụ môi giới, đấu giá và hoa hồng đại lý" và "quảng cáo" vào nhóm dịch vụ **2%** TNCN; "quảng cáo số, nội dung thông tin số" **5%**. Hoa hồng affiliate có thể rơi vào 2% hoặc 5%; sàn không xác định được loại thì áp mức cao nhất (NĐ 252 Đ.44.2.b). Khấu trừ thừa được hoàn khi quyết toán. GTGT dịch vụ 5% (Luật 48 Đ.12.2).
-- Người chưa đăng ký thuế kinh doanh: theo Đ.8.2.c vẫn là tiền công khi quyết toán → có thể phải gộp vào biểu lũy tiến dù sàn đã khấu trừ 5%. Khuyến nghị: đăng ký thuế cho hoạt động kinh doanh trước khi nhận hoa hồng theo cơ chế mới, giữ thông báo/chứng từ khấu trừ của sàn.
+- Người chưa đăng ký thuế kinh doanh: theo CV 7403/CT-TMĐT (Cục Thuế, 06/10/2026) hoa hồng affiliate **vẫn là thu nhập kinh doanh**, không chuyển thành tiền công; việc chưa đăng ký là **vi phạm nghĩa vụ đăng ký thuế** (NĐ 252 Đ.6.3.a, 10 ngày làm việc), không phải cách để hưởng cơ chế lũy tiến. Đăng ký ngay (03-ĐKT), giữ thông báo/chứng từ khấu trừ của sàn. Thuế suất 5% là đúng nhóm (quảng cáo số), không phải 2% môi giới.
 - Cuối năm: doanh thu ≤1 tỷ → thông báo doanh thu + đề nghị hoàn toàn bộ số sàn đã khấu trừ (NĐ 68 Đ.12); 1–3 tỷ → khai quý, số sàn khấu trừ trừ vào số phải nộp tính trên phần vượt (Đ.8.1.b, Đ.10.2.a; >3 tỷ hoặc chọn lợi nhuận: Đ.11.3); cộng giảm 30% NQ 43 khi có Nghị định.
 - Không có văn bản nào nâng ngưỡng miễn hay mốc 3 tỷ lên 10 tỷ; 10 tỷ chỉ là điều kiện hưởng giảm 30% (NQ 43 Đ.1.1).
 - MCN/agency trả hoa hồng cho KOL không phải sàn: khấu trừ 10% nếu KOL chưa đăng ký kinh doanh (Đ.50.2); không khấu trừ nếu KOL là cá nhân kinh doanh đã đăng ký (Đ.67.4.a) trừ khi ký hợp đồng môi giới/hợp tác kinh doanh.
