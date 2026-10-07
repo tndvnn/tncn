@@ -103,7 +103,7 @@ Xét theo **ngày chi trả so với ngày chấm dứt hợp đồng**: trả t
 | 164679, 165289, 165897 | 08–09 | Lương trả sau nghỉ việc: xét theo ngày chi trả, ngưỡng 5tr/lần | FAQ 29 |
 | 164954 | 15/08 | Cổ phần CTCP chưa in chứng chỉ: kế thừa quy định trước | đã bổ sung |
 | 164965 | 24/08 | NPT bệnh hiểm nghèo phải có giấy suy giảm ≥81%; con khuyết tật chỉ cần giấy xác nhận | đã sửa |
-| CV 7403/CT-TMĐT | 06/10 | Sáng tạo nội dung, affiliate trên nền tảng không có HĐLĐ = kinh doanh (không phải tiền công), phải đăng ký thuế KD; affiliate 5% quảng cáo số; TikTok Shop khấu trừ theo NĐ 252 Đ.43 (Cục Thuế gửi Bộ Công Thương + TikTok Shop; ảnh 2/3 trang, chưa đăng gdt.gov.vn) | đã sửa |
+| CV 7403/CT-TMĐT | 06/10 | Sáng tạo nội dung, affiliate trên nền tảng không có HĐLĐ = kinh doanh (không phải tiền công), phải đăng ký thuế KD; affiliate 5% quảng cáo số; TikTok Shop khấu trừ theo NĐ 252 Đ.43 (Cục Thuế gửi Bộ Công Thương + TikTok Shop; ảnh đủ 3 trang, chưa đăng gdt.gov.vn) | đã sửa |
 | CSTC 165652 | 22/09 | Giảm trừ giáo dục: chi phát sinh cả năm 2026 kể cả trước 01/07 được trừ nếu đủ Đ.49.3; phải tự quyết toán (Thuế TP.HCM) | đã bổ sung |
 | CSTC 165965 | 28/09 | Lương trả sau nghỉ việc: 10% trên thu nhập chịu thuế sau khi loại khoản miễn, ngưỡng 5tr/lần (Thuế Ninh Bình) | khớp FAQ 29 |
 | CSTC 165933 | 28/09 | Hộ KD trả lương: khai 05/KK-TNCN quý, quyết toán 05/QTT-TNCN như tổ chức (Thuế cơ sở 3 Lâm Đồng) | đã bổ sung |

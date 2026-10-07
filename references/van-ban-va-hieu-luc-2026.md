@@ -26,7 +26,7 @@ Ký hiệu tin cậy: **NV** = đã đọc nguyên văn (Công báo/vbpl/chinhph
 | TT **95/2026/TT-BTC** | 01/07/2026 | **01/07/2026** | Hướng dẫn Hiệp định tránh đánh thuế hai lần (thay TT 205/2013): cư trú hai nước (Đ.8.4), miễn thuế lương <183 ngày cho người cư trú nước kia (Đ.34.2), trừ thuế nước ngoài không vượt thuế VN (Đ.51), trao đổi thông tin (Đ.55). Hồ sơ trừ thuế: TT 89 Đ.34, mẫu 02/HTQT | NV (vbpl) |
 | **112/VBHN-VPQH** | 2026 | — | Văn bản hợp nhất Luật TNCN (chinhphu.vn đăng 08/08/2026); không phải văn bản mới, chưa đối chiếu nội dung | TC |
 | NĐ **254/2026/NĐ-CP** | 30/06/2026 | 01/07/2026 | Hóa đơn điện tử, chứng từ điện tử — thay NĐ 123/2020 + NĐ 70/2025: hộ/cá nhân KD dùng HĐĐT có mã (Đ.6.1.a), hóa đơn xuất khẩu (Đ.6.1.c, Đ.8), thời điểm lập (Đ.9) | NV (KB luatthue) |
-| CV **7403/CT-TMĐT** (Cục Thuế) | 06/10/2026 | công văn hướng dẫn | Nội dung số, quảng bá, affiliate trên nền tảng không có HĐLĐ = thu nhập kinh doanh; phải đăng ký thuế KD; affiliate 5%; sàn khấu trừ NĐ 252 Đ.43 | NV (ảnh trang 1–2; trang 3 và bản gdt.gov.vn chưa có) |
+| CV **7403/CT-TMĐT** (Cục Thuế) | 06/10/2026 | công văn hướng dẫn | Nội dung số, quảng bá, affiliate trên nền tảng không có HĐLĐ = thu nhập kinh doanh; phải đăng ký thuế KD; affiliate 5%; sàn khấu trừ NĐ 252 Đ.43 | NV (ảnh đủ 3 trang; bản gdt.gov.vn chưa đăng) |
 | CV **7129/CT-QLNT** (Cục Thuế) | 25/09/2026 | công văn hướng dẫn | Hộ trực tiếp sản xuất bán qua sàn TMĐT: tỷ lệ theo ngành "sản xuất, dịch vụ có gắn với hàng hóa"; sàn khấu trừ theo thông tin hộ khai; mẫu 01/CNKD-NCCNN-TMĐT | NV (gdt.gov.vn) |
 | NĐ **310/2025** + NĐ **291/2026/NĐ-CP** | 2025; 2026 | 16/01/2026; **21/07/2026** | Sửa NĐ 125/2020 xử phạt thuế/hóa đơn; NĐ 291 thêm phạt về cung cấp thông tin trao đổi thuế quốc tế | NV (KB) |
 

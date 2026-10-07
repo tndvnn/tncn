@@ -95,7 +95,7 @@ Sửa so với bản gốc:
 
 ## 07/10/2026 — v2.6.0 — CV 7403/CT-TMĐT: affiliate, sáng tạo nội dung là kinh doanh dù chưa đăng ký
 
-- Cục Thuế (06/10/2026, gửi Bộ Công Thương + TikTok Shop) chốt: không có HĐLĐ thì thu nhập từ sáng tạo nội dung số, quảng bá, affiliate trên nền tảng là **thu nhập kinh doanh**, phải đăng ký thuế KD, khai theo NĐ 68/141; affiliate thuế suất **5%** (quảng cáo số). Đổi quy tắc chống sai trong SKILL.md, bảng phân loại MMO, mục 5a và ranh giới Đ.8.2.c trong file hộ KD, FAQ 20–21, danh mục văn bản. Đ.8.2.c chỉ còn cho dịch vụ theo hợp đồng với khách ngoài nền tảng.
+- Cục Thuế (06/10/2026, gửi Bộ Công Thương + TikTok Shop) chốt: không có HĐLĐ thì thu nhập từ sáng tạo nội dung số, quảng bá, affiliate trên nền tảng là **thu nhập kinh doanh**, phải đăng ký thuế KD, khai theo NĐ 68/141; affiliate thuế suất **5%** (quảng cáo số). Đổi quy tắc chống sai trong SKILL.md, bảng phân loại MMO, mục 5a và ranh giới Đ.8.2.c trong file hộ KD, FAQ 20–21, danh mục văn bản. Đ.8.2.c chỉ còn cho dịch vụ theo hợp đồng với khách ngoài nền tảng. Bổ sung trang 3 (v2.6.1): chứng từ chi phí DN mua của hộ dưới ngưỡng (NĐ 320 Đ.9.1b), người bán qua sàn có quyền yêu cầu sàn cung cấp thông tin người mua để lập HĐĐT (NĐ 254 Đ.17.1.c, Đ.19.2).
 
 ## Kiểm tra định kỳ
 
