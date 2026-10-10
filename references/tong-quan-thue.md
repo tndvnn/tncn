@@ -62,7 +62,7 @@ Không tính vào thu nhập chịu thuế:
 - Tiền thuê nhà do NSDLĐ trả thay: chỉ tính phần ≤15% tổng thu nhập chịu thuế chưa gồm tiền nhà; nhà do NSDLĐ xây cho NLĐ: không tính (Đ.8.2.h).
 - Khoán chi văn phòng phẩm, công tác phí, điện thoại, trang phục theo mức của Nhà nước/quy chế doanh nghiệp (Đ.8.2.đ).
 - Trợ cấp thôi việc, mất việc, thất nghiệp, khó khăn đột xuất theo luật; phần chi cao hơn luật theo quy chế tài chính/HĐLĐ/thỏa ước cũng không tính (Đ.8.3.h).
-- Phụ cấp độc hại, khu vực, thu hút, quốc phòng, trợ cấp BHXH (Đ.8.3).
+- Phụ cấp độc hại, khu vực, thu hút, quốc phòng, trợ cấp BHXH, phụ cấp đặc thù ngành nghề (Đ.8.3, điểm n). Điều kiện: do cơ quan nhà nước có thẩm quyền quy định; nhận cao hơn mức quy định thì phần vượt chịu thuế. Không còn danh mục tổng hợp kiểu CV 1381/TCT-TNCN — tra văn bản quy định từng loại phụ cấp (ví dụ phụ cấp ưu đãi nghề y tế NĐ 350/2026 Đ.4: trạm y tế xã 70–80% không tính thuế; CSTC 166324, Thuế Thái Nguyên, 08/10/2026).
 
 Tính vào thu nhập chịu thuế: thưởng bằng tiền/hiện vật/chứng khoán, lợi ích NSDLĐ chi (dịch vụ thuế cá nhân, giúp việc, lái xe...), phần ăn ca/tiền nhà vượt mức (Đ.8.2.i, k).
 

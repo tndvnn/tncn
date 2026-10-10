@@ -104,6 +104,9 @@ Xét theo **ngày chi trả so với ngày chấm dứt hợp đồng**: trả t
 | 164954 | 15/08 | Cổ phần CTCP chưa in chứng chỉ: kế thừa quy định trước | đã bổ sung |
 | 164965 | 24/08 | NPT bệnh hiểm nghèo phải có giấy suy giảm ≥81%; con khuyết tật chỉ cần giấy xác nhận | đã sửa |
 | CV 7403/CT-TMĐT | 06/10 | Sáng tạo nội dung, affiliate trên nền tảng không có HĐLĐ = kinh doanh (không phải tiền công), phải đăng ký thuế KD; affiliate 5% quảng cáo số; TikTok Shop khấu trừ theo NĐ 252 Đ.43 (Cục Thuế gửi Bộ Công Thương + TikTok Shop; ảnh đủ 3 trang, chưa đăng gdt.gov.vn) | đã sửa |
+| CSTC 166317 | 08/10 | Seller sản phẩm số trên Etsy: sàn khấu trừ nộp thay theo NĐ 252 Đ.43; số đã khấu trừ tự cập nhật vào tài khoản thuế của người bán (TT 89 Đ.33.3); ≤1 tỷ nộp 01/TKN-CNKD + 01/BK-STK; tỷ giá mua vào NĐ 253 Đ.17.1 (Thuế cơ sở 1 TP.HCM) | đã bổ sung |
+| CSTC 166324 | 08/10 | Phụ cấp ưu đãi nghề y tế (NĐ 350/2026) là phụ cấp đặc thù ngành nghề NĐ 253 Đ.8.3.n, không tính thuế, phần vượt mức tính thuế (Thuế Thái Nguyên) | đã bổ sung |
+| CSTC 166319 | 09/10 | Gara ô tô: bán phụ tùng 1%/0,5%; sửa chữa kèm phụ tùng 3%/1,5%; sửa chữa không kèm vật tư 5%/2% (Thuế cơ sở 1 Tuyên Quang) | khớp bảng tỷ lệ |
 | CSTC 165652 | 22/09 | Giảm trừ giáo dục: chi phát sinh cả năm 2026 kể cả trước 01/07 được trừ nếu đủ Đ.49.3; phải tự quyết toán (Thuế TP.HCM) | đã bổ sung |
 | CSTC 165965 | 28/09 | Lương trả sau nghỉ việc: 10% trên thu nhập chịu thuế sau khi loại khoản miễn, ngưỡng 5tr/lần (Thuế Ninh Bình) | khớp FAQ 29 |
 | CSTC 165933 | 28/09 | Hộ KD trả lương: khai 05/KK-TNCN quý, quyết toán 05/QTT-TNCN như tổ chức (Thuế cơ sở 3 Lâm Đồng) | đã bổ sung |

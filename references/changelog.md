@@ -93,6 +93,10 @@ Sửa so với bản gốc:
 - Giảm trừ giáo dục: chi cả năm 2026 kể cả trước 01/07 (CSTC 165652); điều kiện "cơ sở giáo dục" cho lớp kỹ năng. Hộ kinh doanh trả lương: khai 05/KK-TNCN, 05/QTT-TNCN như tổ chức (CSTC 165933). Xác nhận thêm FAQ 29 bằng CSTC 165965 (Thuế Ninh Bình).
 - Agent: nhận trả lời bằng ảnh; bỏ công văn cũ độn trong danh sách tháng; regex watchlist không khớp số đứng trước.
 
+## 10/10/2026 — v2.6.2 — rà hỏi đáp CSTC 166317, 166319, 166324
+
+- Etsy/sàn nước ngoài không cấp chứng từ khấu trừ: đối chiếu tài khoản thuế điện tử (TT 89 Đ.33.3.b). Phụ cấp đặc thù ngành nghề Đ.8.3.n + NĐ 350/2026. Gara HKD khớp bảng tỷ lệ. CV 7478, 7479/CT-QLNT (hóa đơn ô tô, thi hành án) không ảnh hưởng TNCN.
+
 ## 10/10/2026 — v2.6.1 bổ sung — hóa đơn bán cho người tiêu dùng, bán ban đêm, dữ liệu máy tính tiền
 
 - Đối chiếu toàn văn NĐ 254/2026: Phụ lục điểm 4.b ("Bán cho người tiêu dùng", khách nước ngoài dùng hộ chiếu), Đ.9.5 (bán ban đêm lập hóa đơn ngày làm việc tiếp theo), Đ.15.3 (gửi dữ liệu máy tính tiền cuối ngày) + mức phạt NĐ 125 Đ.30. Thêm vào mục hóa đơn file hộ KD. Khách cung cấp một phần thông tin: chưa thống nhất giữa các cơ quan thuế (CSTC 163633 HN chặt; 163865 Đồng Nai, Khánh Hòa chỉ dẫn lại; 163994 chưa trả lời).

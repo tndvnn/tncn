@@ -4,7 +4,7 @@
 
 **tncn** là skill cho Claude, Claude Code, Antigravity và mọi nền tảng AI đọc được `SKILL.md`. Nạp vào là AI trả lời được các câu hỏi về **thuế thu nhập cá nhân 2026**: cách tính thuế thu nhập cá nhân từ tiền lương, quyết toán thuế TNCN kỳ 2026, hoàn thuế, giảm trừ gia cảnh 15,5 triệu, thuế cá nhân kinh doanh và bán hàng online, thuế chứng khoán, bất động sản, crypto, thuế người nước ngoài và thu nhập từ nước ngoài. Mọi câu trả lời kèm số điều khoản của Luật 109/2025/QH15, Nghị định 253/2026, Thông tư 87/2026 để người dùng tự đối chiếu.
 
-Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.6.1), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
+Dành cho người Việt Nam và người nước ngoài đang sống, làm việc, kinh doanh tại Việt Nam. Cập nhật **24/09/2026** (v2.6.2), phủ toàn bộ văn bản có hiệu lực từ 01/01, 01/07, 24/08, 01/09, 12/09/2026 và các mốc đến 30/04/2027.
 
 ## Skill trả lời được gì
 
