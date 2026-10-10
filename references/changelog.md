@@ -95,7 +95,7 @@ Sửa so với bản gốc:
 
 ## 10/10/2026 — v2.6.1 bổ sung — hóa đơn bán cho người tiêu dùng, bán ban đêm, dữ liệu máy tính tiền
 
-- Đối chiếu toàn văn NĐ 254/2026: Phụ lục điểm 4.b ("Bán cho người tiêu dùng", khách nước ngoài dùng hộ chiếu), Đ.9.5 (bán ban đêm lập hóa đơn ngày làm việc tiếp theo), Đ.15.3 (gửi dữ liệu máy tính tiền cuối ngày) + mức phạt NĐ 125 Đ.30. Thêm vào mục hóa đơn file hộ KD.
+- Đối chiếu toàn văn NĐ 254/2026: Phụ lục điểm 4.b ("Bán cho người tiêu dùng", khách nước ngoài dùng hộ chiếu), Đ.9.5 (bán ban đêm lập hóa đơn ngày làm việc tiếp theo), Đ.15.3 (gửi dữ liệu máy tính tiền cuối ngày) + mức phạt NĐ 125 Đ.30. Thêm vào mục hóa đơn file hộ KD. Khách cung cấp một phần thông tin: chưa thống nhất giữa các cơ quan thuế (CSTC 163633 HN chặt; 163865 Đồng Nai, Khánh Hòa chỉ dẫn lại; 163994 chưa trả lời).
 
 ## 07/10/2026 — v2.6.0 — CV 7403/CT-TMĐT: affiliate, sáng tạo nội dung là kinh doanh dù chưa đăng ký
 
