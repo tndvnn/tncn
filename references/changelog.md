@@ -93,6 +93,10 @@ Sửa so với bản gốc:
 - Giảm trừ giáo dục: chi cả năm 2026 kể cả trước 01/07 (CSTC 165652); điều kiện "cơ sở giáo dục" cho lớp kỹ năng. Hộ kinh doanh trả lương: khai 05/KK-TNCN, 05/QTT-TNCN như tổ chức (CSTC 165933). Xác nhận thêm FAQ 29 bằng CSTC 165965 (Thuế Ninh Bình).
 - Agent: nhận trả lời bằng ảnh; bỏ công văn cũ độn trong danh sách tháng; regex watchlist không khớp số đứng trước.
 
+## 10/10/2026 — v2.6.1 bổ sung — hóa đơn bán cho người tiêu dùng, bán ban đêm, dữ liệu máy tính tiền
+
+- Đối chiếu toàn văn NĐ 254/2026: Phụ lục điểm 4.b ("Bán cho người tiêu dùng", khách nước ngoài dùng hộ chiếu), Đ.9.5 (bán ban đêm lập hóa đơn ngày làm việc tiếp theo), Đ.15.3 (gửi dữ liệu máy tính tiền cuối ngày) + mức phạt NĐ 125 Đ.30. Thêm vào mục hóa đơn file hộ KD.
+
 ## 07/10/2026 — v2.6.0 — CV 7403/CT-TMĐT: affiliate, sáng tạo nội dung là kinh doanh dù chưa đăng ký
 
 - Cục Thuế (06/10/2026, gửi Bộ Công Thương + TikTok Shop) chốt: không có HĐLĐ thì thu nhập từ sáng tạo nội dung số, quảng bá, affiliate trên nền tảng là **thu nhập kinh doanh**, phải đăng ký thuế KD, khai theo NĐ 68/141; affiliate thuế suất **5%** (quảng cáo số). Đổi quy tắc chống sai trong SKILL.md, bảng phân loại MMO, mục 5a và ranh giới Đ.8.2.c trong file hộ KD, FAQ 20–21, danh mục văn bản. Đ.8.2.c chỉ còn cho dịch vụ theo hợp đồng với khách ngoài nền tảng. Bổ sung trang 3 (v2.6.1): chứng từ chi phí DN mua của hộ dưới ngưỡng (NĐ 320 Đ.9.1b), người bán qua sàn có quyền yêu cầu sàn cung cấp thông tin người mua để lập HĐĐT (NĐ 254 Đ.17.1.c, Đ.19.2).
